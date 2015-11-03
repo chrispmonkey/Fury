@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7F177781BE95FCF00EF4671 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F177771BE95FCF00EF4671 /* main.m */; };
+		A7F1777B1BE95FCF00EF4671 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F1777A1BE95FCF00EF4671 /* AppDelegate.m */; };
+		A7F1777E1BE95FCF00EF4671 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F1777D1BE95FCF00EF4671 /* ViewController.m */; };
+		A7F177811BE95FCF00EF4671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F1777F1BE95FCF00EF4671 /* Main.storyboard */; };
+		A7F177831BE95FCF00EF4671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F177821BE95FCF00EF4671 /* Assets.xcassets */; };
+		A7F177861BE95FCF00EF4671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F177841BE95FCF00EF4671 /* LaunchScreen.storyboard */; };
+		A7F177911BE95FCF00EF4671 /* FuryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F177901BE95FCF00EF4671 /* FuryTests.m */; };
+		A7F1779C1BE95FCF00EF4671 /* FuryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F1779B1BE95FCF00EF4671 /* FuryUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7F1778D1BE95FCF00EF4671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F1776B1BE95FCF00EF4671 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F177721BE95FCF00EF4671;
+			remoteInfo = Fury;
+		};
+		A7F177981BE95FCF00EF4671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F1776B1BE95FCF00EF4671 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F177721BE95FCF00EF4671;
+			remoteInfo = Fury;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7F177731BE95FCF00EF4671 /* Fury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fury.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F177771BE95FCF00EF4671 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7F177791BE95FCF00EF4671 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7F1777A1BE95FCF00EF4671 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7F1777C1BE95FCF00EF4671 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7F1777D1BE95FCF00EF4671 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7F177801BE95FCF00EF4671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7F177821BE95FCF00EF4671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7F177851BE95FCF00EF4671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7F177871BE95FCF00EF4671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F1778C1BE95FCF00EF4671 /* FuryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F177901BE95FCF00EF4671 /* FuryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuryTests.m; sourceTree = "<group>"; };
+		A7F177921BE95FCF00EF4671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F177971BE95FCF00EF4671 /* FuryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F1779B1BE95FCF00EF4671 /* FuryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuryUITests.m; sourceTree = "<group>"; };
+		A7F1779D1BE95FCF00EF4671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7F177701BE95FCF00EF4671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F177891BE95FCF00EF4671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F177941BE95FCF00EF4671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7F1776A1BE95FCF00EF4671 = {
+			isa = PBXGroup;
+			children = (
+				A7F177751BE95FCF00EF4671 /* Fury */,
+				A7F1778F1BE95FCF00EF4671 /* FuryTests */,
+				A7F1779A1BE95FCF00EF4671 /* FuryUITests */,
+				A7F177741BE95FCF00EF4671 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7F177741BE95FCF00EF4671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F177731BE95FCF00EF4671 /* Fury.app */,
+				A7F1778C1BE95FCF00EF4671 /* FuryTests.xctest */,
+				A7F177971BE95FCF00EF4671 /* FuryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7F177751BE95FCF00EF4671 /* Fury */ = {
+			isa = PBXGroup;
+			children = (
+				A7F177791BE95FCF00EF4671 /* AppDelegate.h */,
+				A7F1777A1BE95FCF00EF4671 /* AppDelegate.m */,
+				A7F1777C1BE95FCF00EF4671 /* ViewController.h */,
+				A7F1777D1BE95FCF00EF4671 /* ViewController.m */,
+				A7F1777F1BE95FCF00EF4671 /* Main.storyboard */,
+				A7F177821BE95FCF00EF4671 /* Assets.xcassets */,
+				A7F177841BE95FCF00EF4671 /* LaunchScreen.storyboard */,
+				A7F177871BE95FCF00EF4671 /* Info.plist */,
+				A7F177761BE95FCF00EF4671 /* Supporting Files */,
+			);
+			path = Fury;
+			sourceTree = "<group>";
+		};
+		A7F177761BE95FCF00EF4671 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7F177771BE95FCF00EF4671 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7F1778F1BE95FCF00EF4671 /* FuryTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7F177901BE95FCF00EF4671 /* FuryTests.m */,
+				A7F177921BE95FCF00EF4671 /* Info.plist */,
+			);
+			path = FuryTests;
+			sourceTree = "<group>";
+		};
+		A7F1779A1BE95FCF00EF4671 /* FuryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7F1779B1BE95FCF00EF4671 /* FuryUITests.m */,
+				A7F1779D1BE95FCF00EF4671 /* Info.plist */,
+			);
+			path = FuryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7F177721BE95FCF00EF4671 /* Fury */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F177A01BE95FCF00EF4671 /* Build configuration list for PBXNativeTarget "Fury" */;
+			buildPhases = (
+				A7F1776F1BE95FCF00EF4671 /* Sources */,
+				A7F177701BE95FCF00EF4671 /* Frameworks */,
+				A7F177711BE95FCF00EF4671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fury;
+			productName = Fury;
+			productReference = A7F177731BE95FCF00EF4671 /* Fury.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7F1778B1BE95FCF00EF4671 /* FuryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F177A31BE95FCF00EF4671 /* Build configuration list for PBXNativeTarget "FuryTests" */;
+			buildPhases = (
+				A7F177881BE95FCF00EF4671 /* Sources */,
+				A7F177891BE95FCF00EF4671 /* Frameworks */,
+				A7F1778A1BE95FCF00EF4671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F1778E1BE95FCF00EF4671 /* PBXTargetDependency */,
+			);
+			name = FuryTests;
+			productName = FuryTests;
+			productReference = A7F1778C1BE95FCF00EF4671 /* FuryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7F177961BE95FCF00EF4671 /* FuryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F177A61BE95FCF00EF4671 /* Build configuration list for PBXNativeTarget "FuryUITests" */;
+			buildPhases = (
+				A7F177931BE95FCF00EF4671 /* Sources */,
+				A7F177941BE95FCF00EF4671 /* Frameworks */,
+				A7F177951BE95FCF00EF4671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F177991BE95FCF00EF4671 /* PBXTargetDependency */,
+			);
+			name = FuryUITests;
+			productName = FuryUITests;
+			productReference = A7F177971BE95FCF00EF4671 /* FuryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7F1776B1BE95FCF00EF4671 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Christopher L. Price";
+				TargetAttributes = {
+					A7F177721BE95FCF00EF4671 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A7F1778B1BE95FCF00EF4671 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A7F177721BE95FCF00EF4671;
+					};
+					A7F177961BE95FCF00EF4671 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A7F177721BE95FCF00EF4671;
+					};
+				};
+			};
+			buildConfigurationList = A7F1776E1BE95FCF00EF4671 /* Build configuration list for PBXProject "Fury" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7F1776A1BE95FCF00EF4671;
+			productRefGroup = A7F177741BE95FCF00EF4671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7F177721BE95FCF00EF4671 /* Fury */,
+				A7F1778B1BE95FCF00EF4671 /* FuryTests */,
+				A7F177961BE95FCF00EF4671 /* FuryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7F177711BE95FCF00EF4671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F177861BE95FCF00EF4671 /* LaunchScreen.storyboard in Resources */,
+				A7F177831BE95FCF00EF4671 /* Assets.xcassets in Resources */,
+				A7F177811BE95FCF00EF4671 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F1778A1BE95FCF00EF4671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F177951BE95FCF00EF4671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7F1776F1BE95FCF00EF4671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F1777E1BE95FCF00EF4671 /* ViewController.m in Sources */,
+				A7F1777B1BE95FCF00EF4671 /* AppDelegate.m in Sources */,
+				A7F177781BE95FCF00EF4671 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F177881BE95FCF00EF4671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F177911BE95FCF00EF4671 /* FuryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F177931BE95FCF00EF4671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F1779C1BE95FCF00EF4671 /* FuryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7F1778E1BE95FCF00EF4671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7F177721BE95FCF00EF4671 /* Fury */;
+			targetProxy = A7F1778D1BE95FCF00EF4671 /* PBXContainerItemProxy */;
+		};
+		A7F177991BE95FCF00EF4671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7F177721BE95FCF00EF4671 /* Fury */;
+			targetProxy = A7F177981BE95FCF00EF4671 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7F1777F1BE95FCF00EF4671 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F177801BE95FCF00EF4671 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7F177841BE95FCF00EF4671 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F177851BE95FCF00EF4671 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7F1779E1BE95FCF00EF4671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7F1779F1BE95FCF00EF4671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7F177A11BE95FCF00EF4671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fury/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christopherprice.Fury;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7F177A21BE95FCF00EF4671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fury/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christopherprice.Fury;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7F177A41BE95FCF00EF4671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FuryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christopherprice.FuryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fury.app/Fury";
+			};
+			name = Debug;
+		};
+		A7F177A51BE95FCF00EF4671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FuryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christopherprice.FuryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fury.app/Fury";
+			};
+			name = Release;
+		};
+		A7F177A71BE95FCF00EF4671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FuryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christopherprice.FuryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fury;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A7F177A81BE95FCF00EF4671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FuryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christopherprice.FuryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fury;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7F1776E1BE95FCF00EF4671 /* Build configuration list for PBXProject "Fury" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F1779E1BE95FCF00EF4671 /* Debug */,
+				A7F1779F1BE95FCF00EF4671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F177A01BE95FCF00EF4671 /* Build configuration list for PBXNativeTarget "Fury" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F177A11BE95FCF00EF4671 /* Debug */,
+				A7F177A21BE95FCF00EF4671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7F177A31BE95FCF00EF4671 /* Build configuration list for PBXNativeTarget "FuryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F177A41BE95FCF00EF4671 /* Debug */,
+				A7F177A51BE95FCF00EF4671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7F177A61BE95FCF00EF4671 /* Build configuration list for PBXNativeTarget "FuryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F177A71BE95FCF00EF4671 /* Debug */,
+				A7F177A81BE95FCF00EF4671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7F1776B1BE95FCF00EF4671 /* Project object */;
+}
