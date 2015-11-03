@@ -9,18 +9,18 @@ We need a proof of concept if it doesn't work, a visually appeasing proof of con
 We need a drawing of how our app may look/function, a simpole storyboard with a few different screens. 
 
 #Deliverables
--Website
--Video (Product introduction/demo, commercial)
--iOS App (Working or rough prototype)
--Windows Phone Mock Up (Photshopped possibly)
--Windows Desktop App Mock Up (Possible use of the Microsoft converter)
--Microsoft Band Incorporation
+- Website
+- Video (Product introduction/demo, commercial)
+- iOS App (Working or rough prototype)
+- Windows Phone Mock Up (Photshopped possibly)
+- Windows Desktop App Mock Up (Possible use of the Microsoft converter)
+- Microsoft Band Incorporation
 
 #iOS App Needs
--Azure Backend
--Login (Microsoft Account)
--Outlook incorporation
--One Drive incorporation
--Logo, icon, splash screen
--News 
--Machine Learning
+- Azure Backend
+- Login (Microsoft Account)
+- Outlook incorporation
+- One Drive incorporation
+- Logo, icon, splash screen
+- News 
+- Machine Learning
