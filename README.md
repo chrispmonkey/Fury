@@ -9,7 +9,8 @@ We need a proof of concept if it doesn't work, a visually appeasing proof of con
 We need a drawing of how our app may look/function, a simpole storyboard with a few different screens. 
 
 #Deliverables
-- Website
+- Website (SharePoint Site hosted and with a custom URL within the Microsoft network)
+  - If push comes to shove, we can make a quick website and host it elsewhere using a template 
 - Video (Product introduction/demo, commercial)
 - iOS App (Working or rough prototype)
 - Windows Phone Mock Up (Photshopped possibly)
