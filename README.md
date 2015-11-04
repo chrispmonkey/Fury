@@ -8,6 +8,16 @@ We need a proof of concept if it doesn't work, a visually appeasing proof of con
 
 We need a drawing of how our app may look/function, a simpole storyboard with a few different screens. 
 
+#Requirements
+- Slide Deck
+ - this deck should show your solution and tell us what we need to know about your hack!
+- Running Proof of Concept
+ - at the end of all this hacking, we need to see a running proof of concept. Essentially, can you prove that your hack works?
+- Video Outlining the Value Proposition
+ - that’s right, you get to do a video! Hackers liked this last year because they got to speak and explain their hack rather than relying on a PowerPoint to do the talking for them! Your video should include the value proposition (Why is this valuable to our customers? Which customers?) and a business case (What would be the return on investment for a customer to fully-implement this? – how much revenue or cost savings could it generate, over what timeframe?). Your video should not exceed 10 minutes. The judges will cut each video off at 10 minutes, so be succinct!
+- Side Note
+ - Your team must be officially registered to participate in the hACTOthon and to have your hack considered by the judges. Full registration for each team, including all team members, must be completed before the end of hack week! 
+
 #Deliverables
 - Website (SharePoint Site hosted and with a custom URL within the Microsoft network)
   - If push comes to shove, we can make a quick website and host it elsewhere using a template 
