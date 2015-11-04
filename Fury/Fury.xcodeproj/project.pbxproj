@@ -21,13 +21,14 @@
 		A7F177B01BE9780000EF4671 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F177AF1BE9780000EF4671 /* CFNetwork.framework */; };
 		A7F177B21BE9780900EF4671 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F177B11BE9780900EF4671 /* CoreLocation.framework */; };
 		A7F177B41BE9781500EF4671 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F177B31BE9781500EF4671 /* libxml2.tbd */; };
-		A7F177C21BE9798B00EF4671 /* AEIdfaProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F177B91BE9798B00EF4671 /* AEIdfaProvider.m */; };
-		A7F177C31BE9798B00EF4671 /* libengagement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F177C11BE9798B00EF4671 /* libengagement.a */; };
-		A7F177E11BE9879000EF4671 /* libreach.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F177DB1BE9879000EF4671 /* libreach.a */; };
-		A7F177E21BE9879100EF4671 /* AEDefaultAnnouncementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7F177DD1BE9879000EF4671 /* AEDefaultAnnouncementView.xib */; };
-		A7F177E31BE9879100EF4671 /* AEDefaultPollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7F177DE1BE9879000EF4671 /* AEDefaultPollView.xib */; };
-		A7F177E41BE9879100EF4671 /* AENotificationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7F177DF1BE9879000EF4671 /* AENotificationView.xib */; };
-		A7F177E51BE9879100EF4671 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F177E01BE9879000EF4671 /* close.png */; };
+		A7F178401BE9EF4000EF4671 /* libreach.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F1782E1BE9EF4000EF4671 /* libreach.a */; };
+		A7F178411BE9EF4000EF4671 /* AEDefaultAnnouncementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7F178301BE9EF4000EF4671 /* AEDefaultAnnouncementView.xib */; };
+		A7F178421BE9EF4000EF4671 /* AEDefaultPollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7F178311BE9EF4000EF4671 /* AEDefaultPollView.xib */; };
+		A7F178431BE9EF4000EF4671 /* AENotificationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7F178321BE9EF4000EF4671 /* AENotificationView.xib */; };
+		A7F178441BE9EF4000EF4671 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F178331BE9EF4000EF4671 /* close.png */; };
+		A7F178451BE9EF4000EF4671 /* AEIdfaProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F178371BE9EF4000EF4671 /* AEIdfaProvider.m */; };
+		A7F178461BE9EF4000EF4671 /* libengagement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F1783F1BE9EF4000EF4671 /* libengagement.a */; };
+		A7F178481BE9F23100EF4671 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F178471BE9F23100EF4671 /* WindowsAzureMobileServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,41 +71,43 @@
 		A7F177AF1BE9780000EF4671 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		A7F177B11BE9780900EF4671 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A7F177B31BE9781500EF4671 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
-		A7F177B81BE9798B00EF4671 /* AEIdfaProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEIdfaProvider.h; sourceTree = "<group>"; };
-		A7F177B91BE9798B00EF4671 /* AEIdfaProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEIdfaProvider.m; sourceTree = "<group>"; };
-		A7F177BB1BE9798B00EF4671 /* AEModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEModule.h; sourceTree = "<group>"; };
-		A7F177BC1BE9798B00EF4671 /* AEPushMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEPushMessage.h; sourceTree = "<group>"; };
-		A7F177BD1BE9798B00EF4671 /* AEStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEStorage.h; sourceTree = "<group>"; };
-		A7F177BE1BE9798B00EF4671 /* EngagementAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngagementAgent.h; sourceTree = "<group>"; };
-		A7F177BF1BE9798B00EF4671 /* EngagementTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngagementTableViewController.h; sourceTree = "<group>"; };
-		A7F177C01BE9798B00EF4671 /* EngagementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngagementViewController.h; sourceTree = "<group>"; };
-		A7F177C11BE9798B00EF4671 /* libengagement.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libengagement.a; sourceTree = "<group>"; };
-		A7F177C61BE9879000EF4671 /* AEAnnouncementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEAnnouncementViewController.h; sourceTree = "<group>"; };
-		A7F177C71BE9879000EF4671 /* AEAutorotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEAutorotateView.h; sourceTree = "<group>"; };
-		A7F177C81BE9879000EF4671 /* AEContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEContentViewController.h; sourceTree = "<group>"; };
-		A7F177C91BE9879000EF4671 /* AEDefaultAnnouncementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEDefaultAnnouncementViewController.h; sourceTree = "<group>"; };
-		A7F177CA1BE9879000EF4671 /* AEDefaultNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEDefaultNotifier.h; sourceTree = "<group>"; };
-		A7F177CB1BE9879000EF4671 /* AEDefaultPollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEDefaultPollViewController.h; sourceTree = "<group>"; };
-		A7F177CC1BE9879000EF4671 /* AEInteractiveContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEInteractiveContent.h; sourceTree = "<group>"; };
-		A7F177CD1BE9879000EF4671 /* AENotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AENotificationView.h; sourceTree = "<group>"; };
-		A7F177CE1BE9879000EF4671 /* AENotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AENotifier.h; sourceTree = "<group>"; };
-		A7F177CF1BE9879000EF4671 /* AEPollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEPollViewController.h; sourceTree = "<group>"; };
-		A7F177D01BE9879000EF4671 /* AEReachAbstractAnnouncement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachAbstractAnnouncement.h; sourceTree = "<group>"; };
-		A7F177D11BE9879000EF4671 /* AEReachAnnouncement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachAnnouncement.h; sourceTree = "<group>"; };
-		A7F177D21BE9879000EF4671 /* AEReachContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachContent.h; sourceTree = "<group>"; };
-		A7F177D31BE9879000EF4671 /* AEReachDataPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachDataPush.h; sourceTree = "<group>"; };
-		A7F177D41BE9879000EF4671 /* AEReachDataPushDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachDataPushDelegate.h; sourceTree = "<group>"; };
-		A7F177D51BE9879000EF4671 /* AEReachModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachModule.h; sourceTree = "<group>"; };
-		A7F177D61BE9879000EF4671 /* AEReachNotifAnnouncement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachNotifAnnouncement.h; sourceTree = "<group>"; };
-		A7F177D71BE9879000EF4671 /* AEReachPoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachPoll.h; sourceTree = "<group>"; };
-		A7F177D81BE9879000EF4671 /* AEReachPollQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachPollQuestion.h; sourceTree = "<group>"; };
-		A7F177D91BE9879000EF4671 /* AEViewControllerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEViewControllerUtil.h; sourceTree = "<group>"; };
-		A7F177DA1BE9879000EF4671 /* AEWebAnnouncementJsBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEWebAnnouncementJsBridge.h; sourceTree = "<group>"; };
-		A7F177DB1BE9879000EF4671 /* libreach.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libreach.a; sourceTree = "<group>"; };
-		A7F177DD1BE9879000EF4671 /* AEDefaultAnnouncementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AEDefaultAnnouncementView.xib; sourceTree = "<group>"; };
-		A7F177DE1BE9879000EF4671 /* AEDefaultPollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AEDefaultPollView.xib; sourceTree = "<group>"; };
-		A7F177DF1BE9879000EF4671 /* AENotificationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AENotificationView.xib; sourceTree = "<group>"; };
-		A7F177E01BE9879000EF4671 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		A7F178191BE9EF4000EF4671 /* AEAnnouncementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEAnnouncementViewController.h; sourceTree = "<group>"; };
+		A7F1781A1BE9EF4000EF4671 /* AEAutorotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEAutorotateView.h; sourceTree = "<group>"; };
+		A7F1781B1BE9EF4000EF4671 /* AEContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEContentViewController.h; sourceTree = "<group>"; };
+		A7F1781C1BE9EF4000EF4671 /* AEDefaultAnnouncementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEDefaultAnnouncementViewController.h; sourceTree = "<group>"; };
+		A7F1781D1BE9EF4000EF4671 /* AEDefaultNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEDefaultNotifier.h; sourceTree = "<group>"; };
+		A7F1781E1BE9EF4000EF4671 /* AEDefaultPollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEDefaultPollViewController.h; sourceTree = "<group>"; };
+		A7F1781F1BE9EF4000EF4671 /* AEInteractiveContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEInteractiveContent.h; sourceTree = "<group>"; };
+		A7F178201BE9EF4000EF4671 /* AENotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AENotificationView.h; sourceTree = "<group>"; };
+		A7F178211BE9EF4000EF4671 /* AENotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AENotifier.h; sourceTree = "<group>"; };
+		A7F178221BE9EF4000EF4671 /* AEPollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEPollViewController.h; sourceTree = "<group>"; };
+		A7F178231BE9EF4000EF4671 /* AEReachAbstractAnnouncement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachAbstractAnnouncement.h; sourceTree = "<group>"; };
+		A7F178241BE9EF4000EF4671 /* AEReachAnnouncement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachAnnouncement.h; sourceTree = "<group>"; };
+		A7F178251BE9EF4000EF4671 /* AEReachContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachContent.h; sourceTree = "<group>"; };
+		A7F178261BE9EF4000EF4671 /* AEReachDataPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachDataPush.h; sourceTree = "<group>"; };
+		A7F178271BE9EF4000EF4671 /* AEReachDataPushDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachDataPushDelegate.h; sourceTree = "<group>"; };
+		A7F178281BE9EF4000EF4671 /* AEReachModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachModule.h; sourceTree = "<group>"; };
+		A7F178291BE9EF4000EF4671 /* AEReachNotifAnnouncement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachNotifAnnouncement.h; sourceTree = "<group>"; };
+		A7F1782A1BE9EF4000EF4671 /* AEReachPoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachPoll.h; sourceTree = "<group>"; };
+		A7F1782B1BE9EF4000EF4671 /* AEReachPollQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEReachPollQuestion.h; sourceTree = "<group>"; };
+		A7F1782C1BE9EF4000EF4671 /* AEViewControllerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEViewControllerUtil.h; sourceTree = "<group>"; };
+		A7F1782D1BE9EF4000EF4671 /* AEWebAnnouncementJsBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEWebAnnouncementJsBridge.h; sourceTree = "<group>"; };
+		A7F1782E1BE9EF4000EF4671 /* libreach.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libreach.a; sourceTree = "<group>"; };
+		A7F178301BE9EF4000EF4671 /* AEDefaultAnnouncementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AEDefaultAnnouncementView.xib; sourceTree = "<group>"; };
+		A7F178311BE9EF4000EF4671 /* AEDefaultPollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AEDefaultPollView.xib; sourceTree = "<group>"; };
+		A7F178321BE9EF4000EF4671 /* AENotificationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AENotificationView.xib; sourceTree = "<group>"; };
+		A7F178331BE9EF4000EF4671 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		A7F178361BE9EF4000EF4671 /* AEIdfaProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEIdfaProvider.h; sourceTree = "<group>"; };
+		A7F178371BE9EF4000EF4671 /* AEIdfaProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEIdfaProvider.m; sourceTree = "<group>"; };
+		A7F178391BE9EF4000EF4671 /* AEModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEModule.h; sourceTree = "<group>"; };
+		A7F1783A1BE9EF4000EF4671 /* AEPushMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEPushMessage.h; sourceTree = "<group>"; };
+		A7F1783B1BE9EF4000EF4671 /* AEStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEStorage.h; sourceTree = "<group>"; };
+		A7F1783C1BE9EF4000EF4671 /* EngagementAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngagementAgent.h; sourceTree = "<group>"; };
+		A7F1783D1BE9EF4000EF4671 /* EngagementTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngagementTableViewController.h; sourceTree = "<group>"; };
+		A7F1783E1BE9EF4000EF4671 /* EngagementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngagementViewController.h; sourceTree = "<group>"; };
+		A7F1783F1BE9EF4000EF4671 /* libengagement.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libengagement.a; sourceTree = "<group>"; };
+		A7F178471BE9F23100EF4671 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		A7F178491BE9F2C300EF4671 /* HubInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HubInfo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +115,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F178461BE9EF4000EF4671 /* libengagement.a in Frameworks */,
 				A7F177B41BE9781500EF4671 /* libxml2.tbd in Frameworks */,
 				A7F177B21BE9780900EF4671 /* CoreLocation.framework in Frameworks */,
+				A7F178481BE9F23100EF4671 /* WindowsAzureMobileServices.framework in Frameworks */,
 				A7F177B01BE9780000EF4671 /* CFNetwork.framework in Frameworks */,
-				A7F177E11BE9879000EF4671 /* libreach.a in Frameworks */,
 				A7F177AE1BE977F300EF4671 /* CoreTelephony.framework in Frameworks */,
-				A7F177C31BE9798B00EF4671 /* libengagement.a in Frameworks */,
+				A7F178401BE9EF4000EF4671 /* libreach.a in Frameworks */,
 				A7F177AC1BE977E800EF4671 /* SystemConfiguration.framework in Frameworks */,
 				A7F177AA1BE977DE00EF4671 /* AdSupport.framework in Frameworks */,
 			);
@@ -179,6 +183,7 @@
 				A7F177841BE95FCF00EF4671 /* LaunchScreen.storyboard */,
 				A7F177871BE95FCF00EF4671 /* Info.plist */,
 				A7F177761BE95FCF00EF4671 /* Supporting Files */,
+				A7F178491BE9F2C300EF4671 /* HubInfo.h */,
 			);
 			path = Fury;
 			sourceTree = "<group>";
@@ -212,91 +217,92 @@
 		A7F177B51BE9798B00EF4671 /* Third Party Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A7F177C41BE9879000EF4671 /* EngagementReach */,
-				A7F177B61BE9798B00EF4671 /* EngagementSDK */,
+				A7F178471BE9F23100EF4671 /* WindowsAzureMobileServices.framework */,
+				A7F178171BE9EF4000EF4671 /* EngagementReach */,
+				A7F178341BE9EF4000EF4671 /* EngagementSDK */,
 			);
 			path = "Third Party Frameworks";
 			sourceTree = "<group>";
 		};
-		A7F177B61BE9798B00EF4671 /* EngagementSDK */ = {
+		A7F178171BE9EF4000EF4671 /* EngagementReach */ = {
 			isa = PBXGroup;
 			children = (
-				A7F177B71BE9798B00EF4671 /* Classes */,
-				A7F177BA1BE9798B00EF4671 /* Headers */,
-				A7F177C11BE9798B00EF4671 /* libengagement.a */,
-			);
-			path = EngagementSDK;
-			sourceTree = "<group>";
-		};
-		A7F177B71BE9798B00EF4671 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				A7F177B81BE9798B00EF4671 /* AEIdfaProvider.h */,
-				A7F177B91BE9798B00EF4671 /* AEIdfaProvider.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		A7F177BA1BE9798B00EF4671 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				A7F177BB1BE9798B00EF4671 /* AEModule.h */,
-				A7F177BC1BE9798B00EF4671 /* AEPushMessage.h */,
-				A7F177BD1BE9798B00EF4671 /* AEStorage.h */,
-				A7F177BE1BE9798B00EF4671 /* EngagementAgent.h */,
-				A7F177BF1BE9798B00EF4671 /* EngagementTableViewController.h */,
-				A7F177C01BE9798B00EF4671 /* EngagementViewController.h */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		A7F177C41BE9879000EF4671 /* EngagementReach */ = {
-			isa = PBXGroup;
-			children = (
-				A7F177C51BE9879000EF4671 /* Headers */,
-				A7F177DB1BE9879000EF4671 /* libreach.a */,
-				A7F177DC1BE9879000EF4671 /* res */,
+				A7F178181BE9EF4000EF4671 /* Headers */,
+				A7F1782E1BE9EF4000EF4671 /* libreach.a */,
+				A7F1782F1BE9EF4000EF4671 /* res */,
 			);
 			path = EngagementReach;
 			sourceTree = "<group>";
 		};
-		A7F177C51BE9879000EF4671 /* Headers */ = {
+		A7F178181BE9EF4000EF4671 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				A7F177C61BE9879000EF4671 /* AEAnnouncementViewController.h */,
-				A7F177C71BE9879000EF4671 /* AEAutorotateView.h */,
-				A7F177C81BE9879000EF4671 /* AEContentViewController.h */,
-				A7F177C91BE9879000EF4671 /* AEDefaultAnnouncementViewController.h */,
-				A7F177CA1BE9879000EF4671 /* AEDefaultNotifier.h */,
-				A7F177CB1BE9879000EF4671 /* AEDefaultPollViewController.h */,
-				A7F177CC1BE9879000EF4671 /* AEInteractiveContent.h */,
-				A7F177CD1BE9879000EF4671 /* AENotificationView.h */,
-				A7F177CE1BE9879000EF4671 /* AENotifier.h */,
-				A7F177CF1BE9879000EF4671 /* AEPollViewController.h */,
-				A7F177D01BE9879000EF4671 /* AEReachAbstractAnnouncement.h */,
-				A7F177D11BE9879000EF4671 /* AEReachAnnouncement.h */,
-				A7F177D21BE9879000EF4671 /* AEReachContent.h */,
-				A7F177D31BE9879000EF4671 /* AEReachDataPush.h */,
-				A7F177D41BE9879000EF4671 /* AEReachDataPushDelegate.h */,
-				A7F177D51BE9879000EF4671 /* AEReachModule.h */,
-				A7F177D61BE9879000EF4671 /* AEReachNotifAnnouncement.h */,
-				A7F177D71BE9879000EF4671 /* AEReachPoll.h */,
-				A7F177D81BE9879000EF4671 /* AEReachPollQuestion.h */,
-				A7F177D91BE9879000EF4671 /* AEViewControllerUtil.h */,
-				A7F177DA1BE9879000EF4671 /* AEWebAnnouncementJsBridge.h */,
+				A7F178191BE9EF4000EF4671 /* AEAnnouncementViewController.h */,
+				A7F1781A1BE9EF4000EF4671 /* AEAutorotateView.h */,
+				A7F1781B1BE9EF4000EF4671 /* AEContentViewController.h */,
+				A7F1781C1BE9EF4000EF4671 /* AEDefaultAnnouncementViewController.h */,
+				A7F1781D1BE9EF4000EF4671 /* AEDefaultNotifier.h */,
+				A7F1781E1BE9EF4000EF4671 /* AEDefaultPollViewController.h */,
+				A7F1781F1BE9EF4000EF4671 /* AEInteractiveContent.h */,
+				A7F178201BE9EF4000EF4671 /* AENotificationView.h */,
+				A7F178211BE9EF4000EF4671 /* AENotifier.h */,
+				A7F178221BE9EF4000EF4671 /* AEPollViewController.h */,
+				A7F178231BE9EF4000EF4671 /* AEReachAbstractAnnouncement.h */,
+				A7F178241BE9EF4000EF4671 /* AEReachAnnouncement.h */,
+				A7F178251BE9EF4000EF4671 /* AEReachContent.h */,
+				A7F178261BE9EF4000EF4671 /* AEReachDataPush.h */,
+				A7F178271BE9EF4000EF4671 /* AEReachDataPushDelegate.h */,
+				A7F178281BE9EF4000EF4671 /* AEReachModule.h */,
+				A7F178291BE9EF4000EF4671 /* AEReachNotifAnnouncement.h */,
+				A7F1782A1BE9EF4000EF4671 /* AEReachPoll.h */,
+				A7F1782B1BE9EF4000EF4671 /* AEReachPollQuestion.h */,
+				A7F1782C1BE9EF4000EF4671 /* AEViewControllerUtil.h */,
+				A7F1782D1BE9EF4000EF4671 /* AEWebAnnouncementJsBridge.h */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
 		};
-		A7F177DC1BE9879000EF4671 /* res */ = {
+		A7F1782F1BE9EF4000EF4671 /* res */ = {
 			isa = PBXGroup;
 			children = (
-				A7F177DD1BE9879000EF4671 /* AEDefaultAnnouncementView.xib */,
-				A7F177DE1BE9879000EF4671 /* AEDefaultPollView.xib */,
-				A7F177DF1BE9879000EF4671 /* AENotificationView.xib */,
-				A7F177E01BE9879000EF4671 /* close.png */,
+				A7F178301BE9EF4000EF4671 /* AEDefaultAnnouncementView.xib */,
+				A7F178311BE9EF4000EF4671 /* AEDefaultPollView.xib */,
+				A7F178321BE9EF4000EF4671 /* AENotificationView.xib */,
+				A7F178331BE9EF4000EF4671 /* close.png */,
 			);
 			path = res;
+			sourceTree = "<group>";
+		};
+		A7F178341BE9EF4000EF4671 /* EngagementSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A7F178351BE9EF4000EF4671 /* Classes */,
+				A7F178381BE9EF4000EF4671 /* Headers */,
+				A7F1783F1BE9EF4000EF4671 /* libengagement.a */,
+			);
+			path = EngagementSDK;
+			sourceTree = "<group>";
+		};
+		A7F178351BE9EF4000EF4671 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7F178361BE9EF4000EF4671 /* AEIdfaProvider.h */,
+				A7F178371BE9EF4000EF4671 /* AEIdfaProvider.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7F178381BE9EF4000EF4671 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A7F178391BE9EF4000EF4671 /* AEModule.h */,
+				A7F1783A1BE9EF4000EF4671 /* AEPushMessage.h */,
+				A7F1783B1BE9EF4000EF4671 /* AEStorage.h */,
+				A7F1783C1BE9EF4000EF4671 /* EngagementAgent.h */,
+				A7F1783D1BE9EF4000EF4671 /* EngagementTableViewController.h */,
+				A7F1783E1BE9EF4000EF4671 /* EngagementViewController.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,10 +417,10 @@
 				A7F177861BE95FCF00EF4671 /* LaunchScreen.storyboard in Resources */,
 				A7F177831BE95FCF00EF4671 /* Assets.xcassets in Resources */,
 				A7F177811BE95FCF00EF4671 /* Main.storyboard in Resources */,
-				A7F177E31BE9879100EF4671 /* AEDefaultPollView.xib in Resources */,
-				A7F177E51BE9879100EF4671 /* close.png in Resources */,
-				A7F177E21BE9879100EF4671 /* AEDefaultAnnouncementView.xib in Resources */,
-				A7F177E41BE9879100EF4671 /* AENotificationView.xib in Resources */,
+				A7F178421BE9EF4000EF4671 /* AEDefaultPollView.xib in Resources */,
+				A7F178441BE9EF4000EF4671 /* close.png in Resources */,
+				A7F178411BE9EF4000EF4671 /* AEDefaultAnnouncementView.xib in Resources */,
+				A7F178431BE9EF4000EF4671 /* AENotificationView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7F177C21BE9798B00EF4671 /* AEIdfaProvider.m in Sources */,
+				A7F178451BE9EF4000EF4671 /* AEIdfaProvider.m in Sources */,
 				A7F1777E1BE95FCF00EF4671 /* ViewController.m in Sources */,
 				A7F1777B1BE95FCF00EF4671 /* AppDelegate.m in Sources */,
 				A7F177781BE95FCF00EF4671 /* main.m in Sources */,
@@ -581,6 +587,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fury/Third",
+					Party,
+					Frameworks,
+				);
 				INFOPLIST_FILE = Fury/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -591,6 +603,12 @@
 					"$(PROJECT_DIR)/Fury/Third",
 					Party,
 					Frameworks/EngagementReach,
+					"$(PROJECT_DIR)/Fury/Third",
+					Party,
+					Frameworks/EngagementReach,
+					"$(PROJECT_DIR)/Fury/Third",
+					Party,
+					Frameworks/EngagementSDK,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.christopherprice.Fury;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -601,6 +619,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fury/Third",
+					Party,
+					Frameworks,
+				);
 				INFOPLIST_FILE = Fury/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -611,6 +635,12 @@
 					"$(PROJECT_DIR)/Fury/Third",
 					Party,
 					Frameworks/EngagementReach,
+					"$(PROJECT_DIR)/Fury/Third",
+					Party,
+					Frameworks/EngagementReach,
+					"$(PROJECT_DIR)/Fury/Third",
+					Party,
+					Frameworks/EngagementSDK,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.christopherprice.Fury;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -684,6 +714,7 @@
 				A7F177A21BE95FCF00EF4671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7F177A31BE95FCF00EF4671 /* Build configuration list for PBXNativeTarget "FuryTests" */ = {
 			isa = XCConfigurationList;
@@ -692,6 +723,7 @@
 				A7F177A51BE95FCF00EF4671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7F177A61BE95FCF00EF4671 /* Build configuration list for PBXNativeTarget "FuryUITests" */ = {
 			isa = XCConfigurationList;
@@ -700,6 +732,7 @@
 				A7F177A81BE95FCF00EF4671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
