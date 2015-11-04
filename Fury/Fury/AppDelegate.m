@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "EngagementAgent.h"
+#import "AEReachModule.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,29 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // Register application to recieve push notifications
+    if ([application respondsToSelector:@selector(registerUserNotificationSettings:)]) {
+        [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert) categories:nil]];
+        [application registerForRemoteNotifications];
+    }
+    else {
+        [application registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
+    }
+    
+    // Azure Initialize Engagement SDK
+    [EngagementAgent init:@"Endpoint=Fury-Collection.device.mobileengagement.windows.net;SdkKey=f86f5f633b177854b30cb9992c6b13d1;AppId=cuc000047"];
+    
+    AEReachModule* reach = [AEReachModule moduleWithNotificationIcon:[UIImage imageNamed:@"icon.png"]];
+    
+    [reach setAutoBadgeEnabled:YES];
+    
+    /*
+    If you want to use the option Update badge value in Reach campaigns or if you want to use native push </SaaS/Reach API/Campaign format/Native Push> campaigns, you must let the Reach module manage the badge icon itself (it will automatically clear the application badge and also reset the value stored by Engagement every time the application is started or foregrounded). This is done by adding the following line after Reach module initialization: [reach setAutoBadgeEnabled:YES];
+     
+     If you want to handle Reach data push, you must let your Application delegate conform to the AEReachDataPushDelegate protocol. Add the following line after Reach module initialization: [reach setDataPushDelegate:self];
+     */
+    //[EngagementAgent init:@"Endpoint={YOUR_APP_COLLECTION.DOMAIN};SdkKey={YOUR_SDK_KEY};AppId={YOUR_APPID}" modules:reach, nil];
     return YES;
 }
 
@@ -42,4 +67,31 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
+{
+    [[EngagementAgent shared] registerDeviceToken:deviceToken];
+}
+
+- (void)application:(UIApplication*)application didReceiveRemoteNotification:(NSDictionary*)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult result))handler
+{
+    [[EngagementAgent shared] applicationDidReceiveRemoteNotification:userInfo fetchCompletionHandler:handler];
+}
+
+/*
+ 
+ Then you can implement the methods onDataPushStringReceived: and onDataPushBase64ReceivedWithDecodedBody:andEncodedBody: in your application delegate:
+ 
+ */
+-(BOOL)didReceiveStringDataPushWithCategory:(NSString*)category body:(NSString*)body
+{
+    NSLog(@"String data push message with category <%@> received: %@", category, body);
+    return YES;
+}
+
+-(BOOL)didReceiveBase64DataPushWithCategory:(NSString*)category decodedBody:(NSData *)decodedBody encodedBody:(NSString *)encodedBody
+{
+    NSLog(@"Base64 data push message with category <%@> received: %@", category, encodedBody);
+    // Do something useful with decodedBody like updating an image view
+    return YES;
+}
 @end
