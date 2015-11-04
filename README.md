@@ -18,6 +18,8 @@ We need a drawing of how our app may look/function, a simpole storyboard with a 
 - Microsoft Band Incorporation
 
 #iOS App Needs
+- App UI/UX 
+  - Vision for how we want the app to look, feel, and function
 - Azure Backend
 - Login (Microsoft Account)
 - Outlook incorporation
