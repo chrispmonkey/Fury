@@ -27,3 +27,24 @@ We need a drawing of how our app may look/function, a simpole storyboard with a 
 - Logo, icon, splash screen
 - News 
 - Machine Learning
+
+
+#Helpful Links
+- https://azure.microsoft.com/en-us/documentation/articles/mobile-services-ios-get-started/
+- https://manage.windowsazure.com/microsoft.onmicrosoft.com#Workspaces/MobileServicesExtension/apps/fury/quickstart
+
+#Design Sites
+- Behance https://www.behance.net
+  - Collection of designer's work to look at for inspiration 
+  - Search the UI/UX category
+- Pttrns http://pttrns.com
+  - Collection of different apps and their different views
+  - You can search by kind of views
+  - Useful for inspiration of how we might want a view to look
+
+#Frameworks/APIs
+- Coco Controls https://www.cocoacontrols.com
+  - Open Source controls for applications
+  - Easy to implement/grab inspiration from
+- Mashape https://www.mashape.com
+  - API database
