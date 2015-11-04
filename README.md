@@ -8,6 +8,34 @@ We need a proof of concept if it doesn't work, a visually appeasing proof of con
 
 We need a drawing of how our app may look/function, a simpole storyboard with a few different screens. 
 
+#Hack Roles
+- Product Management 
+ - Define the idea and unite the team behind the vision, define features and prioritize them. Provide feedback to the developers on their latest iteration.
+ 
+- Business Architect
+ - Present the value proposition for the idea, business case, and communicate the business requirements to the team. Provide ongoing feedback.
+ 
+- Designer
+ - Bring design thinking to your team’s solution concept. Create the UX wireframes for the developers.
+ 
+- Program Management 
+ - Coordinate your distributed multidisciplinary team.
+ 
+- Configuration and Deployment Management 
+ - Help make sure everyone is working with the latest artifacts in the latest development environment to avoid problems integrating their work.
+ 
+- Marketing 
+ - Take charge of the team video and presentation! Who will you share it with? How will you drum up excitement?
+ 
+- Configuration Contributions
+ - You can build a lot with configuration of IaaS and PaaS services. Take ownership of configuration and deployment.
+ 
+- Data Architecture and Data Management 
+ - You can do a lot of data manipulation and analysis without code using Azure Data Factory and Azure ML. If you have Data Architecture skills, you can define the data architecture for the developers.
+ 
+Feel free to combine any and all of these roles! You are not required to fill these positions, but we just thought we would suggest it and give you and your team the best chance of success in your hacking!
+
+
 #Requirements
 - Slide Deck
  - this deck should show your solution and tell us what we need to know about your hack!
