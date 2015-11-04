@@ -5,7 +5,7 @@
 ##hACTOthon Project
 
 #Overview
-During the login process you state your job title, then give it imputs as to things that you currently do for your customer, and then based on some background (machine learning logic) it can give you suggestions to better do your job. It can display latest news articles about the customer you input, show things that you currently deliver to them, and then suggest things for you to deliver to them, as well as an estimated time that it might tkae to deliver the specified item (for example: an email, newsletter, call, etc.).
+During the login process you state your job title, then give it inputs as to things that you currently do for your customer, and then based on some background (machine learning logic) it can give you suggestions to better do your job. It can display latest news articles about the customer you input, show things that you currently deliver to them, and then suggest things for you to deliver to them, as well as an estimated time that it might tkae to deliver the specified item (for example: an email, newsletter, call, etc.).
 
 We need a proof of concept if it doesn't work, a visually appeasing proof of concept demonstration/presentation.
 
