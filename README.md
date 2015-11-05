@@ -94,3 +94,6 @@ We need a drawing of how our app may look/function, a simpole storyboard with a 
  - You can do a lot of data manipulation and analysis without code using Azure Data Factory and Azure ML. If you have Data Architecture skills, you can define the data architecture for the developers.
  
 Feel free to combine any and all of these roles! You are not required to fill these positions, but we just thought we would suggest it and give you and your team the best chance of success in your hacking!
+
+#App Views
+![alt text](https://github.com/chrispmonkey/Fury/blob/master/Design%20Elements/FuryloginScreen.gif "Login Screen for Fury")
