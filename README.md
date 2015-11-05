@@ -56,6 +56,10 @@ We need a drawing of how our app may look/function, a simpole storyboard with a 
   - Useful for inspiration of how we might want a view to look
 
 #Frameworks/APIs
+- Pinterest Menu View https://github.com/xhzengAIB/PinterestAnimator
+ - For displaying the suggested tasks
+- Pinterest Item Selection https://github.com/GnosisHub/GHContextMenu
+ - For selecting a suggested task
 - Coco Controls https://www.cocoacontrols.com
   - Open Source controls for applications
   - Easy to implement/grab inspiration from
