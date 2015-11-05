@@ -12,4 +12,6 @@
 @interface ProfileViewController : UIViewController<FUIAlertViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *profilePicImageView;
+@property (weak, nonatomic) IBOutlet UILabel *userFirstNameLastName;
+@property (weak, nonatomic) IBOutlet UILabel *userRole;
 @end

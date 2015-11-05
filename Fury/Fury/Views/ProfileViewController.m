@@ -14,11 +14,27 @@
 
 @implementation ProfileViewController
 
+NSString* firstName;
+NSString* lastName;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
     [self preferredStatusBarStyle];
+    
+    // Round Profile Image
+    // Get the Layer of any view
+    CALayer * l = [self.profilePicImageView layer];
+    [l setMasksToBounds:YES];
+    [l setCornerRadius:self.profilePicImageView.frame.size.width / 2];
+    
+    firstName = @"Christopher";
+    lastName = @"Price";
+    
+    self.title=[NSString stringWithFormat:@"%@", firstName];
+    
+    self.userFirstNameLastName.text = [NSString stringWithFormat:@"%@ %@", firstName, lastName];
 }
 
 - (void)didReceiveMemoryWarning {

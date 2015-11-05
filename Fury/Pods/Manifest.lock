@@ -1,0 +1,10 @@
+PODS:
+  - PinterestAnimator (0.2)
+
+DEPENDENCIES:
+  - PinterestAnimator
+
+SPEC CHECKSUMS:
+  PinterestAnimator: bebbb6d25e8f851c5e545a462838d8943ae84b01
+
+COCOAPODS: 0.39.0

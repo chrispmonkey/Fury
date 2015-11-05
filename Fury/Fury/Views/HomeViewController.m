@@ -14,11 +14,16 @@
 
 @implementation HomeViewController
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self preferredStatusBarStyle];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view.
     
-    //[self preferredStatusBarStyle];
+    [self preferredStatusBarStyle];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -50,10 +55,10 @@
             //[PFUser logOut];
             
             // Present login view controller
-            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-            UIViewController *timeLineNavigationController = [storyboard instantiateViewControllerWithIdentifier:@"LoginNavigationController"];
-            
-            [self presentViewController:timeLineNavigationController animated:YES completion:nil];
+            //UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+            //UIViewController *timeLineNavigationController = [storyboard instantiateViewControllerWithIdentifier:@"LoginNavigationController"];
+            //[self presentViewController:timeLineNavigationController animated:YES completion:nil];
+            [self dismissViewControllerAnimated:YES completion:nil];
         }
         
     }

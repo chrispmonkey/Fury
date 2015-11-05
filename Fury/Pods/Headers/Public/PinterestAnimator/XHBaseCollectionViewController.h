@@ -1,0 +1,1 @@
+../../../PinterestAnimator/PinterestAnimator/Controllers/XHBaseCollectionViewController.h

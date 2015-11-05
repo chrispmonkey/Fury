@@ -1,0 +1,1 @@
+../../../PinterestAnimator/PinterestAnimator/Helpers/NavigationHelper/XHNavigationControllerDelegate.h

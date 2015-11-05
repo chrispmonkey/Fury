@@ -11,4 +11,6 @@
 
 @interface HomeViewController : UIViewController<UITextFieldDelegate, FUIAlertViewDelegate>
 
+@property (strong, nonatomic) UIWindow *window;
+
 @end

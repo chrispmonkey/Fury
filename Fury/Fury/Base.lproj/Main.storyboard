@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -121,7 +121,6 @@
                                         </state>
                                         <connections>
                                             <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U7V-3F-uoQ"/>
-                                            <segue destination="XS7-74-RhA" kind="show" id="roI-wa-cTb"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JaX-df-I24">
@@ -314,25 +313,60 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7NW-C1-kzo">
-                                <rect key="frame" x="200" y="72" width="200" height="200"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profilePic.png" translatesAutoresizingMaskIntoConstraints="NO" id="7NW-C1-kzo">
+                                <rect key="frame" x="225" y="122" width="150" height="150"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="a5r-nw-jdL"/>
-                                    <constraint firstAttribute="width" constant="200" id="cDf-kY-jFg"/>
+                                    <constraint firstAttribute="height" constant="150" id="a5r-nw-jdL"/>
+                                    <constraint firstAttribute="width" constant="150" id="cDf-kY-jFg"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="firstName lastName" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7R-EN-kqu">
+                                <rect key="frame" x="150" y="280" width="300" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="HEv-83-guI"/>
+                                    <constraint firstAttribute="width" constant="300" id="RJU-dB-S5W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Technical Account Manager" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IoV-Gv-agJ">
+                                <rect key="frame" x="150" y="309" width="300" height="24"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9Kv-lh-65V">
+                                <rect key="frame" x="0.0" y="341" width="600" height="259"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="7NW-C1-kzo" firstAttribute="top" secondItem="RP8-iZ-uul" secondAttribute="bottom" constant="8" symbolic="YES" id="ZdO-Nj-XUr"/>
+                            <constraint firstItem="q7R-EN-kqu" firstAttribute="leading" secondItem="IoV-Gv-agJ" secondAttribute="leading" id="4ve-Jc-SUH"/>
+                            <constraint firstItem="9Kv-lh-65V" firstAttribute="leading" secondItem="CTT-Th-S27" secondAttribute="leading" id="4zR-1r-rLg"/>
+                            <constraint firstItem="9Kv-lh-65V" firstAttribute="centerX" secondItem="CTT-Th-S27" secondAttribute="centerX" id="APM-qK-kGG"/>
+                            <constraint firstItem="9Kv-lh-65V" firstAttribute="top" secondItem="IoV-Gv-agJ" secondAttribute="bottom" constant="8" id="Bxn-6n-nf9"/>
+                            <constraint firstItem="IoV-Gv-agJ" firstAttribute="centerX" secondItem="CTT-Th-S27" secondAttribute="centerX" id="G65-hZ-M5M"/>
+                            <constraint firstAttribute="trailing" secondItem="9Kv-lh-65V" secondAttribute="trailing" id="RfH-Hw-RHl"/>
+                            <constraint firstItem="7NW-C1-kzo" firstAttribute="top" secondItem="RP8-iZ-uul" secondAttribute="bottom" constant="58" id="ZdO-Nj-XUr"/>
+                            <constraint firstItem="uhd-md-abO" firstAttribute="top" secondItem="9Kv-lh-65V" secondAttribute="bottom" id="igm-K2-5xZ"/>
+                            <constraint firstItem="IoV-Gv-agJ" firstAttribute="top" secondItem="q7R-EN-kqu" secondAttribute="bottom" constant="8" symbolic="YES" id="uBZ-Cp-9fw"/>
+                            <constraint firstItem="q7R-EN-kqu" firstAttribute="top" secondItem="7NW-C1-kzo" secondAttribute="bottom" constant="8" symbolic="YES" id="uLb-w3-oMz"/>
                             <constraint firstItem="7NW-C1-kzo" firstAttribute="centerX" secondItem="CTT-Th-S27" secondAttribute="centerX" id="vk1-bH-oG6"/>
+                            <constraint firstItem="q7R-EN-kqu" firstAttribute="centerX" secondItem="CTT-Th-S27" secondAttribute="centerX" id="x5l-zn-sSe"/>
                         </constraints>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="profilePicImageView" destination="7NW-C1-kzo" id="tO5-Pr-ddB"/>
+                        <outlet property="userFirstNameLastName" destination="q7R-EN-kqu" id="QaH-3u-Fxm"/>
+                        <outlet property="userRole" destination="IoV-Gv-agJ" id="6TY-NR-acG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q1b-Xk-APQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -392,6 +426,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="profilePic.png" width="2730" height="2730"/>
         <image name="tinyFuryIcon.png" width="100" height="100"/>
     </resources>
 </document>

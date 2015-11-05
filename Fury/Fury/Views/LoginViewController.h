@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "FlatUIKit.h"
+#import <WindowsAzureMobileServices/WindowsAzureMobileServices.h>
 
 @interface LoginViewController : UIViewController<UITextFieldDelegate, FUIAlertViewDelegate>
+
+@property (strong, nonatomic) MSClient *client;
 
 @property (weak, nonatomic) IBOutlet UITextField *usernameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;

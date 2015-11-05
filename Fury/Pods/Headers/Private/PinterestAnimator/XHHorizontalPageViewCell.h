@@ -1,0 +1,1 @@
+../../../PinterestAnimator/PinterestAnimator/Views/XHHorizontalPageViewCell.h
