@@ -223,11 +223,13 @@ UITextField *activeField;
 }
 
 - (IBAction)loginButtonPressed:(id)sender {
-    [self loginAndGetData];
+    NSLog(@"Login Button Pressed");
+    //[self loginAndGetData];
 }
 
 - (void) loginAndGetData
 {
+    
     MSClient *client = self.client;
     if (client.currentUser != nil) {
         return;
@@ -236,11 +238,14 @@ UITextField *activeField;
     [client loginWithProvider:@"microsoftaccount" controller:self animated:YES completion:^(MSUser *user, NSError *error) {
         //[self refresh];
     }];
+     
 }
 
 - (IBAction)signUpButtonPressed:(id)sender {
+    NSLog(@"Sign Up Button Pressed");
 }
 
 - (IBAction)privacyPolicyButtonPressed:(id)sender {
+    NSLog(@"Privacy Policy Button Pressed");
 }
 @end
