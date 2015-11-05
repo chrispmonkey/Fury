@@ -52,6 +52,10 @@
 		A7A3D0D81BEAF4E70083274D /* oramaclsi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0CC1BEAF4E70083274D /* oramaclsi.ttf */; };
 		A7A3D0D91BEAF4E70083274D /* oramacs.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0CD1BEAF4E70083274D /* oramacs.ttf */; };
 		A7A3D0DA1BEAF4E70083274D /* oramacsi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0CE1BEAF4E70083274D /* oramacsi.ttf */; };
+		A7A3D0DD1BEAFCCA0083274D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0DC1BEAFCCA0083274D /* ProfileViewController.m */; };
+		A7A3D0E01BEAFEFE0083274D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0DF1BEAFEFE0083274D /* HomeViewController.m */; };
+		A7A3D0E21BEB019C0083274D /* tinyFuryIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0E11BEB019C0083274D /* tinyFuryIcon.png */; };
+		A7A3D0E51BEB11EF0083274D /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0E41BEB11EF0083274D /* SignUpViewController.m */; };
 		A7F177781BE95FCF00EF4671 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F177771BE95FCF00EF4671 /* main.m */; };
 		A7F1777B1BE95FCF00EF4671 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F1777A1BE95FCF00EF4671 /* AppDelegate.m */; };
 		A7F177811BE95FCF00EF4671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F1777F1BE95FCF00EF4671 /* Main.storyboard */; };
@@ -179,6 +183,13 @@
 		A7A3D0CC1BEAF4E70083274D /* oramaclsi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = oramaclsi.ttf; sourceTree = "<group>"; };
 		A7A3D0CD1BEAF4E70083274D /* oramacs.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = oramacs.ttf; sourceTree = "<group>"; };
 		A7A3D0CE1BEAF4E70083274D /* oramacsi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = oramacsi.ttf; sourceTree = "<group>"; };
+		A7A3D0DB1BEAFCCA0083274D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		A7A3D0DC1BEAFCCA0083274D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		A7A3D0DE1BEAFEFE0083274D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A7A3D0DF1BEAFEFE0083274D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A7A3D0E11BEB019C0083274D /* tinyFuryIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tinyFuryIcon.png; sourceTree = "<group>"; };
+		A7A3D0E31BEB11EF0083274D /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		A7A3D0E41BEB11EF0083274D /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		A7F177731BE95FCF00EF4671 /* Fury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fury.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F177771BE95FCF00EF4671 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A7F177791BE95FCF00EF4671 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -331,6 +342,7 @@
 		A7A3D0721BEAE8640083274D /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				A7A3D0E11BEB019C0083274D /* tinyFuryIcon.png */,
 				A7A3D0C21BEAF4E70083274D /* oramac */,
 				A7A3D0731BEAE8640083274D /* xx.mp4 */,
 			);
@@ -342,6 +354,12 @@
 			children = (
 				A7A3D0791BEAEA9C0083274D /* LoginViewController.h */,
 				A7A3D07A1BEAEA9C0083274D /* LoginViewController.m */,
+				A7A3D0DB1BEAFCCA0083274D /* ProfileViewController.h */,
+				A7A3D0DC1BEAFCCA0083274D /* ProfileViewController.m */,
+				A7A3D0DE1BEAFEFE0083274D /* HomeViewController.h */,
+				A7A3D0DF1BEAFEFE0083274D /* HomeViewController.m */,
+				A7A3D0E31BEB11EF0083274D /* SignUpViewController.h */,
+				A7A3D0E41BEB11EF0083274D /* SignUpViewController.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -632,6 +650,7 @@
 				A7A3D0D51BEAF4E70083274D /* oramacl.ttf in Resources */,
 				A733558A1BEADEC000933E8B /* AEDefaultPollView.xib in Resources */,
 				A7A3D0D81BEAF4E70083274D /* oramaclsi.ttf in Resources */,
+				A7A3D0E21BEB019C0083274D /* tinyFuryIcon.png in Resources */,
 				A733558C1BEADEC000933E8B /* close.png in Resources */,
 				A7A3D0C11BEAEAE40083274D /* Lato-Regular.ttf in Resources */,
 				A7A3D0741BEAE8640083274D /* xx.mp4 in Resources */,
@@ -669,6 +688,7 @@
 				A7A3D0B01BEAEAE40083274D /* FUISwitch.m in Sources */,
 				A7A3D0B71BEAEAE40083274D /* UIPopoverController+FlatUI.m in Sources */,
 				A7A3D0BB1BEAEAE40083274D /* UITabBar+FlatUI.m in Sources */,
+				A7A3D0E01BEAFEFE0083274D /* HomeViewController.m in Sources */,
 				A7A3D0B81BEAEAE40083274D /* UIProgressView+FlatUI.m in Sources */,
 				A7A3D0B41BEAEAE40083274D /* UIFont+FlatUI.m in Sources */,
 				A7A3D0AB1BEAEAE40083274D /* FUIAlertView.m in Sources */,
@@ -676,6 +696,7 @@
 				A7A3D0B31BEAEAE40083274D /* UIColor+FlatUI.m in Sources */,
 				A7A3D0B11BEAEAE40083274D /* FUITextField.m in Sources */,
 				A7A3D0BD1BEAEAE40083274D /* UIToolbar+FlatUI.m in Sources */,
+				A7A3D0DD1BEAFCCA0083274D /* ProfileViewController.m in Sources */,
 				A7A3D0B61BEAEAE40083274D /* UINavigationBar+FlatUI.m in Sources */,
 				A7A3D0AC1BEAEAE40083274D /* FUIButton.m in Sources */,
 				A7A3D0B91BEAEAE40083274D /* UISlider+FlatUI.m in Sources */,
@@ -688,6 +709,7 @@
 				A7A3D0AF1BEAEAE40083274D /* FUISegmentedControl.m in Sources */,
 				A7A3D0B51BEAEAE40083274D /* UIImage+FlatUI.m in Sources */,
 				A7F177781BE95FCF00EF4671 /* main.m in Sources */,
+				A7A3D0E51BEB11EF0083274D /* SignUpViewController.m in Sources */,
 				A7A3D0AE1BEAEAE40083274D /* FUIPopoverBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
