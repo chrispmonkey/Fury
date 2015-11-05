@@ -15,9 +15,45 @@
 		A733558D1BEADEC000933E8B /* AEIdfaProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A733557E1BEADEBF00933E8B /* AEIdfaProvider.m */; };
 		A733558E1BEADEC000933E8B /* libengagement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A73355861BEADEBF00933E8B /* libengagement.a */; };
 		A733558F1BEADEC000933E8B /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73355871BEADEBF00933E8B /* WindowsAzureMobileServices.framework */; };
+		A7A3D0741BEAE8640083274D /* xx.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0731BEAE8640083274D /* xx.mp4 */; };
+		A7A3D07B1BEAEA9C0083274D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D07A1BEAEA9C0083274D /* LoginViewController.m */; };
+		A7A3D0AB1BEAEAE40083274D /* FUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0811BEAEAE40083274D /* FUIAlertView.m */; };
+		A7A3D0AC1BEAEAE40083274D /* FUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0831BEAEAE40083274D /* FUIButton.m */; };
+		A7A3D0AD1BEAEAE40083274D /* FUICellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0851BEAEAE40083274D /* FUICellBackgroundView.m */; };
+		A7A3D0AE1BEAEAE40083274D /* FUIPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0871BEAEAE40083274D /* FUIPopoverBackgroundView.m */; };
+		A7A3D0AF1BEAEAE40083274D /* FUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0891BEAEAE40083274D /* FUISegmentedControl.m */; };
+		A7A3D0B01BEAEAE40083274D /* FUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D08B1BEAEAE40083274D /* FUISwitch.m */; };
+		A7A3D0B11BEAEAE40083274D /* FUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D08D1BEAEAE40083274D /* FUITextField.m */; };
+		A7A3D0B21BEAEAE40083274D /* UIBarButtonItem+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D08F1BEAEAE40083274D /* UIBarButtonItem+FlatUI.m */; };
+		A7A3D0B31BEAEAE40083274D /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0911BEAEAE40083274D /* UIColor+FlatUI.m */; };
+		A7A3D0B41BEAEAE40083274D /* UIFont+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0931BEAEAE40083274D /* UIFont+FlatUI.m */; };
+		A7A3D0B51BEAEAE40083274D /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0951BEAEAE40083274D /* UIImage+FlatUI.m */; };
+		A7A3D0B61BEAEAE40083274D /* UINavigationBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0971BEAEAE40083274D /* UINavigationBar+FlatUI.m */; };
+		A7A3D0B71BEAEAE40083274D /* UIPopoverController+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0991BEAEAE40083274D /* UIPopoverController+FlatUI.m */; };
+		A7A3D0B81BEAEAE40083274D /* UIProgressView+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D09B1BEAEAE40083274D /* UIProgressView+FlatUI.m */; };
+		A7A3D0B91BEAEAE40083274D /* UISlider+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D09D1BEAEAE40083274D /* UISlider+FlatUI.m */; };
+		A7A3D0BA1BEAEAE40083274D /* UIStepper+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D09F1BEAEAE40083274D /* UIStepper+FlatUI.m */; };
+		A7A3D0BB1BEAEAE40083274D /* UITabBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0A11BEAEAE40083274D /* UITabBar+FlatUI.m */; };
+		A7A3D0BC1BEAEAE40083274D /* UITableViewCell+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0A31BEAEAE40083274D /* UITableViewCell+FlatUI.m */; };
+		A7A3D0BD1BEAEAE40083274D /* UIToolbar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0A51BEAEAE40083274D /* UIToolbar+FlatUI.m */; };
+		A7A3D0BE1BEAEAE40083274D /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0A71BEAEAE40083274D /* Lato-Bold.ttf */; };
+		A7A3D0BF1BEAEAE40083274D /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0A81BEAEAE40083274D /* Lato-Italic.ttf */; };
+		A7A3D0C01BEAEAE40083274D /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0A91BEAEAE40083274D /* Lato-Light.ttf */; };
+		A7A3D0C11BEAEAE40083274D /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0AA1BEAEAE40083274D /* Lato-Regular.ttf */; };
+		A7A3D0CF1BEAF4E70083274D /* ORABIT.FON in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0C31BEAF4E70083274D /* ORABIT.FON */; };
+		A7A3D0D01BEAF4E70083274D /* oramac.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0C41BEAF4E70083274D /* oramac.ttf */; };
+		A7A3D0D11BEAF4E70083274D /* oramac.txt in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0C51BEAF4E70083274D /* oramac.txt */; };
+		A7A3D0D21BEAF4E70083274D /* oramacc.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0C61BEAF4E70083274D /* oramacc.ttf */; };
+		A7A3D0D31BEAF4E70083274D /* oramacci.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0C71BEAF4E70083274D /* oramacci.ttf */; };
+		A7A3D0D41BEAF4E70083274D /* oramaci.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0C81BEAF4E70083274D /* oramaci.ttf */; };
+		A7A3D0D51BEAF4E70083274D /* oramacl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0C91BEAF4E70083274D /* oramacl.ttf */; };
+		A7A3D0D61BEAF4E70083274D /* oramacli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0CA1BEAF4E70083274D /* oramacli.ttf */; };
+		A7A3D0D71BEAF4E70083274D /* oramacls.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0CB1BEAF4E70083274D /* oramacls.ttf */; };
+		A7A3D0D81BEAF4E70083274D /* oramaclsi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0CC1BEAF4E70083274D /* oramaclsi.ttf */; };
+		A7A3D0D91BEAF4E70083274D /* oramacs.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0CD1BEAF4E70083274D /* oramacs.ttf */; };
+		A7A3D0DA1BEAF4E70083274D /* oramacsi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0CE1BEAF4E70083274D /* oramacsi.ttf */; };
 		A7F177781BE95FCF00EF4671 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F177771BE95FCF00EF4671 /* main.m */; };
 		A7F1777B1BE95FCF00EF4671 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F1777A1BE95FCF00EF4671 /* AppDelegate.m */; };
-		A7F1777E1BE95FCF00EF4671 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F1777D1BE95FCF00EF4671 /* ViewController.m */; };
 		A7F177811BE95FCF00EF4671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F1777F1BE95FCF00EF4671 /* Main.storyboard */; };
 		A7F177831BE95FCF00EF4671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F177821BE95FCF00EF4671 /* Assets.xcassets */; };
 		A7F177861BE95FCF00EF4671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F177841BE95FCF00EF4671 /* LaunchScreen.storyboard */; };
@@ -85,12 +121,68 @@
 		A73355851BEADEBF00933E8B /* EngagementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngagementViewController.h; sourceTree = "<group>"; };
 		A73355861BEADEBF00933E8B /* libengagement.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libengagement.a; sourceTree = "<group>"; };
 		A73355871BEADEBF00933E8B /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		A7A3D0731BEAE8640083274D /* xx.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = xx.mp4; sourceTree = "<group>"; };
+		A7A3D0791BEAEA9C0083274D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A7A3D07A1BEAEA9C0083274D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A7A3D07F1BEAEAE40083274D /* FlatUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatUIKit.h; sourceTree = "<group>"; };
+		A7A3D0801BEAEAE40083274D /* FUIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIAlertView.h; sourceTree = "<group>"; };
+		A7A3D0811BEAEAE40083274D /* FUIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIAlertView.m; sourceTree = "<group>"; };
+		A7A3D0821BEAEAE40083274D /* FUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIButton.h; sourceTree = "<group>"; };
+		A7A3D0831BEAEAE40083274D /* FUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIButton.m; sourceTree = "<group>"; };
+		A7A3D0841BEAEAE40083274D /* FUICellBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUICellBackgroundView.h; sourceTree = "<group>"; };
+		A7A3D0851BEAEAE40083274D /* FUICellBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUICellBackgroundView.m; sourceTree = "<group>"; };
+		A7A3D0861BEAEAE40083274D /* FUIPopoverBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIPopoverBackgroundView.h; sourceTree = "<group>"; };
+		A7A3D0871BEAEAE40083274D /* FUIPopoverBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIPopoverBackgroundView.m; sourceTree = "<group>"; };
+		A7A3D0881BEAEAE40083274D /* FUISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUISegmentedControl.h; sourceTree = "<group>"; };
+		A7A3D0891BEAEAE40083274D /* FUISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUISegmentedControl.m; sourceTree = "<group>"; };
+		A7A3D08A1BEAEAE40083274D /* FUISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUISwitch.h; sourceTree = "<group>"; };
+		A7A3D08B1BEAEAE40083274D /* FUISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUISwitch.m; sourceTree = "<group>"; };
+		A7A3D08C1BEAEAE40083274D /* FUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUITextField.h; sourceTree = "<group>"; };
+		A7A3D08D1BEAEAE40083274D /* FUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUITextField.m; sourceTree = "<group>"; };
+		A7A3D08E1BEAEAE40083274D /* UIBarButtonItem+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+FlatUI.h"; sourceTree = "<group>"; };
+		A7A3D08F1BEAEAE40083274D /* UIBarButtonItem+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+FlatUI.m"; sourceTree = "<group>"; };
+		A7A3D0901BEAEAE40083274D /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatUI.h"; sourceTree = "<group>"; };
+		A7A3D0911BEAEAE40083274D /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		A7A3D0921BEAEAE40083274D /* UIFont+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FlatUI.h"; sourceTree = "<group>"; };
+		A7A3D0931BEAEAE40083274D /* UIFont+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FlatUI.m"; sourceTree = "<group>"; };
+		A7A3D0941BEAEAE40083274D /* UIImage+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FlatUI.h"; sourceTree = "<group>"; };
+		A7A3D0951BEAEAE40083274D /* UIImage+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlatUI.m"; sourceTree = "<group>"; };
+		A7A3D0961BEAEAE40083274D /* UINavigationBar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+FlatUI.h"; sourceTree = "<group>"; };
+		A7A3D0971BEAEAE40083274D /* UINavigationBar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+FlatUI.m"; sourceTree = "<group>"; };
+		A7A3D0981BEAEAE40083274D /* UIPopoverController+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+FlatUI.h"; sourceTree = "<group>"; };
+		A7A3D0991BEAEAE40083274D /* UIPopoverController+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+FlatUI.m"; sourceTree = "<group>"; };
+		A7A3D09A1BEAEAE40083274D /* UIProgressView+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+FlatUI.h"; sourceTree = "<group>"; };
+		A7A3D09B1BEAEAE40083274D /* UIProgressView+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+FlatUI.m"; sourceTree = "<group>"; };
+		A7A3D09C1BEAEAE40083274D /* UISlider+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+FlatUI.h"; sourceTree = "<group>"; };
+		A7A3D09D1BEAEAE40083274D /* UISlider+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+FlatUI.m"; sourceTree = "<group>"; };
+		A7A3D09E1BEAEAE40083274D /* UIStepper+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStepper+FlatUI.h"; sourceTree = "<group>"; };
+		A7A3D09F1BEAEAE40083274D /* UIStepper+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStepper+FlatUI.m"; sourceTree = "<group>"; };
+		A7A3D0A01BEAEAE40083274D /* UITabBar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+FlatUI.h"; sourceTree = "<group>"; };
+		A7A3D0A11BEAEAE40083274D /* UITabBar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+FlatUI.m"; sourceTree = "<group>"; };
+		A7A3D0A21BEAEAE40083274D /* UITableViewCell+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+FlatUI.h"; sourceTree = "<group>"; };
+		A7A3D0A31BEAEAE40083274D /* UITableViewCell+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+FlatUI.m"; sourceTree = "<group>"; };
+		A7A3D0A41BEAEAE40083274D /* UIToolbar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+FlatUI.h"; sourceTree = "<group>"; };
+		A7A3D0A51BEAEAE40083274D /* UIToolbar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+FlatUI.m"; sourceTree = "<group>"; };
+		A7A3D0A71BEAEAE40083274D /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		A7A3D0A81BEAEAE40083274D /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		A7A3D0A91BEAEAE40083274D /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		A7A3D0AA1BEAEAE40083274D /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		A7A3D0C31BEAF4E70083274D /* ORABIT.FON */ = {isa = PBXFileReference; lastKnownFileType = file; path = ORABIT.FON; sourceTree = "<group>"; };
+		A7A3D0C41BEAF4E70083274D /* oramac.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = oramac.ttf; sourceTree = "<group>"; };
+		A7A3D0C51BEAF4E70083274D /* oramac.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = oramac.txt; sourceTree = "<group>"; };
+		A7A3D0C61BEAF4E70083274D /* oramacc.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = oramacc.ttf; sourceTree = "<group>"; };
+		A7A3D0C71BEAF4E70083274D /* oramacci.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = oramacci.ttf; sourceTree = "<group>"; };
+		A7A3D0C81BEAF4E70083274D /* oramaci.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = oramaci.ttf; sourceTree = "<group>"; };
+		A7A3D0C91BEAF4E70083274D /* oramacl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = oramacl.ttf; sourceTree = "<group>"; };
+		A7A3D0CA1BEAF4E70083274D /* oramacli.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = oramacli.ttf; sourceTree = "<group>"; };
+		A7A3D0CB1BEAF4E70083274D /* oramacls.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = oramacls.ttf; sourceTree = "<group>"; };
+		A7A3D0CC1BEAF4E70083274D /* oramaclsi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = oramaclsi.ttf; sourceTree = "<group>"; };
+		A7A3D0CD1BEAF4E70083274D /* oramacs.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = oramacs.ttf; sourceTree = "<group>"; };
+		A7A3D0CE1BEAF4E70083274D /* oramacsi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = oramacsi.ttf; sourceTree = "<group>"; };
 		A7F177731BE95FCF00EF4671 /* Fury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fury.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F177771BE95FCF00EF4671 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A7F177791BE95FCF00EF4671 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7F1777A1BE95FCF00EF4671 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A7F1777C1BE95FCF00EF4671 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A7F1777D1BE95FCF00EF4671 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A7F177801BE95FCF00EF4671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7F177821BE95FCF00EF4671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7F177851BE95FCF00EF4671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -147,6 +239,7 @@
 		A733555D1BEADEBF00933E8B /* ThirdPartyFrameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7A3D07C1BEAEAE40083274D /* FlatUIKit */,
 				A733555E1BEADEBF00933E8B /* EngagementReach */,
 				A733557B1BEADEBF00933E8B /* EngagementSDK */,
 				A73355871BEADEBF00933E8B /* WindowsAzureMobileServices.framework */,
@@ -235,6 +328,117 @@
 			path = Headers;
 			sourceTree = "<group>";
 		};
+		A7A3D0721BEAE8640083274D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3D0C21BEAF4E70083274D /* oramac */,
+				A7A3D0731BEAE8640083274D /* xx.mp4 */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A7A3D0781BEAEA9C0083274D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3D0791BEAEA9C0083274D /* LoginViewController.h */,
+				A7A3D07A1BEAEA9C0083274D /* LoginViewController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A7A3D07C1BEAEAE40083274D /* FlatUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3D07D1BEAEAE40083274D /* Classes */,
+				A7A3D0A61BEAEAE40083274D /* Resources */,
+			);
+			path = FlatUIKit;
+			sourceTree = "<group>";
+		};
+		A7A3D07D1BEAEAE40083274D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3D07E1BEAEAE40083274D /* ios */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7A3D07E1BEAEAE40083274D /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3D07F1BEAEAE40083274D /* FlatUIKit.h */,
+				A7A3D0801BEAEAE40083274D /* FUIAlertView.h */,
+				A7A3D0811BEAEAE40083274D /* FUIAlertView.m */,
+				A7A3D0821BEAEAE40083274D /* FUIButton.h */,
+				A7A3D0831BEAEAE40083274D /* FUIButton.m */,
+				A7A3D0841BEAEAE40083274D /* FUICellBackgroundView.h */,
+				A7A3D0851BEAEAE40083274D /* FUICellBackgroundView.m */,
+				A7A3D0861BEAEAE40083274D /* FUIPopoverBackgroundView.h */,
+				A7A3D0871BEAEAE40083274D /* FUIPopoverBackgroundView.m */,
+				A7A3D0881BEAEAE40083274D /* FUISegmentedControl.h */,
+				A7A3D0891BEAEAE40083274D /* FUISegmentedControl.m */,
+				A7A3D08A1BEAEAE40083274D /* FUISwitch.h */,
+				A7A3D08B1BEAEAE40083274D /* FUISwitch.m */,
+				A7A3D08C1BEAEAE40083274D /* FUITextField.h */,
+				A7A3D08D1BEAEAE40083274D /* FUITextField.m */,
+				A7A3D08E1BEAEAE40083274D /* UIBarButtonItem+FlatUI.h */,
+				A7A3D08F1BEAEAE40083274D /* UIBarButtonItem+FlatUI.m */,
+				A7A3D0901BEAEAE40083274D /* UIColor+FlatUI.h */,
+				A7A3D0911BEAEAE40083274D /* UIColor+FlatUI.m */,
+				A7A3D0921BEAEAE40083274D /* UIFont+FlatUI.h */,
+				A7A3D0931BEAEAE40083274D /* UIFont+FlatUI.m */,
+				A7A3D0941BEAEAE40083274D /* UIImage+FlatUI.h */,
+				A7A3D0951BEAEAE40083274D /* UIImage+FlatUI.m */,
+				A7A3D0961BEAEAE40083274D /* UINavigationBar+FlatUI.h */,
+				A7A3D0971BEAEAE40083274D /* UINavigationBar+FlatUI.m */,
+				A7A3D0981BEAEAE40083274D /* UIPopoverController+FlatUI.h */,
+				A7A3D0991BEAEAE40083274D /* UIPopoverController+FlatUI.m */,
+				A7A3D09A1BEAEAE40083274D /* UIProgressView+FlatUI.h */,
+				A7A3D09B1BEAEAE40083274D /* UIProgressView+FlatUI.m */,
+				A7A3D09C1BEAEAE40083274D /* UISlider+FlatUI.h */,
+				A7A3D09D1BEAEAE40083274D /* UISlider+FlatUI.m */,
+				A7A3D09E1BEAEAE40083274D /* UIStepper+FlatUI.h */,
+				A7A3D09F1BEAEAE40083274D /* UIStepper+FlatUI.m */,
+				A7A3D0A01BEAEAE40083274D /* UITabBar+FlatUI.h */,
+				A7A3D0A11BEAEAE40083274D /* UITabBar+FlatUI.m */,
+				A7A3D0A21BEAEAE40083274D /* UITableViewCell+FlatUI.h */,
+				A7A3D0A31BEAEAE40083274D /* UITableViewCell+FlatUI.m */,
+				A7A3D0A41BEAEAE40083274D /* UIToolbar+FlatUI.h */,
+				A7A3D0A51BEAEAE40083274D /* UIToolbar+FlatUI.m */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		A7A3D0A61BEAEAE40083274D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3D0A71BEAEAE40083274D /* Lato-Bold.ttf */,
+				A7A3D0A81BEAEAE40083274D /* Lato-Italic.ttf */,
+				A7A3D0A91BEAEAE40083274D /* Lato-Light.ttf */,
+				A7A3D0AA1BEAEAE40083274D /* Lato-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A7A3D0C21BEAF4E70083274D /* oramac */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3D0C31BEAF4E70083274D /* ORABIT.FON */,
+				A7A3D0C41BEAF4E70083274D /* oramac.ttf */,
+				A7A3D0C51BEAF4E70083274D /* oramac.txt */,
+				A7A3D0C61BEAF4E70083274D /* oramacc.ttf */,
+				A7A3D0C71BEAF4E70083274D /* oramacci.ttf */,
+				A7A3D0C81BEAF4E70083274D /* oramaci.ttf */,
+				A7A3D0C91BEAF4E70083274D /* oramacl.ttf */,
+				A7A3D0CA1BEAF4E70083274D /* oramacli.ttf */,
+				A7A3D0CB1BEAF4E70083274D /* oramacls.ttf */,
+				A7A3D0CC1BEAF4E70083274D /* oramaclsi.ttf */,
+				A7A3D0CD1BEAF4E70083274D /* oramacs.ttf */,
+				A7A3D0CE1BEAF4E70083274D /* oramacsi.ttf */,
+			);
+			path = oramac;
+			sourceTree = "<group>";
+		};
 		A7F1776A1BE95FCF00EF4671 = {
 			isa = PBXGroup;
 			children = (
@@ -264,11 +468,11 @@
 		A7F177751BE95FCF00EF4671 /* Fury */ = {
 			isa = PBXGroup;
 			children = (
+				A7A3D0781BEAEA9C0083274D /* Views */,
+				A7A3D0721BEAE8640083274D /* Assets */,
 				A733555D1BEADEBF00933E8B /* ThirdPartyFrameworks */,
 				A7F177791BE95FCF00EF4671 /* AppDelegate.h */,
 				A7F1777A1BE95FCF00EF4671 /* AppDelegate.m */,
-				A7F1777C1BE95FCF00EF4671 /* ViewController.h */,
-				A7F1777D1BE95FCF00EF4671 /* ViewController.m */,
 				A7F1777F1BE95FCF00EF4671 /* Main.storyboard */,
 				A7F177821BE95FCF00EF4671 /* Assets.xcassets */,
 				A7F177841BE95FCF00EF4671 /* LaunchScreen.storyboard */,
@@ -414,13 +618,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A3D0BF1BEAEAE40083274D /* Lato-Italic.ttf in Resources */,
+				A7A3D0D71BEAF4E70083274D /* oramacls.ttf in Resources */,
+				A7A3D0D01BEAF4E70083274D /* oramac.ttf in Resources */,
 				A7F177861BE95FCF00EF4671 /* LaunchScreen.storyboard in Resources */,
+				A7A3D0D11BEAF4E70083274D /* oramac.txt in Resources */,
+				A7A3D0D61BEAF4E70083274D /* oramacli.ttf in Resources */,
 				A7F177831BE95FCF00EF4671 /* Assets.xcassets in Resources */,
+				A7A3D0DA1BEAF4E70083274D /* oramacsi.ttf in Resources */,
+				A7A3D0D41BEAF4E70083274D /* oramaci.ttf in Resources */,
+				A7A3D0C01BEAEAE40083274D /* Lato-Light.ttf in Resources */,
 				A7F177811BE95FCF00EF4671 /* Main.storyboard in Resources */,
+				A7A3D0D51BEAF4E70083274D /* oramacl.ttf in Resources */,
 				A733558A1BEADEC000933E8B /* AEDefaultPollView.xib in Resources */,
+				A7A3D0D81BEAF4E70083274D /* oramaclsi.ttf in Resources */,
 				A733558C1BEADEC000933E8B /* close.png in Resources */,
+				A7A3D0C11BEAEAE40083274D /* Lato-Regular.ttf in Resources */,
+				A7A3D0741BEAE8640083274D /* xx.mp4 in Resources */,
 				A73355891BEADEC000933E8B /* AEDefaultAnnouncementView.xib in Resources */,
+				A7A3D0D91BEAF4E70083274D /* oramacs.ttf in Resources */,
+				A7A3D0BE1BEAEAE40083274D /* Lato-Bold.ttf in Resources */,
+				A7A3D0D21BEAF4E70083274D /* oramacc.ttf in Resources */,
 				A733558B1BEADEC000933E8B /* AENotificationView.xib in Resources */,
+				A7A3D0CF1BEAF4E70083274D /* ORABIT.FON in Resources */,
+				A7A3D0D31BEAF4E70083274D /* oramacci.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,10 +666,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A3D0B01BEAEAE40083274D /* FUISwitch.m in Sources */,
+				A7A3D0B71BEAEAE40083274D /* UIPopoverController+FlatUI.m in Sources */,
+				A7A3D0BB1BEAEAE40083274D /* UITabBar+FlatUI.m in Sources */,
+				A7A3D0B81BEAEAE40083274D /* UIProgressView+FlatUI.m in Sources */,
+				A7A3D0B41BEAEAE40083274D /* UIFont+FlatUI.m in Sources */,
+				A7A3D0AB1BEAEAE40083274D /* FUIAlertView.m in Sources */,
+				A7A3D07B1BEAEA9C0083274D /* LoginViewController.m in Sources */,
+				A7A3D0B31BEAEAE40083274D /* UIColor+FlatUI.m in Sources */,
+				A7A3D0B11BEAEAE40083274D /* FUITextField.m in Sources */,
+				A7A3D0BD1BEAEAE40083274D /* UIToolbar+FlatUI.m in Sources */,
+				A7A3D0B61BEAEAE40083274D /* UINavigationBar+FlatUI.m in Sources */,
+				A7A3D0AC1BEAEAE40083274D /* FUIButton.m in Sources */,
+				A7A3D0B91BEAEAE40083274D /* UISlider+FlatUI.m in Sources */,
+				A7A3D0BC1BEAEAE40083274D /* UITableViewCell+FlatUI.m in Sources */,
+				A7A3D0B21BEAEAE40083274D /* UIBarButtonItem+FlatUI.m in Sources */,
+				A7A3D0AD1BEAEAE40083274D /* FUICellBackgroundView.m in Sources */,
 				A733558D1BEADEC000933E8B /* AEIdfaProvider.m in Sources */,
-				A7F1777E1BE95FCF00EF4671 /* ViewController.m in Sources */,
+				A7A3D0BA1BEAEAE40083274D /* UIStepper+FlatUI.m in Sources */,
 				A7F1777B1BE95FCF00EF4671 /* AppDelegate.m in Sources */,
+				A7A3D0AF1BEAEAE40083274D /* FUISegmentedControl.m in Sources */,
+				A7A3D0B51BEAEAE40083274D /* UIImage+FlatUI.m in Sources */,
 				A7F177781BE95FCF00EF4671 /* main.m in Sources */,
+				A7A3D0AE1BEAEAE40083274D /* FUIPopoverBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
