@@ -56,6 +56,8 @@ We need a drawing of how our app may look/function, a simpole storyboard with a 
   - Useful for inspiration of how we might want a view to look
 
 #Frameworks/APIs
+- Video Background https://github.com/bichenkk/VideoCover-iOS-Demo
+ - For login screen visual effect (WOW factor)
 - Pinterest Menu View https://github.com/xhzengAIB/PinterestAnimator
  - For displaying the suggested tasks
 - Pinterest Item Selection https://github.com/GnosisHub/GHContextMenu
