@@ -1,6 +1,6 @@
 # Fury
 
-![alt text](https://github.com/chrispmonkey/Fury/blob/master/Design%20Elements/Fury%20Icon.png "Fury Logo")
+![alt text](https://github.com/chrispmonkey/Fury/blob/master/Website/Fury%20Website/images/fury_logo.png "Fury Logo")
 
 ##hACTOthon Project
 
@@ -96,4 +96,6 @@ We need a drawing of how our app may look/function, a simpole storyboard with a 
 Feel free to combine any and all of these roles! You are not required to fill these positions, but we just thought we would suggest it and give you and your team the best chance of success in your hacking!
 
 #App Views
-![alt text](https://github.com/chrispmonkey/Fury/blob/master/Design%20Elements/FuryloginScreen.gif "Login Screen for Fury")
+![alt text](https://github.com/chrispmonkey/Fury/blob/master/Website/Fury%20Website/images/mockup_2a.png "Login Screen for Fury")
+![alt text](https://github.com/chrispmonkey/Fury/blob/master/Website/Fury%20Website/images/mockup_2b.png "Login Screen for Fury")
+![alt text](https://github.com/chrispmonkey/Fury/blob/master/Website/Fury%20Website/images/mockup_2c.png "Login Screen for Fury")
