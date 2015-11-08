@@ -14,6 +14,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RMActionController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SKSplashView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -22,7 +32,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A5A197450C5EF6847C2E252D583A4D62</key>
+		<key>BA2D06A921ADAAFCDF28C5AC1C90FEAF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E7DDDE6E85085A39EE52BC6E1E315A90</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE679A3BFDABA93AA7301487F954C4E8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

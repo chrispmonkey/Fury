@@ -7,108 +7,157 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FB03CBD1E3C9759FD71C5C5377BD37E /* XHWaterfallCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5C8FF7695F3C5C69026AED00A6F8DC /* XHWaterfallCollectionViewCell.m */; };
-		11D7D706A15C7EACB3A5A02CF850729E /* XHWaterfallViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E011DE9BAED0B35E202EB68A8A97C73 /* XHWaterfallViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1413F25B5857D9E66862BECD26C5C65B /* XHPinterestPushTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ADD19A2E89ABDF55E08382472DC5CC3 /* XHPinterestPushTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1488043E1CEF3F35FD2110DA6133C0C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */; };
-		24F231A0BBE18B1D3C357E03C60F4EE6 /* UIView+XHViewFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8FF459490E12D374FC87BF6641A43C /* UIView+XHViewFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27E4F102F2EFFEE34D5F388A35AF72B9 /* UICollectionView+XHIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 343B5CB73CEF007E27A75D28B22C299F /* UICollectionView+XHIndexPath.m */; };
-		2A663E84BD267DBCE241DB66F49F35DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */; };
-		3E29071065C05526D1A7A3ED8C632470 /* XHHorizontalPageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E392714D7C90F3B59A1EB266FF0AF3A /* XHHorizontalPageViewCell.m */; };
-		4C08D6B15F7173253AAD5D8266D1F4DE /* XHWaterfallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF35F7C16C04DEE31062332952713FF5 /* XHWaterfallViewController.m */; };
-		4CC3F81016B3F8E159D17C41B0C3FEB3 /* XHWaterfallContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEABAA58613483671D4B4EFAAB8CF31 /* XHWaterfallContainerView.m */; };
-		5155CE1476D67A29DF0E2CA70C255D2B /* XHPinterest.m in Sources */ = {isa = PBXBuildFile; fileRef = EE25535547A885CC5421A8BA198C14D9 /* XHPinterest.m */; };
-		538DA56847DF94DB0A45092DD25C509C /* XHBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86717D64B8F32F5FE8BF7FFFA2AFA3F2 /* XHBaseCollectionViewController.m */; };
-		55B8E494E392AC74B9E98D1F50E7BBB9 /* UICollectionView+XHIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BB7041022D78CF9FA5D20F9C264526 /* UICollectionView+XHIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B33616D2AB07E70FDE2CA52BD7DA967 /* PinterestAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1327098E790F936C9D93B1FC9DC2E4 /* PinterestAnimator-dummy.m */; };
-		5D230304E691A46A94B95A2917D7EADF /* XHNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5CEBF2ED7CFE0527A8C4559683F422 /* XHNavigationControllerDelegate.m */; };
-		5E2394E7F843D62054FBDBBAA907B161 /* XHPinterestTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D7D5BEEA17C3EB4235D1762E553F7D /* XHPinterestTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CB3A5FC7BDC77CCEE3BC80BAF3C7756 /* XHBaseCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A98CD6FA014AD3E58139CF81C25B0D5 /* XHBaseCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CCA27F0D72AF0637CEBD78CFBC3DFA6 /* XHPinterestPopTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4E014E1495B0CD2D6C8C3A556CB0A4 /* XHPinterestPopTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CE0B51AD0D5DD8E553D49DC6B19A601 /* XHUIKitMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 41AB06C8A9FB697B420651C99C7B0FDB /* XHUIKitMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80BF2ADF465E600E5E3040B6D45C8FDB /* XHPinterestPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A4A57A83D2EB944F52026F0585C7D7 /* XHPinterestPushTransition.m */; };
-		817D95F9925FA4C24E3871364EDC132B /* UIView+XHViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D54CCE8546D9FBA05DFA6ABD90750F /* UIView+XHViewFrame.m */; };
-		849AE276861A6DDB657FEE7F1BE9607E /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3703B88C8499E3D4F3A29F7AEAA1E990 /* CHTCollectionViewWaterfallLayout.m */; };
-		8C963FD2C2905100F1B1E1A1EF2B158F /* XHPinterestPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F330AE319E7CF5EAB22132F762C8A516 /* XHPinterestPopTransition.m */; };
-		938BC0EDEA05EB6E8CCEF428EDDB5CF9 /* XHTransitionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7494783DF823A1810A12552753963B9F /* XHTransitionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98B3198A7610441D3991BFA76E747522 /* CHTCollectionViewWaterfallLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 364914861A7A0560BC08CE969CBABAB2 /* CHTCollectionViewWaterfallLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E2868693609002A8200A295C9733CE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
-		AA3CBCCB77929B675A3A69E87D59D841 /* XHNavigationControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC85EC40870548B3DE8FCB2889160E3 /* XHNavigationControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABC04BAA43AC46882E96EDE436E8C145 /* XHPinterestTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 769F34869E44BCA76FA396879750A80D /* XHPinterestTransition.m */; };
-		B1BFEA7226DA649B3AA2F60A8147522B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
-		C3670B2B74DB3FBEF834E8DE0CD6F77B /* XHHorizontalPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5AC2F2C6ECB23818A569C92BBACC84 /* XHHorizontalPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6AE0561F4A416646A0B9CD995229D88 /* XHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA04D10EEBC1FE904DA57D2E1E071BA /* XHNavigationController.m */; };
-		C83AC69EF08E90FF6A5BDAB1676ACA8C /* XHWaterfallContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 121735A475A4AA7A2740FA7AD22C3FC2 /* XHWaterfallContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0F3EC6DE0CF63E1E57A68C8ABA88646 /* XHHorizontalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75B1596C52D59DA2A953FDABA2E0C47 /* XHHorizontalPageViewController.m */; };
-		D4345474911731D58270E9977F55AE55 /* XHHorizontalPageViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D32B149FCAC5B2D02A99E7F5867BB2 /* XHHorizontalPageViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDE131562D17C5B104DE7260A1B6A4D0 /* XHWaterfallCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C2749B71132FB68BF62133C973629776 /* XHWaterfallCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8BF1BAEF9088D4449A07ADF1A48418D /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		F19636BFCBAA9652EB94E7033B1C0315 /* XHPinterest.h in Headers */ = {isa = PBXBuildFile; fileRef = D213BC9179FAAB8472C483C5FA0A574C /* XHPinterest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F22392213990FE1934522B600593F331 /* XHNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 27405B86E2AF2368DEE41907B3D09041 /* XHNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FB03CBD1E3C9759FD71C5C5377BD37E /* XHWaterfallCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8F6890E12198D607F4CBB9BF98B6D3 /* XHWaterfallCollectionViewCell.m */; };
+		11D7D706A15C7EACB3A5A02CF850729E /* XHWaterfallViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CD6622E9B0512EED7F430A24691B22 /* XHWaterfallViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1413F25B5857D9E66862BECD26C5C65B /* XHPinterestPushTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9F6804DF8E24808DF72D61B39ABB36 /* XHPinterestPushTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1488043E1CEF3F35FD2110DA6133C0C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */; };
+		24F231A0BBE18B1D3C357E03C60F4EE6 /* UIView+XHViewFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE6F978E149BD4FA97122EF09DA4D3A /* UIView+XHViewFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27E4F102F2EFFEE34D5F388A35AF72B9 /* UICollectionView+XHIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5C0EE2E6122DBF1E11BFF944423FE1 /* UICollectionView+XHIndexPath.m */; };
+		2A663E84BD267DBCE241DB66F49F35DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */; };
+		2E697925495E0F3F1B99C647F22A4A5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */; };
+		3C03F72FF70A9A7D6E862066B297DDCF /* SKSplashIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BCD96EB34378DD39597D2084AC490F /* SKSplashIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E29071065C05526D1A7A3ED8C632470 /* XHHorizontalPageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 626F0B28A04677B3D628103CC2FAD556 /* XHHorizontalPageViewCell.m */; };
+		428F4F9491613AEA2E411449F1975F63 /* SKSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF27273BAD18FBED1BBABC9FED89974 /* SKSplashView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C08D6B15F7173253AAD5D8266D1F4DE /* XHWaterfallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DCD7831ED521AAB182D7A84C8A2EE0 /* XHWaterfallViewController.m */; };
+		4CC3F81016B3F8E159D17C41B0C3FEB3 /* XHWaterfallContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16616CC11A999A319E09A5818CA42F3C /* XHWaterfallContainerView.m */; };
+		4E3F31F1111B8D4404D0447B3D98004E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		5155CE1476D67A29DF0E2CA70C255D2B /* XHPinterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D32162E9754CBEA12EB84E73C4024E /* XHPinterest.m */; };
+		538DA56847DF94DB0A45092DD25C509C /* XHBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DAA1846DCB4E4066F8344C8517CE0 /* XHBaseCollectionViewController.m */; };
+		55B8E494E392AC74B9E98D1F50E7BBB9 /* UICollectionView+XHIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = A449451B272CC3CBFF4F85D9BC330230 /* UICollectionView+XHIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B33616D2AB07E70FDE2CA52BD7DA967 /* PinterestAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FAD7E316F79FE2A168DE00B5C772BC /* PinterestAnimator-dummy.m */; };
+		5D230304E691A46A94B95A2917D7EADF /* XHNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FF3C2D470A478F7E06730380AA3B5C /* XHNavigationControllerDelegate.m */; };
+		5E2394E7F843D62054FBDBBAA907B161 /* XHPinterestTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A8E14C28052FCFE47253BBA6A30352B /* XHPinterestTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CB3A5FC7BDC77CCEE3BC80BAF3C7756 /* XHBaseCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 281AD9BD14B0C0C1129F4D9E23C1F7FA /* XHBaseCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CCA27F0D72AF0637CEBD78CFBC3DFA6 /* XHPinterestPopTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = EB892EF2927404A13313444270F49746 /* XHPinterestPopTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E94AE71801E47FCF31B36F0203DEED1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */; };
+		731C7C2EBDF35CEB815AEF3D0C1405C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		73F7366099C6C058B9CD8A6F4719CF7B /* SKSplashIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BC6758F4FFDE0715B29EE0A29560C6 /* SKSplashIcon.m */; };
+		7CE0B51AD0D5DD8E553D49DC6B19A601 /* XHUIKitMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 7709D6B4B432AA865D55124360979B04 /* XHUIKitMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80BF2ADF465E600E5E3040B6D45C8FDB /* XHPinterestPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9FF46931893A35FF3FFEB5D97E358 /* XHPinterestPushTransition.m */; };
+		817D95F9925FA4C24E3871364EDC132B /* UIView+XHViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A815A350C31FD0CDE17D0A54D767C4BB /* UIView+XHViewFrame.m */; };
+		849AE276861A6DDB657FEE7F1BE9607E /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B1242716A336CD31C7D698FDFE709D /* CHTCollectionViewWaterfallLayout.m */; };
+		8C963FD2C2905100F1B1E1A1EF2B158F /* XHPinterestPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BFC26385AA80AC33716D9120CC6A73 /* XHPinterestPopTransition.m */; };
+		938BC0EDEA05EB6E8CCEF428EDDB5CF9 /* XHTransitionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BF91D060C32584C50150BE287698A575 /* XHTransitionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98B3198A7610441D3991BFA76E747522 /* CHTCollectionViewWaterfallLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A02A8CD342D67BCFCEC16FC8C79AE482 /* CHTCollectionViewWaterfallLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E2868693609002A8200A295C9733CE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		AA3CBCCB77929B675A3A69E87D59D841 /* XHNavigationControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 45315CD8954BD4B48D091A0EEF1315E8 /* XHNavigationControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABC04BAA43AC46882E96EDE436E8C145 /* XHPinterestTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEDE73BB7C4B412C7E988D3A81FCD6 /* XHPinterestTransition.m */; };
+		ABC44E0E4640CAD388945D4C85127EE9 /* RMActionController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE67C6CC47CD5701BB95B33FC8A7B8 /* RMActionController-dummy.m */; };
+		B634B1C1EC640A399E36BD11E3927ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		C3670B2B74DB3FBEF834E8DE0CD6F77B /* XHHorizontalPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A5245EBF423943E4D362929C2573CF /* XHHorizontalPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4F10BB3A0C5ED535D6CEE3189AC6767 /* SKSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFEB64F8779936E3AC918BC4F325F3 /* SKSplashView.m */; };
+		C6AE0561F4A416646A0B9CD995229D88 /* XHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F562B1A6AB365D9D4E48F56562EBD5 /* XHNavigationController.m */; };
+		C83AC69EF08E90FF6A5BDAB1676ACA8C /* XHWaterfallContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8758B21175BF1D9BC4367C28748D2E /* XHWaterfallContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA07AAA6B8163D6A0E5CFA43B4FD957E /* RMActionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EF54849A2CA2EB5ADD82A2268EB53D /* RMActionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0F3EC6DE0CF63E1E57A68C8ABA88646 /* XHHorizontalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4801B98693FE21399C0181A724BCADCC /* XHHorizontalPageViewController.m */; };
+		D4345474911731D58270E9977F55AE55 /* XHHorizontalPageViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2DE7BB2B0695D10896A94073D1B6D4 /* XHHorizontalPageViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDE131562D17C5B104DE7260A1B6A4D0 /* XHWaterfallCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F9FDFD5B42D86573E133D94E65667784 /* XHWaterfallCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE67F476582F2AD4C0E1AEEA24ECEB28 /* RMActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B37E4C554562BEB142994DC1F0C7F62 /* RMActionController.m */; };
+		F15395E2300E6D8816B2EE31B8DFB033 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		F19636BFCBAA9652EB94E7033B1C0315 /* XHPinterest.h in Headers */ = {isa = PBXBuildFile; fileRef = F67B24A72B7D5245FE7DEB0D19E467B8 /* XHPinterest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F22392213990FE1934522B600593F331 /* XHNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 42887C25467736AD5806FFB7C59E1A25 /* XHNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F93633C031453A3A7A2400964010B465 /* SKSplashView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3F8F19C437253A7FF41085DF12741C /* SKSplashView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B2568437B3D464CC4B68247C0D63BA76 /* PBXContainerItemProxy */ = {
+		758CDA3249B4D2C9ED6A189827C823FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2D06A921ADAAFCDF28C5AC1C90FEAF;
+			remoteInfo = RMActionController;
+		};
+		803E58811E9E9A9C14F58C710A318A27 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 58BD745CB330DF932495744759B952FE;
 			remoteInfo = PinterestAnimator;
 		};
+		A6D00E0BD3E34D10E75C8FA139201C93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE679A3BFDABA93AA7301487F954C4E8;
+			remoteInfo = SKSplashView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02BC6758F4FFDE0715B29EE0A29560C6 /* SKSplashIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKSplashIcon.m; path = SKSplashView/SKSplashIcon.m; sourceTree = "<group>"; };
+		07D32162E9754CBEA12EB84E73C4024E /* XHPinterest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterest.m; path = PinterestAnimator/Models/XHPinterest.m; sourceTree = "<group>"; };
+		0B0ACAC4E091EFE44554983E830B7300 /* PinterestAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinterestAnimator-prefix.pch"; sourceTree = "<group>"; };
+		0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		0E9F6804DF8E24808DF72D61B39ABB36 /* XHPinterestPushTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterestPushTransition.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPushTransition.h; sourceTree = "<group>"; };
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		10A80A602E3BE9A061CB4282C8D7E171 /* PinterestAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinterestAnimator-prefix.pch"; sourceTree = "<group>"; };
-		121735A475A4AA7A2740FA7AD22C3FC2 /* XHWaterfallContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHWaterfallContainerView.h; path = PinterestAnimator/Views/XHWaterfallContainerView.h; sourceTree = "<group>"; };
-		1858E3B54E7E974D57717AC75B64B59E /* libPinterestAnimator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPinterestAnimator.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		11A5245EBF423943E4D362929C2573CF /* XHHorizontalPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHHorizontalPageViewController.h; path = PinterestAnimator/Controllers/XHHorizontalPageViewController.h; sourceTree = "<group>"; };
+		16616CC11A999A319E09A5818CA42F3C /* XHWaterfallContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHWaterfallContainerView.m; path = PinterestAnimator/Views/XHWaterfallContainerView.m; sourceTree = "<group>"; };
+		1D8758B21175BF1D9BC4367C28748D2E /* XHWaterfallContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHWaterfallContainerView.h; path = PinterestAnimator/Views/XHWaterfallContainerView.h; sourceTree = "<group>"; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		27405B86E2AF2368DEE41907B3D09041 /* XHNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHNavigationController.h; path = PinterestAnimator/Controllers/XHNavigationController.h; sourceTree = "<group>"; };
-		2CC85EC40870548B3DE8FCB2889160E3 /* XHNavigationControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHNavigationControllerDelegate.h; path = PinterestAnimator/Helpers/NavigationHelper/XHNavigationControllerDelegate.h; sourceTree = "<group>"; };
-		2E011DE9BAED0B35E202EB68A8A97C73 /* XHWaterfallViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHWaterfallViewController.h; path = PinterestAnimator/Controllers/XHWaterfallViewController.h; sourceTree = "<group>"; };
-		343B5CB73CEF007E27A75D28B22C299F /* UICollectionView+XHIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+XHIndexPath.m"; path = "PinterestAnimator/Categorys/UICollectionView+XHIndexPath.m"; sourceTree = "<group>"; };
-		364914861A7A0560BC08CE969CBABAB2 /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHTCollectionViewWaterfallLayout.h; path = PinterestAnimator/Layout/CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
-		3703B88C8499E3D4F3A29F7AEAA1E990 /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHTCollectionViewWaterfallLayout.m; path = PinterestAnimator/Layout/CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		27FE67C6CC47CD5701BB95B33FC8A7B8 /* RMActionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMActionController-dummy.m"; sourceTree = "<group>"; };
+		281AD9BD14B0C0C1129F4D9E23C1F7FA /* XHBaseCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHBaseCollectionViewController.h; path = PinterestAnimator/Controllers/XHBaseCollectionViewController.h; sourceTree = "<group>"; };
+		2B37E4C554562BEB142994DC1F0C7F62 /* RMActionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMActionController.m; path = RMActionController/RMActionController.m; sourceTree = "<group>"; };
+		32DCD7831ED521AAB182D7A84C8A2EE0 /* XHWaterfallViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHWaterfallViewController.m; path = PinterestAnimator/Controllers/XHWaterfallViewController.m; sourceTree = "<group>"; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		38D32B149FCAC5B2D02A99E7F5867BB2 /* XHHorizontalPageViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHHorizontalPageViewCell.h; path = PinterestAnimator/Views/XHHorizontalPageViewCell.h; sourceTree = "<group>"; };
-		3A98CD6FA014AD3E58139CF81C25B0D5 /* XHBaseCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHBaseCollectionViewController.h; path = PinterestAnimator/Controllers/XHBaseCollectionViewController.h; sourceTree = "<group>"; };
-		41AB06C8A9FB697B420651C99C7B0FDB /* XHUIKitMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHUIKitMacro.h; path = PinterestAnimator/Macro/XHUIKitMacro.h; sourceTree = "<group>"; };
-		4E4E014E1495B0CD2D6C8C3A556CB0A4 /* XHPinterestPopTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterestPopTransition.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPopTransition.h; sourceTree = "<group>"; };
+		3A8E14C28052FCFE47253BBA6A30352B /* XHPinterestTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterestTransition.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestTransition.h; sourceTree = "<group>"; };
+		3DB065B0E0AACA49710980CA6AEAF821 /* SKSplashView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKSplashView-prefix.pch"; sourceTree = "<group>"; };
+		3DE6F978E149BD4FA97122EF09DA4D3A /* UIView+XHViewFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XHViewFrame.h"; path = "PinterestAnimator/Categorys/UIView+XHViewFrame.h"; sourceTree = "<group>"; };
+		42887C25467736AD5806FFB7C59E1A25 /* XHNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHNavigationController.h; path = PinterestAnimator/Controllers/XHNavigationController.h; sourceTree = "<group>"; };
+		45315CD8954BD4B48D091A0EEF1315E8 /* XHNavigationControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHNavigationControllerDelegate.h; path = PinterestAnimator/Helpers/NavigationHelper/XHNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		46FF3C2D470A478F7E06730380AA3B5C /* XHNavigationControllerDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHNavigationControllerDelegate.m; path = PinterestAnimator/Helpers/NavigationHelper/XHNavigationControllerDelegate.m; sourceTree = "<group>"; };
+		47FEDE73BB7C4B412C7E988D3A81FCD6 /* XHPinterestTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterestTransition.m; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestTransition.m; sourceTree = "<group>"; };
+		4801B98693FE21399C0181A724BCADCC /* XHHorizontalPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHHorizontalPageViewController.m; path = PinterestAnimator/Controllers/XHHorizontalPageViewController.m; sourceTree = "<group>"; };
+		4868466D36DE5A309AF07617B8D92104 /* libPinterestAnimator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPinterestAnimator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		56693813205A604B7492A6F9C95273D7 /* libRMActionController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRMActionController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D673FEB6485B388BF3F32B2CF45544 /* RMActionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMActionController-prefix.pch"; sourceTree = "<group>"; };
+		626F0B28A04677B3D628103CC2FAD556 /* XHHorizontalPageViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHHorizontalPageViewCell.m; path = PinterestAnimator/Views/XHHorizontalPageViewCell.m; sourceTree = "<group>"; };
+		62A0BBDEF3F181C7AB90758F35463E1C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		65BCD96EB34378DD39597D2084AC490F /* SKSplashIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSplashIcon.h; path = SKSplashView/SKSplashIcon.h; sourceTree = "<group>"; };
 		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		6F5C8FF7695F3C5C69026AED00A6F8DC /* XHWaterfallCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHWaterfallCollectionViewCell.m; path = PinterestAnimator/Views/XHWaterfallCollectionViewCell.m; sourceTree = "<group>"; };
-		7494783DF823A1810A12552753963B9F /* XHTransitionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHTransitionProtocol.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/Protocal/XHTransitionProtocol.h; sourceTree = "<group>"; };
-		7524C8F48CB4B7AACF51F0F3EB543A0B /* PinterestAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinterestAnimator.xcconfig; sourceTree = "<group>"; };
-		769F34869E44BCA76FA396879750A80D /* XHPinterestTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterestTransition.m; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestTransition.m; sourceTree = "<group>"; };
-		7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		86717D64B8F32F5FE8BF7FFFA2AFA3F2 /* XHBaseCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHBaseCollectionViewController.m; path = PinterestAnimator/Controllers/XHBaseCollectionViewController.m; sourceTree = "<group>"; };
-		8E392714D7C90F3B59A1EB266FF0AF3A /* XHHorizontalPageViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHHorizontalPageViewCell.m; path = PinterestAnimator/Views/XHHorizontalPageViewCell.m; sourceTree = "<group>"; };
-		95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		96BB7041022D78CF9FA5D20F9C264526 /* UICollectionView+XHIndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+XHIndexPath.h"; path = "PinterestAnimator/Categorys/UICollectionView+XHIndexPath.h"; sourceTree = "<group>"; };
+		6F5C0EE2E6122DBF1E11BFF944423FE1 /* UICollectionView+XHIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+XHIndexPath.m"; path = "PinterestAnimator/Categorys/UICollectionView+XHIndexPath.m"; sourceTree = "<group>"; };
+		71B1242716A336CD31C7D698FDFE709D /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHTCollectionViewWaterfallLayout.m; path = PinterestAnimator/Layout/CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		74EF54849A2CA2EB5ADD82A2268EB53D /* RMActionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMActionController.h; path = RMActionController/RMActionController.h; sourceTree = "<group>"; };
+		7709D6B4B432AA865D55124360979B04 /* XHUIKitMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHUIKitMacro.h; path = PinterestAnimator/Macro/XHUIKitMacro.h; sourceTree = "<group>"; };
+		7B2DE7BB2B0695D10896A94073D1B6D4 /* XHHorizontalPageViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHHorizontalPageViewCell.h; path = PinterestAnimator/Views/XHHorizontalPageViewCell.h; sourceTree = "<group>"; };
+		84B9FF46931893A35FF3FFEB5D97E358 /* XHPinterestPushTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterestPushTransition.m; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPushTransition.m; sourceTree = "<group>"; };
+		8D6DB3D537A5C640FA1941A9D868BA72 /* SKSplashView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKSplashView.xcconfig; sourceTree = "<group>"; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		9ADD19A2E89ABDF55E08382472DC5CC3 /* XHPinterestPushTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterestPushTransition.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPushTransition.h; sourceTree = "<group>"; };
+		9ADFEB64F8779936E3AC918BC4F325F3 /* SKSplashView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKSplashView.m; path = SKSplashView/SKSplashView.m; sourceTree = "<group>"; };
+		9B0DAA1846DCB4E4066F8344C8517CE0 /* XHBaseCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHBaseCollectionViewController.m; path = PinterestAnimator/Controllers/XHBaseCollectionViewController.m; sourceTree = "<group>"; };
+		9E8F6890E12198D607F4CBB9BF98B6D3 /* XHWaterfallCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHWaterfallCollectionViewCell.m; path = PinterestAnimator/Views/XHWaterfallCollectionViewCell.m; sourceTree = "<group>"; };
+		9EF27273BAD18FBED1BBABC9FED89974 /* SKSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSplashView.h; path = SKSplashView/SKSplashView.h; sourceTree = "<group>"; };
+		A02A8CD342D67BCFCEC16FC8C79AE482 /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHTCollectionViewWaterfallLayout.h; path = PinterestAnimator/Layout/CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
 		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		BA1327098E790F936C9D93B1FC9DC2E4 /* PinterestAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinterestAnimator-dummy.m"; sourceTree = "<group>"; };
+		A449451B272CC3CBFF4F85D9BC330230 /* UICollectionView+XHIndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+XHIndexPath.h"; path = "PinterestAnimator/Categorys/UICollectionView+XHIndexPath.h"; sourceTree = "<group>"; };
+		A6CD6622E9B0512EED7F430A24691B22 /* XHWaterfallViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHWaterfallViewController.h; path = PinterestAnimator/Controllers/XHWaterfallViewController.h; sourceTree = "<group>"; };
+		A815A350C31FD0CDE17D0A54D767C4BB /* UIView+XHViewFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XHViewFrame.m"; path = "PinterestAnimator/Categorys/UIView+XHViewFrame.m"; sourceTree = "<group>"; };
+		B7FAD7E316F79FE2A168DE00B5C772BC /* PinterestAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinterestAnimator-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BEEABAA58613483671D4B4EFAAB8CF31 /* XHWaterfallContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHWaterfallContainerView.m; path = PinterestAnimator/Views/XHWaterfallContainerView.m; sourceTree = "<group>"; };
-		C2749B71132FB68BF62133C973629776 /* XHWaterfallCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHWaterfallCollectionViewCell.h; path = PinterestAnimator/Views/XHWaterfallCollectionViewCell.h; sourceTree = "<group>"; };
-		C5691BAB83C81160D6FDAE492666D64F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6D54CCE8546D9FBA05DFA6ABD90750F /* UIView+XHViewFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XHViewFrame.m"; path = "PinterestAnimator/Categorys/UIView+XHViewFrame.m"; sourceTree = "<group>"; };
-		CE5AC2F2C6ECB23818A569C92BBACC84 /* XHHorizontalPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHHorizontalPageViewController.h; path = PinterestAnimator/Controllers/XHHorizontalPageViewController.h; sourceTree = "<group>"; };
-		CF5CEBF2ED7CFE0527A8C4559683F422 /* XHNavigationControllerDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHNavigationControllerDelegate.m; path = PinterestAnimator/Helpers/NavigationHelper/XHNavigationControllerDelegate.m; sourceTree = "<group>"; };
-		D213BC9179FAAB8472C483C5FA0A574C /* XHPinterest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterest.h; path = PinterestAnimator/Models/XHPinterest.h; sourceTree = "<group>"; };
-		D3D7D5BEEA17C3EB4235D1762E553F7D /* XHPinterestTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterestTransition.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestTransition.h; sourceTree = "<group>"; };
-		D5A4A57A83D2EB944F52026F0585C7D7 /* XHPinterestPushTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterestPushTransition.m; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPushTransition.m; sourceTree = "<group>"; };
-		DF35F7C16C04DEE31062332952713FF5 /* XHWaterfallViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHWaterfallViewController.m; path = PinterestAnimator/Controllers/XHWaterfallViewController.m; sourceTree = "<group>"; };
-		DF8FF459490E12D374FC87BF6641A43C /* UIView+XHViewFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XHViewFrame.h"; path = "PinterestAnimator/Categorys/UIView+XHViewFrame.h"; sourceTree = "<group>"; };
-		E75B1596C52D59DA2A953FDABA2E0C47 /* XHHorizontalPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHHorizontalPageViewController.m; path = PinterestAnimator/Controllers/XHHorizontalPageViewController.m; sourceTree = "<group>"; };
-		EE25535547A885CC5421A8BA198C14D9 /* XHPinterest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterest.m; path = PinterestAnimator/Models/XHPinterest.m; sourceTree = "<group>"; };
-		F330AE319E7CF5EAB22132F762C8A516 /* XHPinterestPopTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterestPopTransition.m; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPopTransition.m; sourceTree = "<group>"; };
-		FBA04D10EEBC1FE904DA57D2E1E071BA /* XHNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHNavigationController.m; path = PinterestAnimator/Controllers/XHNavigationController.m; sourceTree = "<group>"; };
+		BF91D060C32584C50150BE287698A575 /* XHTransitionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHTransitionProtocol.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/Protocal/XHTransitionProtocol.h; sourceTree = "<group>"; };
+		CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEC0941BF0829BD455A19D5383D9F8EC /* PinterestAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinterestAnimator.xcconfig; sourceTree = "<group>"; };
+		D6BFC26385AA80AC33716D9120CC6A73 /* XHPinterestPopTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterestPopTransition.m; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPopTransition.m; sourceTree = "<group>"; };
+		D80D5C3FCC06910F3EE020335C12711E /* libSKSplashView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSKSplashView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C5A4CCB17F4363C61795F0C5A5FB8B /* RMActionController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMActionController.xcconfig; sourceTree = "<group>"; };
+		EB892EF2927404A13313444270F49746 /* XHPinterestPopTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterestPopTransition.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPopTransition.h; sourceTree = "<group>"; };
+		ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F5F562B1A6AB365D9D4E48F56562EBD5 /* XHNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHNavigationController.m; path = PinterestAnimator/Controllers/XHNavigationController.m; sourceTree = "<group>"; };
+		F67B24A72B7D5245FE7DEB0D19E467B8 /* XHPinterest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterest.h; path = PinterestAnimator/Models/XHPinterest.h; sourceTree = "<group>"; };
+		F9FDFD5B42D86573E133D94E65667784 /* XHWaterfallCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHWaterfallCollectionViewCell.h; path = PinterestAnimator/Views/XHWaterfallCollectionViewCell.h; sourceTree = "<group>"; };
+		FF3F8F19C437253A7FF41085DF12741C /* SKSplashView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKSplashView-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1FFFDA688F06394ED9644593766ADBD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B634B1C1EC640A399E36BD11E3927ECD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		771092CC46F5591095240907051FF1B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -119,11 +168,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		792ADAADF1C50E7F230FCBE0672B761A /* Frameworks */ = {
+		77B0F4DB02CB9FB00AD90FF5EA2A3125 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1BFEA7226DA649B3AA2F60A8147522B /* Foundation.framework in Frameworks */,
+				2E697925495E0F3F1B99C647F22A4A5C /* CoreGraphics.framework in Frameworks */,
+				4E3F31F1111B8D4404D0447B3D98004E /* Foundation.framework in Frameworks */,
+				6E94AE71801E47FCF31B36F0203DEED1 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89055F16F7A42D9A06F876B8ADB55D29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731C7C2EBDF35CEB815AEF3D0C1405C8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,51 +197,140 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E35B3E289DB984DA75A774080D293670 /* iOS */,
+				A9203A0FF197B8764CD853B6EE3A159E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3A12BA497F76773FBA474FA3DB6BC73A /* Products */ = {
+		2DFBF4FC3D07D076DF8DB79916721438 /* SKSplashView */ = {
 			isa = PBXGroup;
 			children = (
-				1858E3B54E7E974D57717AC75B64B59E /* libPinterestAnimator.a */,
-				C5691BAB83C81160D6FDAE492666D64F /* libPods.a */,
+				65BCD96EB34378DD39597D2084AC490F /* SKSplashIcon.h */,
+				02BC6758F4FFDE0715B29EE0A29560C6 /* SKSplashIcon.m */,
+				9EF27273BAD18FBED1BBABC9FED89974 /* SKSplashView.h */,
+				9ADFEB64F8779936E3AC918BC4F325F3 /* SKSplashView.m */,
+				8DB9E7F839748A5ADF0A5C662899BB8B /* Support Files */,
+			);
+			path = SKSplashView;
+			sourceTree = "<group>";
+		};
+		46C5F93319CE75E8C9248D1D058AB974 /* RMActionController */ = {
+			isa = PBXGroup;
+			children = (
+				74EF54849A2CA2EB5ADD82A2268EB53D /* RMActionController.h */,
+				2B37E4C554562BEB142994DC1F0C7F62 /* RMActionController.m */,
+				83681EB14870E1B3FB0BA96F6904D13F /* Support Files */,
+			);
+			path = RMActionController;
+			sourceTree = "<group>";
+		};
+		77999DFCACAA18B89DBF072A5FC93426 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4868466D36DE5A309AF07617B8D92104 /* libPinterestAnimator.a */,
+				62A0BBDEF3F181C7AB90758F35463E1C /* libPods.a */,
+				56693813205A604B7492A6F9C95273D7 /* libRMActionController.a */,
+				D80D5C3FCC06910F3EE020335C12711E /* libSKSplashView.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7A71C67C31C1AE6D6D4FCC1CFF86369C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BE65960C85C7759F05A928A9E87F20F4 /* PinterestAnimator */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		7B69D14F002FEE4D2E05B107EC1F72DE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7524C8F48CB4B7AACF51F0F3EB543A0B /* PinterestAnimator.xcconfig */,
-				BA1327098E790F936C9D93B1FC9DC2E4 /* PinterestAnimator-dummy.m */,
-				10A80A602E3BE9A061CB4282C8D7E171 /* PinterestAnimator-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PinterestAnimator";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				7A71C67C31C1AE6D6D4FCC1CFF86369C /* Pods */,
-				3A12BA497F76773FBA474FA3DB6BC73A /* Products */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				BD08C10E1CF6C6B510ACD466F646A455 /* Pods */,
+				77999DFCACAA18B89DBF072A5FC93426 /* Products */,
 				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		83681EB14870E1B3FB0BA96F6904D13F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1C5A4CCB17F4363C61795F0C5A5FB8B /* RMActionController.xcconfig */,
+				27FE67C6CC47CD5701BB95B33FC8A7B8 /* RMActionController-dummy.m */,
+				61D673FEB6485B388BF3F32B2CF45544 /* RMActionController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RMActionController";
+			sourceTree = "<group>";
+		};
+		8805C9669B10A92788FAB39786B666BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0941BF0829BD455A19D5383D9F8EC /* PinterestAnimator.xcconfig */,
+				B7FAD7E316F79FE2A168DE00B5C772BC /* PinterestAnimator-dummy.m */,
+				0B0ACAC4E091EFE44554983E830B7300 /* PinterestAnimator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PinterestAnimator";
+			sourceTree = "<group>";
+		};
+		8DB9E7F839748A5ADF0A5C662899BB8B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D6DB3D537A5C640FA1941A9D868BA72 /* SKSplashView.xcconfig */,
+				FF3F8F19C437253A7FF41085DF12741C /* SKSplashView-dummy.m */,
+				3DB065B0E0AACA49710980CA6AEAF821 /* SKSplashView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SKSplashView";
+			sourceTree = "<group>";
+		};
+		96CA2DF765F79EEB010B516B2C5601E8 /* PinterestAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				A02A8CD342D67BCFCEC16FC8C79AE482 /* CHTCollectionViewWaterfallLayout.h */,
+				71B1242716A336CD31C7D698FDFE709D /* CHTCollectionViewWaterfallLayout.m */,
+				A449451B272CC3CBFF4F85D9BC330230 /* UICollectionView+XHIndexPath.h */,
+				6F5C0EE2E6122DBF1E11BFF944423FE1 /* UICollectionView+XHIndexPath.m */,
+				3DE6F978E149BD4FA97122EF09DA4D3A /* UIView+XHViewFrame.h */,
+				A815A350C31FD0CDE17D0A54D767C4BB /* UIView+XHViewFrame.m */,
+				281AD9BD14B0C0C1129F4D9E23C1F7FA /* XHBaseCollectionViewController.h */,
+				9B0DAA1846DCB4E4066F8344C8517CE0 /* XHBaseCollectionViewController.m */,
+				7B2DE7BB2B0695D10896A94073D1B6D4 /* XHHorizontalPageViewCell.h */,
+				626F0B28A04677B3D628103CC2FAD556 /* XHHorizontalPageViewCell.m */,
+				11A5245EBF423943E4D362929C2573CF /* XHHorizontalPageViewController.h */,
+				4801B98693FE21399C0181A724BCADCC /* XHHorizontalPageViewController.m */,
+				42887C25467736AD5806FFB7C59E1A25 /* XHNavigationController.h */,
+				F5F562B1A6AB365D9D4E48F56562EBD5 /* XHNavigationController.m */,
+				45315CD8954BD4B48D091A0EEF1315E8 /* XHNavigationControllerDelegate.h */,
+				46FF3C2D470A478F7E06730380AA3B5C /* XHNavigationControllerDelegate.m */,
+				F67B24A72B7D5245FE7DEB0D19E467B8 /* XHPinterest.h */,
+				07D32162E9754CBEA12EB84E73C4024E /* XHPinterest.m */,
+				EB892EF2927404A13313444270F49746 /* XHPinterestPopTransition.h */,
+				D6BFC26385AA80AC33716D9120CC6A73 /* XHPinterestPopTransition.m */,
+				0E9F6804DF8E24808DF72D61B39ABB36 /* XHPinterestPushTransition.h */,
+				84B9FF46931893A35FF3FFEB5D97E358 /* XHPinterestPushTransition.m */,
+				3A8E14C28052FCFE47253BBA6A30352B /* XHPinterestTransition.h */,
+				47FEDE73BB7C4B412C7E988D3A81FCD6 /* XHPinterestTransition.m */,
+				BF91D060C32584C50150BE287698A575 /* XHTransitionProtocol.h */,
+				7709D6B4B432AA865D55124360979B04 /* XHUIKitMacro.h */,
+				F9FDFD5B42D86573E133D94E65667784 /* XHWaterfallCollectionViewCell.h */,
+				9E8F6890E12198D607F4CBB9BF98B6D3 /* XHWaterfallCollectionViewCell.m */,
+				1D8758B21175BF1D9BC4367C28748D2E /* XHWaterfallContainerView.h */,
+				16616CC11A999A319E09A5818CA42F3C /* XHWaterfallContainerView.m */,
+				A6CD6622E9B0512EED7F430A24691B22 /* XHWaterfallViewController.h */,
+				32DCD7831ED521AAB182D7A84C8A2EE0 /* XHWaterfallViewController.m */,
+				8805C9669B10A92788FAB39786B666BF /* Support Files */,
+			);
+			path = PinterestAnimator;
+			sourceTree = "<group>";
+		};
+		A9203A0FF197B8764CD853B6EE3A159E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */,
+				CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */,
+				0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */,
+				ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
@@ -200,59 +348,27 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		BE65960C85C7759F05A928A9E87F20F4 /* PinterestAnimator */ = {
+		BD08C10E1CF6C6B510ACD466F646A455 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				364914861A7A0560BC08CE969CBABAB2 /* CHTCollectionViewWaterfallLayout.h */,
-				3703B88C8499E3D4F3A29F7AEAA1E990 /* CHTCollectionViewWaterfallLayout.m */,
-				96BB7041022D78CF9FA5D20F9C264526 /* UICollectionView+XHIndexPath.h */,
-				343B5CB73CEF007E27A75D28B22C299F /* UICollectionView+XHIndexPath.m */,
-				DF8FF459490E12D374FC87BF6641A43C /* UIView+XHViewFrame.h */,
-				C6D54CCE8546D9FBA05DFA6ABD90750F /* UIView+XHViewFrame.m */,
-				3A98CD6FA014AD3E58139CF81C25B0D5 /* XHBaseCollectionViewController.h */,
-				86717D64B8F32F5FE8BF7FFFA2AFA3F2 /* XHBaseCollectionViewController.m */,
-				38D32B149FCAC5B2D02A99E7F5867BB2 /* XHHorizontalPageViewCell.h */,
-				8E392714D7C90F3B59A1EB266FF0AF3A /* XHHorizontalPageViewCell.m */,
-				CE5AC2F2C6ECB23818A569C92BBACC84 /* XHHorizontalPageViewController.h */,
-				E75B1596C52D59DA2A953FDABA2E0C47 /* XHHorizontalPageViewController.m */,
-				27405B86E2AF2368DEE41907B3D09041 /* XHNavigationController.h */,
-				FBA04D10EEBC1FE904DA57D2E1E071BA /* XHNavigationController.m */,
-				2CC85EC40870548B3DE8FCB2889160E3 /* XHNavigationControllerDelegate.h */,
-				CF5CEBF2ED7CFE0527A8C4559683F422 /* XHNavigationControllerDelegate.m */,
-				D213BC9179FAAB8472C483C5FA0A574C /* XHPinterest.h */,
-				EE25535547A885CC5421A8BA198C14D9 /* XHPinterest.m */,
-				4E4E014E1495B0CD2D6C8C3A556CB0A4 /* XHPinterestPopTransition.h */,
-				F330AE319E7CF5EAB22132F762C8A516 /* XHPinterestPopTransition.m */,
-				9ADD19A2E89ABDF55E08382472DC5CC3 /* XHPinterestPushTransition.h */,
-				D5A4A57A83D2EB944F52026F0585C7D7 /* XHPinterestPushTransition.m */,
-				D3D7D5BEEA17C3EB4235D1762E553F7D /* XHPinterestTransition.h */,
-				769F34869E44BCA76FA396879750A80D /* XHPinterestTransition.m */,
-				7494783DF823A1810A12552753963B9F /* XHTransitionProtocol.h */,
-				41AB06C8A9FB697B420651C99C7B0FDB /* XHUIKitMacro.h */,
-				C2749B71132FB68BF62133C973629776 /* XHWaterfallCollectionViewCell.h */,
-				6F5C8FF7695F3C5C69026AED00A6F8DC /* XHWaterfallCollectionViewCell.m */,
-				121735A475A4AA7A2740FA7AD22C3FC2 /* XHWaterfallContainerView.h */,
-				BEEABAA58613483671D4B4EFAAB8CF31 /* XHWaterfallContainerView.m */,
-				2E011DE9BAED0B35E202EB68A8A97C73 /* XHWaterfallViewController.h */,
-				DF35F7C16C04DEE31062332952713FF5 /* XHWaterfallViewController.m */,
-				7B69D14F002FEE4D2E05B107EC1F72DE /* Support Files */,
+				96CA2DF765F79EEB010B516B2C5601E8 /* PinterestAnimator */,
+				46C5F93319CE75E8C9248D1D058AB974 /* RMActionController */,
+				2DFBF4FC3D07D076DF8DB79916721438 /* SKSplashView */,
 			);
-			path = PinterestAnimator;
-			sourceTree = "<group>";
-		};
-		E35B3E289DB984DA75A774080D293670 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */,
-				95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */,
-				7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */,
-			);
-			name = iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		47A70378B39DBEF607DFCCDD2BAF8BFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA07AAA6B8163D6A0E5CFA43B4FD957E /* RMActionController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D543B4BB85F6633F47B9D779EB9D0E41 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -277,6 +393,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E458B9DE403260C3E7EC4223E037545D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C03F72FF70A9A7D6E862066B297DDCF /* SKSplashIcon.h in Headers */,
+				428F4F9491613AEA2E411449F1975F63 /* SKSplashView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -294,24 +419,60 @@
 			);
 			name = PinterestAnimator;
 			productName = PinterestAnimator;
-			productReference = 1858E3B54E7E974D57717AC75B64B59E /* libPinterestAnimator.a */;
+			productReference = 4868466D36DE5A309AF07617B8D92104 /* libPinterestAnimator.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A5A197450C5EF6847C2E252D583A4D62 /* Pods */ = {
+		BA2D06A921ADAAFCDF28C5AC1C90FEAF /* RMActionController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C07344155053FF36D3AD2C2E0B2B78C /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 3D44EEE4D60E89813A3AFF59232AF66E /* Build configuration list for PBXNativeTarget "RMActionController" */;
 			buildPhases = (
-				B00B1F02DFFDA2D25D12BB299867F8E0 /* Sources */,
-				792ADAADF1C50E7F230FCBE0672B761A /* Frameworks */,
+				D30A4880C3A6417482F6E596F621A560 /* Sources */,
+				77B0F4DB02CB9FB00AD90FF5EA2A3125 /* Frameworks */,
+				47A70378B39DBEF607DFCCDD2BAF8BFE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4135BCDD1E55C6B737242544715DED67 /* PBXTargetDependency */,
+			);
+			name = RMActionController;
+			productName = RMActionController;
+			productReference = 56693813205A604B7492A6F9C95273D7 /* libRMActionController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E7DDDE6E85085A39EE52BC6E1E315A90 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D61D2FD1F647B2A0CCA830D754ADC1 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				5317A182CB92B4C281041E7C00CC6689 /* Sources */,
+				1FFFDA688F06394ED9644593766ADBD7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACFFCA33BBDBF0DF5423C935339D5089 /* PBXTargetDependency */,
+				239F498A07616D78074D0B0C14D0BA00 /* PBXTargetDependency */,
+				1AC95147FE73D016E43C9AD703D49DE9 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = C5691BAB83C81160D6FDAE492666D64F /* libPods.a */;
+			productReference = 62A0BBDEF3F181C7AB90758F35463E1C /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EE679A3BFDABA93AA7301487F954C4E8 /* SKSplashView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A394554BE0589F70C42E79B4C3C1C00 /* Build configuration list for PBXNativeTarget "SKSplashView" */;
+			buildPhases = (
+				C0C38726EEC87344DDEC666D9E0E0595 /* Sources */,
+				89055F16F7A42D9A06F876B8ADB55D29 /* Frameworks */,
+				E458B9DE403260C3E7EC4223E037545D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKSplashView;
+			productName = SKSplashView;
+			productReference = D80D5C3FCC06910F3EE020335C12711E /* libSKSplashView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -331,17 +492,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3A12BA497F76773FBA474FA3DB6BC73A /* Products */;
+			productRefGroup = 77999DFCACAA18B89DBF072A5FC93426 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				58BD745CB330DF932495744759B952FE /* PinterestAnimator */,
-				A5A197450C5EF6847C2E252D583A4D62 /* Pods */,
+				E7DDDE6E85085A39EE52BC6E1E315A90 /* Pods */,
+				BA2D06A921ADAAFCDF28C5AC1C90FEAF /* RMActionController */,
+				EE679A3BFDABA93AA7301487F954C4E8 /* SKSplashView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5317A182CB92B4C281041E7C00CC6689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15395E2300E6D8816B2EE31B8DFB033 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B183A813953048B8D6B86C3DDCC4EB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,38 +536,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B00B1F02DFFDA2D25D12BB299867F8E0 /* Sources */ = {
+		C0C38726EEC87344DDEC666D9E0E0595 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8BF1BAEF9088D4449A07ADF1A48418D /* Pods-dummy.m in Sources */,
+				73F7366099C6C058B9CD8A6F4719CF7B /* SKSplashIcon.m in Sources */,
+				F93633C031453A3A7A2400964010B465 /* SKSplashView-dummy.m in Sources */,
+				C4F10BB3A0C5ED535D6CEE3189AC6767 /* SKSplashView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30A4880C3A6417482F6E596F621A560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC44E0E4640CAD388945D4C85127EE9 /* RMActionController-dummy.m in Sources */,
+				DE67F476582F2AD4C0E1AEEA24ECEB28 /* RMActionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4135BCDD1E55C6B737242544715DED67 /* PBXTargetDependency */ = {
+		1AC95147FE73D016E43C9AD703D49DE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKSplashView;
+			target = EE679A3BFDABA93AA7301487F954C4E8 /* SKSplashView */;
+			targetProxy = A6D00E0BD3E34D10E75C8FA139201C93 /* PBXContainerItemProxy */;
+		};
+		239F498A07616D78074D0B0C14D0BA00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMActionController;
+			target = BA2D06A921ADAAFCDF28C5AC1C90FEAF /* RMActionController */;
+			targetProxy = 758CDA3249B4D2C9ED6A189827C823FF /* PBXContainerItemProxy */;
+		};
+		ACFFCA33BBDBF0DF5423C935339D5089 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PinterestAnimator;
 			target = 58BD745CB330DF932495744759B952FE /* PinterestAnimator */;
-			targetProxy = B2568437B3D464CC4B68247C0D63BA76 /* PBXContainerItemProxy */;
+			targetProxy = 803E58811E9E9A9C14F58C710A318A27 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		679EA8F2BB8A6040627212CA6D5C636B /* Release */ = {
+		633D4EEE3CA6D9BB4BD744A4F2EAC76A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			baseConfigurationReference = E1C5A4CCB17F4363C61795F0C5A5FB8B /* RMActionController.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RMActionController/RMActionController-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -404,7 +599,7 @@
 		};
 		67EC2BE3034C201E06728F93BE73B509 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7524C8F48CB4B7AACF51F0F3EB543A0B /* PinterestAnimator.xcconfig */;
+			baseConfigurationReference = CEC0941BF0829BD455A19D5383D9F8EC /* PinterestAnimator.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PinterestAnimator/PinterestAnimator-prefix.pch";
@@ -420,7 +615,61 @@
 			};
 			name = Debug;
 		};
-		6819A6E1D7DBEF6C974FAFEBEAA20C04 /* Debug */ = {
+		68FB7DDFD96F5CB8461D2E90A9208605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D6DB3D537A5C640FA1941A9D868BA72 /* SKSplashView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKSplashView/SKSplashView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7F858C45B52DEC64BD8262B403274C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C5A4CCB17F4363C61795F0C5A5FB8B /* RMActionController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RMActionController/RMActionController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		99DD1FB801E8538FCF159E812D0FC042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D6DB3D537A5C640FA1941A9D868BA72 /* SKSplashView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKSplashView/SKSplashView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAE0A8AB96674D010AFAA348FCF932FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
 			buildSettings = {
@@ -437,9 +686,26 @@
 			};
 			name = Debug;
 		};
+		BA2AE0DAC61F2ECEAA8F743DED4490B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		BA56A15AF38BEB8A3A1997F5FA970FD4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7524C8F48CB4B7AACF51F0F3EB543A0B /* PinterestAnimator.xcconfig */;
+			baseConfigurationReference = CEC0941BF0829BD455A19D5383D9F8EC /* PinterestAnimator.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PinterestAnimator/PinterestAnimator-prefix.pch";
@@ -540,6 +806,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		18D61D2FD1F647B2A0CCA830D754ADC1 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE0A8AB96674D010AFAA348FCF932FF /* Debug */,
+				BA2AE0DAC61F2ECEAA8F743DED4490B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -549,11 +824,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C07344155053FF36D3AD2C2E0B2B78C /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		3D44EEE4D60E89813A3AFF59232AF66E /* Build configuration list for PBXNativeTarget "RMActionController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6819A6E1D7DBEF6C974FAFEBEAA20C04 /* Debug */,
-				679EA8F2BB8A6040627212CA6D5C636B /* Release */,
+				7F858C45B52DEC64BD8262B403274C2E /* Debug */,
+				633D4EEE3CA6D9BB4BD744A4F2EAC76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A394554BE0589F70C42E79B4C3C1C00 /* Build configuration list for PBXNativeTarget "SKSplashView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DD1FB801E8538FCF159E812D0FC042 /* Debug */,
+				68FB7DDFD96F5CB8461D2E90A9208605 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

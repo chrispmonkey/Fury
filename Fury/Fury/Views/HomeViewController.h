@@ -10,11 +10,15 @@
 #import "FlatUIKit.h"
 #import "PSCollectionView.h"
 #import "SRRefreshView.h"
+#import "GHContextMenuView.h"
 
-@interface HomeViewController : UIViewController<UITextFieldDelegate, FUIAlertViewDelegate,UIScrollViewDelegate,PSCollectionViewDataSource,PSCollectionViewDelegate, SRRefreshDelegate>
+
+@interface HomeViewController : UIViewController<UITextFieldDelegate, FUIAlertViewDelegate,UIScrollViewDelegate,PSCollectionViewDataSource,PSCollectionViewDelegate, SRRefreshDelegate, GHContextOverlayViewDataSource, GHContextOverlayViewDelegate,UIAlertViewDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong,nonatomic) PSCollectionView *waterFLowView;
 @property (strong, nonatomic) SRRefreshView *slimeView;
+
+- (IBAction)menuButtonPressed:(id)sender;
 
 @end

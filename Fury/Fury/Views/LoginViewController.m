@@ -9,6 +9,8 @@
 #import "LoginViewController.h"
 #import <AVFoundation/AVFoundation.h>
 
+#import "SKSplashIcon.h"
+
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @interface LoginViewController ()
@@ -16,6 +18,8 @@
 @property (weak, nonatomic) IBOutlet UIView *movieView;
 @property (weak, nonatomic) IBOutlet UIView *gradientView;
 @property (weak, nonatomic) IBOutlet UIView *contentView;
+
+@property (strong, nonatomic) SKSplashView *splashView;
 
 @end
 
@@ -88,7 +92,44 @@ UITextField *activeField;
     
     [self registerForKeyboardNotifications];
 
+    [self furySplash];
 }
+
+#pragma mark - Custom Load Example
+
+- (void) customLoadSplash
+{
+    //Adding splash view
+    UIColor *customColor = [UIColor colorWithRed:168.0f/255.0f green:36.0f/255.0f blue:0.0f/255.0f alpha:1.0f];
+    _splashView = [[SKSplashView alloc] initWithBackgroundColor:customColor animationType:SKSplashAnimationTypeZoom];
+    _splashView.animationDuration = 3.0f;
+    _splashView.delegate = self;
+    //Adding activity indicator view on splash view
+//    _indicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+//    _indicatorView.frame = self.view.frame;
+    [self.view addSubview:_splashView];
+    //[self.view addSubview:_indicatorView];
+    [_splashView startAnimation];
+}
+
+#pragma mark - Twitter Example
+
+- (void) furySplash
+{
+    //Setting the background
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:self.view.frame];
+    imageView.image = [UIImage imageNamed:@"Fury Icon.png"];
+    //[self.view addSubview:imageView];
+    //Twitter style splash
+    SKSplashIcon *twitterSplashIcon = [[SKSplashIcon alloc] initWithImage:[UIImage imageNamed:@"clearFuryIcon.png"] animationType:SKIconAnimationTypeBounce];
+    UIColor *twitterColor = [UIColor whiteColor];//[UIColor colorWithRed:0.25098 green:0.6 blue:1.0 alpha:1.0];
+    _splashView = [[SKSplashView alloc] initWithSplashIcon:twitterSplashIcon backgroundColor:twitterColor animationType:SKSplashAnimationTypeNone];
+    _splashView.delegate = self; //Optional -> if you want to receive updates on animation beginning/end
+    _splashView.animationDuration = 3; //Optional -> set animation duration. Default: 1s
+    [self.view addSubview:_splashView];
+    [_splashView startAnimation];
+}
+
 
 -(UIStatusBarStyle)preferredStatusBarStyle{
     return UIStatusBarStyleLightContent;
@@ -248,4 +289,22 @@ UITextField *activeField;
 - (IBAction)privacyPolicyButtonPressed:(id)sender {
     NSLog(@"Privacy Policy Button Pressed");
 }
+
+#pragma mark - Delegate methods
+
+- (void) splashView:(SKSplashView *)splashView didBeginAnimatingWithDuration:(float)duration
+{
+    NSLog(@"Started animating from delegate");
+    //To start activity animation when splash animation starts
+    //[_indicatorView startAnimating];
+}
+
+- (void) splashViewDidEndAnimating:(SKSplashView *)splashView
+{
+    NSLog(@"Stopped animating from delegate");
+    //To stop activity animation when splash animation ends
+    //[_indicatorView stopAnimating];
+}
+
+
 @end

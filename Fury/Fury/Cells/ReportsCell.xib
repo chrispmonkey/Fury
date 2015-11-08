@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9058" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ReportsCell" id="iN0-l3-epB" customClass="ReportsCell">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reports1.png" translatesAutoresizingMaskIntoConstraints="NO" id="jyT-bK-2Xe">
+                    <rect key="frame" x="0.0" y="0.0" width="140" height="210"/>
+                    <animations/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYC-qU-4ve">
+                    <rect key="frame" x="0.0" y="240" width="140" height="60"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="dJS-WB-tgL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtr-oI-mGN">
+                    <rect key="frame" x="0.0" y="213" width="140" height="26"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="YP3-EF-g2a"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wtr-oI-mGN" firstAttribute="top" secondItem="jyT-bK-2Xe" secondAttribute="bottom" constant="3" id="2AZ-OT-g6k"/>
+                <constraint firstItem="wtr-oI-mGN" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="6M1-i6-6je"/>
+                <constraint firstItem="kYC-qU-4ve" firstAttribute="top" secondItem="wtr-oI-mGN" secondAttribute="bottom" constant="1" id="81Q-oz-tDT"/>
+                <constraint firstItem="kYC-qU-4ve" firstAttribute="leading" secondItem="wtr-oI-mGN" secondAttribute="leading" id="GNw-R1-eQ9"/>
+                <constraint firstItem="jyT-bK-2Xe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Q8J-Ha-OSU"/>
+                <constraint firstItem="wtr-oI-mGN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="SbZ-jc-NaJ"/>
+                <constraint firstItem="wtr-oI-mGN" firstAttribute="top" secondItem="jyT-bK-2Xe" secondAttribute="bottom" constant="3" id="e5u-pr-6Zo"/>
+                <constraint firstAttribute="trailing" secondItem="wtr-oI-mGN" secondAttribute="trailing" id="kBg-j2-fu3"/>
+                <constraint firstItem="jyT-bK-2Xe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="mzO-HJ-LdS"/>
+                <constraint firstAttribute="bottom" secondItem="kYC-qU-4ve" secondAttribute="bottom" id="oHs-MD-05A"/>
+                <constraint firstItem="jyT-bK-2Xe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uuY-Yk-cqL"/>
+                <constraint firstItem="kYC-qU-4ve" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vJW-K3-TCa"/>
+                <constraint firstAttribute="trailing" secondItem="jyT-bK-2Xe" secondAttribute="trailing" id="x4P-3y-us7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="reportDescription" destination="kYC-qU-4ve" id="Nhy-OR-tqI"/>
+                <outlet property="reportImage" destination="jyT-bK-2Xe" id="HIn-vd-A50"/>
+                <outlet property="reportTitle" destination="wtr-oI-mGN" id="iW3-ms-A4R"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="reports1.png" width="525" height="380"/>
+    </resources>
+</document>
