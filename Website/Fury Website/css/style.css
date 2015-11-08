@@ -987,8 +987,108 @@ SPOTLIGHT 2
 ================================================================== */
 
 #spotlight2{
-	text-align: left;
+	text-align: center;
 	height: 530px;
+	overflow: hidden;
+}
+
+.spotlight-features li{
+	margin-bottom: 20px;
+}
+
+.hi-icon-2-wrap {
+	text-align: center;
+	margin: 0 auto;
+	margin-right: 15px;
+	padding: 10px;
+	display: inline-block;
+	float: left;
+}
+
+.hi-icon-2 {
+	display: inline-block;
+	font-size: 0px;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	color: #818a90;
+}
+
+.hi-icon-2:after {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	content: '';
+	-webkit-box-sizing: content-box; 
+	-moz-box-sizing: content-box; 
+	box-sizing: content-box;
+}
+
+.hi-icon-2:before {
+	font-family: 'ElegantIcons';
+	speak: none;
+	font-size: 25px;
+	line-height: 50px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	display: block;
+	-webkit-font-smoothing: antialiased;
+}
+
+.hi-icon-2-effect .hi-icon-2 {
+	box-shadow: 0 0 0 2px #ddd;
+}
+
+.spotlight-features li:hover .hi-icon-2 {
+	color: #fff;
+}
+
+.spotlight-features li:hover p strong {
+	text-transform: none;
+}
+
+.spotlight-features li:hover .hi-icon-2:before {
+	-webkit-animation: spinAround 2s linear infinite;
+	   -moz-animation: spinAround 2s linear infinite;
+		 -o-animation: spinAround 2s linear infinite;
+		-ms-animation: spinAround 2s linear infinite;
+			animation: spinAround 2s linear infinite;
+}
+		
+.spotlight-link{
+	border-color: #4E565D; 
+	background: none;
+	font-size: 14px;
+	padding: 10px 20px;
+	color: #4E565D;
+	text-shadow: none;
+	margin-top: 20px;
+}
+
+.spotlight-link:hover{
+	color: #fff;
+}
+
+.spot2-img{
+	float: left;
+	width: 85%;
+}
+
+/* ==================================================================
+SPOTLIGHT 3
+================================================================== */
+
+#spotlight3{
+	text-align: left;
+	height: 700px;
 	overflow: hidden;
 }
 
