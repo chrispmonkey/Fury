@@ -588,7 +588,7 @@
 
 - (IBAction)menuButtonPressed:(id)sender {
     // Bring up a pop up that filter lawyers by their specialty
-    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Choose a category for quick search." message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Choose a category to filter results." message:nil preferredStyle:UIAlertControllerStyleActionSheet];
     
     [alert addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:nil]];
     [alert addAction:[UIAlertAction actionWithTitle:@"All" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
