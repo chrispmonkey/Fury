@@ -97,3 +97,6 @@ Feel free to combine any and all of these roles! You are not required to fill th
 
 #App Views
 ![alt text](https://github.com/chrispmonkey/Fury/blob/master/Design%20Elements/FuryloginScreen.gif "Login Screen for Fury")
+![alt text](https://github.com/chrispmonkey/Fury/blob/master/Website/Fury%20Website/images/mockup_2a.png "Login Screen for Fury")
+![alt text](https://github.com/chrispmonkey/Fury/blob/master/Website/Fury%20Website/images/mockup_2b.png "Login Screen for Fury")
+![alt text](https://github.com/chrispmonkey/Fury/blob/master/Website/Fury%20Website/images/mockup_2c.png"Login Screen for Fury")
