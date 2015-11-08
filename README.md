@@ -1,6 +1,6 @@
 # Fury
 
-![alt text](https://github.com/chrispmonkey/Fury/blob/master/Website/Fury%20Website/images/fury_logo.png "Fury Logo")
+![alt text](https://github.com/chrispmonkey/Fury/blob/master/Design%20Elements/Screen%20Shot%202015-11-07%20at%2010.58.16%20PM.png "Fury Logo")
 
 ##hACTOthon Project
 
