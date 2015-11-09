@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FlatUIKit.h"
+#import <MessageUI/MessageUI.h>
 
-@interface SettingsTableViewController : UITableViewController
+@interface SettingsTableViewController : UITableViewController<FUIAlertViewDelegate, MFMailComposeViewControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *settingsIconImageView;
-@property (weak, nonatomic) IBOutlet UILabel *description;
-@property (weak, nonatomic) IBOutlet UILabel *title;
 @end

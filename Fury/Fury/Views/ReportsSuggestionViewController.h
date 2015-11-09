@@ -7,8 +7,11 @@
 //
 
 #import <ParallaxBlur/JPBFloatingTextViewController.h>
+#import <SafariServices/SafariServices.h>
+#import <MessageUI/MessageUI.h>
+#import "FlatUIKit.h"
 
-@interface ReportsSuggestionViewController : JPBFloatingTextViewController
+@interface ReportsSuggestionViewController : JPBFloatingTextViewController<SFSafariViewControllerDelegate, MFMailComposeViewControllerDelegate, MFMessageComposeViewControllerDelegate, FUIAlertViewDelegate>
 
 @property (strong, nonatomic) NSString *header;
 @property (strong, nonatomic) NSString *subtitle;

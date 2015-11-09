@@ -22,6 +22,7 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.tableView.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,13 +33,105 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    return 4;
+}
+
+- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"You selected row: %ld", (long)indexPath.row);
+    
+    if (indexPath.row == 1) {
+        // present web browser view with url of site
+        NSLog(@"Add edit utilization goal selected");
+        //UINavigationController *navController;
+        FUIAlertView * betaAlert =[[FUIAlertView alloc ] initWithTitle:@"Sorry 😢"
+                                                               message:@"This function is not available in Beta."
+                                                              delegate:self
+                                                     cancelButtonTitle:@"OK"
+                                                     otherButtonTitles: nil];
+        betaAlert.tag = 101;
+        betaAlert.titleLabel.textColor = [UIColor silverColor];
+        betaAlert.titleLabel.font = [UIFont boldFlatFontOfSize:16];
+        betaAlert.messageLabel.textColor = [UIColor silverColor];
+        betaAlert.messageLabel.font = [UIFont flatFontOfSize:14];
+        betaAlert.backgroundOverlay.backgroundColor = [[UIColor silverColor] colorWithAlphaComponent:0.8];
+        betaAlert.alertContainer.backgroundColor = [UIColor pomegranateColor];
+        betaAlert.defaultButtonColor = [UIColor silverColor];
+        betaAlert.defaultButtonShadowColor = [UIColor asbestosColor];
+        betaAlert.defaultButtonFont = [UIFont boldFlatFontOfSize:16];
+        betaAlert.defaultButtonTitleColor = [UIColor asbestosColor];
+        
+        [betaAlert show];
+
+    }if (indexPath.row == 2) {
+        NSLog(@"Add edit customers selected");
+        //UINavigationController *navController;
+        FUIAlertView * betaAlert =[[FUIAlertView alloc ] initWithTitle:@"Sorry 😢"
+                                                               message:@"This function is not available in Beta."
+                                                              delegate:self
+                                                     cancelButtonTitle:@"OK"
+                                                     otherButtonTitles: nil];
+        betaAlert.tag = 101;
+        betaAlert.titleLabel.textColor = [UIColor silverColor];
+        betaAlert.titleLabel.font = [UIFont boldFlatFontOfSize:16];
+        betaAlert.messageLabel.textColor = [UIColor silverColor];
+        betaAlert.messageLabel.font = [UIFont flatFontOfSize:14];
+        betaAlert.backgroundOverlay.backgroundColor = [[UIColor silverColor] colorWithAlphaComponent:0.8];
+        betaAlert.alertContainer.backgroundColor = [UIColor pomegranateColor];
+        betaAlert.defaultButtonColor = [UIColor silverColor];
+        betaAlert.defaultButtonShadowColor = [UIColor asbestosColor];
+        betaAlert.defaultButtonFont = [UIFont boldFlatFontOfSize:16];
+        betaAlert.defaultButtonTitleColor = [UIColor asbestosColor];
+        
+        [betaAlert show];
+    }if (indexPath.row == 3) {
+        // present article summary
+        NSLog(@"Favorites selected");
+        //UINavigationController *navController;
+        FUIAlertView * betaAlert =[[FUIAlertView alloc ] initWithTitle:@"Sorry 😢"
+                                                                      message:@"This function is not available in Beta."
+                                                                     delegate:self
+                                                            cancelButtonTitle:@"OK"
+                                                            otherButtonTitles: nil];
+        betaAlert.tag = 101;
+        betaAlert.titleLabel.textColor = [UIColor silverColor];
+        betaAlert.titleLabel.font = [UIFont boldFlatFontOfSize:16];
+        betaAlert.messageLabel.textColor = [UIColor silverColor];
+        betaAlert.messageLabel.font = [UIFont flatFontOfSize:14];
+        betaAlert.backgroundOverlay.backgroundColor = [[UIColor silverColor] colorWithAlphaComponent:0.8];
+        betaAlert.alertContainer.backgroundColor = [UIColor pomegranateColor];
+        betaAlert.defaultButtonColor = [UIColor silverColor];
+        betaAlert.defaultButtonShadowColor = [UIColor asbestosColor];
+        betaAlert.defaultButtonFont = [UIFont boldFlatFontOfSize:16];
+        betaAlert.defaultButtonTitleColor = [UIColor asbestosColor];
+        
+        [betaAlert show];
+    }if (indexPath.row == 4)
+    {
+        NSLog(@"Contact us selected");
+        // Share link to news article via email
+        if ([MFMailComposeViewController canSendMail]) {
+            
+            MFMailComposeViewController *mail = [[MFMailComposeViewController alloc] init];
+            mail.mailComposeDelegate = self;
+            [mail setSubject:@"Feedback/Support about Fury"];
+            [mail setMessageBody:@"\n\n\nSent from Fury" isHTML:NO];
+            [mail setToRecipients:@[@""]];
+            
+            [self presentViewController:mail animated:YES completion:NULL];
+        }
+        else
+        {
+            NSLog(@"This device cannot send email");
+        }
+
+    }
+
+
 }
 
 /*
@@ -94,5 +187,28 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
+{
+    switch (result) {
+        case MFMailComposeResultSent:
+            NSLog(@"You sent the email.");
+            break;
+        case MFMailComposeResultSaved:
+            NSLog(@"You saved a draft of this email");
+            break;
+        case MFMailComposeResultCancelled:
+            NSLog(@"You cancelled sending this email.");
+            break;
+        case MFMailComposeResultFailed:
+            NSLog(@"Mail failed:  An error occurred when trying to compose this email");
+            break;
+        default:
+            NSLog(@"An error occurred when trying to compose this email");
+            break;
+    }
+    
+    [self dismissViewControllerAnimated:YES completion:NULL];
+}
 
 @end

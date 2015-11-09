@@ -265,7 +265,7 @@ UITextField *activeField;
 
 - (IBAction)loginButtonPressed:(id)sender {
     NSLog(@"Login Button Pressed");
-    //[self loginAndGetData];
+    [self loginAndGetData];
 }
 
 - (void) loginAndGetData

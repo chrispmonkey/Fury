@@ -94,6 +94,8 @@
 		A763153A1BF05B1000194621 /* SelectedCellTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76315391BF05B1000194621 /* SelectedCellTableViewController.m */; };
 		A763153E1BF05FCB00194621 /* SelectedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A763153C1BF05FCB00194621 /* SelectedTableViewCell.m */; };
 		A763153F1BF05FCB00194621 /* SelectedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A763153D1BF05FCB00194621 /* SelectedTableViewCell.xib */; };
+		A76315431BF09DBD00194621 /* ViewReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76315421BF09DBD00194621 /* ViewReportViewController.m */; };
+		A76315461BF0BE2A00194621 /* ViewVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76315451BF0BE2A00194621 /* ViewVideoViewController.m */; };
 		A7A3D0741BEAE8640083274D /* xx.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A7A3D0731BEAE8640083274D /* xx.mp4 */; };
 		A7A3D07B1BEAEA9C0083274D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D07A1BEAEA9C0083274D /* LoginViewController.m */; };
 		A7A3D0AB1BEAEAE40083274D /* FUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D0811BEAEAE40083274D /* FUIAlertView.m */; };
@@ -302,6 +304,10 @@
 		A763153B1BF05FCB00194621 /* SelectedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectedTableViewCell.h; path = Fury/Cells/SelectedTableViewCell.h; sourceTree = SOURCE_ROOT; };
 		A763153C1BF05FCB00194621 /* SelectedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectedTableViewCell.m; path = Fury/Cells/SelectedTableViewCell.m; sourceTree = SOURCE_ROOT; };
 		A763153D1BF05FCB00194621 /* SelectedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SelectedTableViewCell.xib; path = Fury/Cells/SelectedTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		A76315411BF09DBD00194621 /* ViewReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewReportViewController.h; sourceTree = "<group>"; };
+		A76315421BF09DBD00194621 /* ViewReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewReportViewController.m; sourceTree = "<group>"; };
+		A76315441BF0BE2A00194621 /* ViewVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewVideoViewController.h; sourceTree = "<group>"; };
+		A76315451BF0BE2A00194621 /* ViewVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewVideoViewController.m; sourceTree = "<group>"; };
 		A7A3D0731BEAE8640083274D /* xx.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = xx.mp4; sourceTree = "<group>"; };
 		A7A3D0791BEAEA9C0083274D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		A7A3D07A1BEAEA9C0083274D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
@@ -656,6 +662,8 @@
 		A7A3D0781BEAEA9C0083274D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A76315441BF0BE2A00194621 /* ViewVideoViewController.h */,
+				A76315451BF0BE2A00194621 /* ViewVideoViewController.m */,
 				A7A3D0791BEAEA9C0083274D /* LoginViewController.h */,
 				A7A3D07A1BEAEA9C0083274D /* LoginViewController.m */,
 				A7A3D0DB1BEAFCCA0083274D /* ProfileViewController.h */,
@@ -682,6 +690,8 @@
 				A763153B1BF05FCB00194621 /* SelectedTableViewCell.h */,
 				A763153C1BF05FCB00194621 /* SelectedTableViewCell.m */,
 				A763153D1BF05FCB00194621 /* SelectedTableViewCell.xib */,
+				A76315411BF09DBD00194621 /* ViewReportViewController.h */,
+				A76315421BF09DBD00194621 /* ViewReportViewController.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1156,8 +1166,10 @@
 				A7A3D0AD1BEAEAE40083274D /* FUICellBackgroundView.m in Sources */,
 				A733558D1BEADEC000933E8B /* AEIdfaProvider.m in Sources */,
 				A7A3D0BA1BEAEAE40083274D /* UIStepper+FlatUI.m in Sources */,
+				A76315431BF09DBD00194621 /* ViewReportViewController.m in Sources */,
 				A759188C1BEB46050022F75E /* SRSlimeView.m in Sources */,
 				A7F1777B1BE95FCF00EF4671 /* AppDelegate.m in Sources */,
+				A76315461BF0BE2A00194621 /* ViewVideoViewController.m in Sources */,
 				A763146A1BEC7B7200194621 /* HeaderView.m in Sources */,
 				A76314D11BEE337F00194621 /* NewsCell.m in Sources */,
 				A763153E1BF05FCB00194621 /* SelectedTableViewCell.m in Sources */,

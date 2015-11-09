@@ -12,4 +12,10 @@
 @interface SignUpViewController : UIViewController<UITextFieldDelegate, FUIAlertViewDelegate>
 
 - (IBAction)backButtonPressed:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *emailTextField;
+@property (weak, nonatomic) IBOutlet UITextField *usernameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
+@property (weak, nonatomic) IBOutlet UITextField *phoneNumberTextField;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+- (IBAction)signUpButtonPressed:(id)sender;
 @end
