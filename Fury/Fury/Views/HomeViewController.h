@@ -11,9 +11,9 @@
 #import "PSCollectionView.h"
 #import "SRRefreshView.h"
 #import "GHContextMenuView.h"
+#import <MessageUI/MessageUI.h>
 
-
-@interface HomeViewController : UIViewController<UITextFieldDelegate, FUIAlertViewDelegate,UIScrollViewDelegate,PSCollectionViewDataSource,PSCollectionViewDelegate, SRRefreshDelegate, GHContextOverlayViewDataSource, GHContextOverlayViewDelegate,UIAlertViewDelegate>
+@interface HomeViewController : UIViewController<UITextFieldDelegate, FUIAlertViewDelegate,UIScrollViewDelegate,PSCollectionViewDataSource,PSCollectionViewDelegate, SRRefreshDelegate, GHContextOverlayViewDataSource, GHContextOverlayViewDelegate,UIAlertViewDelegate, MFMailComposeViewControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong,nonatomic) PSCollectionView *waterFLowView;

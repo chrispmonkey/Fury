@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6E1EA0A16201280CB6FC3E04'
+               BlueprintIdentifier = '5AABBF2ABBC0B7EAA7B9CCA3'
                BlueprintName = 'PinterestAnimator'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPinterestAnimator.a'>

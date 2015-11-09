@@ -11,7 +11,7 @@
             <rect key="frame" x="0.0" y="0.0" width="140" height="300"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reports1.png" translatesAutoresizingMaskIntoConstraints="NO" id="jyT-bK-2Xe">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultReports.png" translatesAutoresizingMaskIntoConstraints="NO" id="jyT-bK-2Xe">
                     <rect key="frame" x="0.0" y="0.0" width="140" height="210"/>
                     <animations/>
                 </imageView>
@@ -55,13 +55,13 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="reportDescription" destination="kYC-qU-4ve" id="Nhy-OR-tqI"/>
-                <outlet property="reportImage" destination="jyT-bK-2Xe" id="HIn-vd-A50"/>
-                <outlet property="reportTitle" destination="wtr-oI-mGN" id="iW3-ms-A4R"/>
+                <outlet property="reportDescription" destination="kYC-qU-4ve" id="gLS-qB-wVB"/>
+                <outlet property="reportImage" destination="jyT-bK-2Xe" id="sDM-e7-NBm"/>
+                <outlet property="reportTitle" destination="wtr-oI-mGN" id="3u3-3m-R0U"/>
             </connections>
         </view>
     </objects>
     <resources>
-        <image name="reports1.png" width="525" height="380"/>
+        <image name="defaultReports.png" width="525" height="380"/>
     </resources>
 </document>

@@ -21,7 +21,7 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="news1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="H6S-F8-VM7">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultNews.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="H6S-F8-VM7">
                     <rect key="frame" x="0.0" y="0.0" width="140" height="210"/>
                     <animations/>
                 </imageView>
@@ -56,12 +56,12 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="image" destination="H6S-F8-VM7" id="MLw-a6-4lQ"/>
-                <outlet property="newsDescription" destination="iFD-Qb-DzK" id="6jV-gz-HV7"/>
+                <outlet property="newsDescription" destination="iFD-Qb-DzK" id="jlr-4f-weg"/>
                 <outlet property="title" destination="7sK-Fp-BwW" id="Gao-Cq-gKi"/>
             </connections>
         </view>
     </objects>
     <resources>
-        <image name="news1.jpg" width="1200" height="630"/>
+        <image name="defaultNews.jpg" width="1677" height="1145"/>
     </resources>
 </document>

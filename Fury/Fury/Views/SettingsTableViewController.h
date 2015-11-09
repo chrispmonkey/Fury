@@ -11,4 +11,6 @@
 @interface SettingsTableViewController : UITableViewController
 
 @property (weak, nonatomic) IBOutlet UIImageView *settingsIconImageView;
+@property (weak, nonatomic) IBOutlet UILabel *description;
+@property (weak, nonatomic) IBOutlet UILabel *title;
 @end

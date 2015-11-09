@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9058" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="AdministrationCell" id="iN0-l3-epB" customClass="AdministrationCell">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFD-Qb-DzK">
+                    <rect key="frame" x="0.0" y="240" width="140" height="60"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="5Jy-BY-aQ8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultAdministration.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="H6S-F8-VM7">
+                    <rect key="frame" x="0.0" y="0.0" width="140" height="210"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sK-Fp-BwW">
+                    <rect key="frame" x="0.0" y="213" width="140" height="26"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="dzG-lP-zqn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="H6S-F8-VM7" secondAttribute="trailing" id="1J2-3k-p4D"/>
+                <constraint firstItem="iFD-Qb-DzK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3ad-iS-gb3"/>
+                <constraint firstItem="H6S-F8-VM7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8Zt-xa-8Zo"/>
+                <constraint firstItem="7sK-Fp-BwW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ml5-gW-8jl"/>
+                <constraint firstItem="iFD-Qb-DzK" firstAttribute="top" secondItem="7sK-Fp-BwW" secondAttribute="bottom" constant="1" id="N3A-Gy-94V"/>
+                <constraint firstItem="H6S-F8-VM7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="QmU-ad-0jN"/>
+                <constraint firstItem="7sK-Fp-BwW" firstAttribute="top" secondItem="H6S-F8-VM7" secondAttribute="bottom" constant="3" id="RlZ-o6-pY3"/>
+                <constraint firstItem="iFD-Qb-DzK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="SmD-nK-ZHh"/>
+                <constraint firstAttribute="bottom" secondItem="iFD-Qb-DzK" secondAttribute="bottom" id="UXG-cT-Rtr"/>
+                <constraint firstAttribute="trailing" secondItem="7sK-Fp-BwW" secondAttribute="trailing" id="jO8-13-MC3"/>
+                <constraint firstItem="H6S-F8-VM7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qcY-JH-ggc"/>
+                <constraint firstAttribute="trailing" secondItem="iFD-Qb-DzK" secondAttribute="trailing" id="yG3-9S-nsA"/>
+                <constraint firstItem="7sK-Fp-BwW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yv7-WF-fMf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="administrationDescription" destination="iFD-Qb-DzK" id="WfR-Ue-89n"/>
+                <outlet property="administrationImage" destination="H6S-F8-VM7" id="gHM-If-dpJ"/>
+                <outlet property="administrationTitle" destination="7sK-Fp-BwW" id="WGJ-dr-TVn"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="defaultAdministration.jpg" width="209" height="314"/>
+    </resources>
+</document>

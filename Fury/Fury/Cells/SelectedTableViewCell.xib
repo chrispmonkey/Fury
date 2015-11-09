@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9058" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="SelectedCellTableCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="SelectedCellTableCell" rowHeight="65" id="KGk-i7-Jjw" customClass="SelectedTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="607" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="607" height="64.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tinyFuryIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="kv0-Pd-wEd">
+                        <rect key="frame" x="8" y="5" width="55" height="55"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="kv0-Pd-wEd" secondAttribute="height" multiplier="1:1" id="BKX-S7-Pz2"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12 Customers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3xN-Kr-eC8">
+                        <rect key="frame" x="63" y="22" width="521" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="OMn-SQ-g3b"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add/Edit Customers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LN6-WN-ljJ">
+                        <rect key="frame" x="63" y="5" width="521" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="aEP-hg-FlI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="LN6-WN-ljJ" secondAttribute="trailing" constant="15" id="0z4-3O-oUd"/>
+                    <constraint firstItem="kv0-Pd-wEd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="5tF-qH-Kuc"/>
+                    <constraint firstItem="3xN-Kr-eC8" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="F7o-YI-Txg"/>
+                    <constraint firstItem="kv0-Pd-wEd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-3" id="IGa-7t-ybB"/>
+                    <constraint firstItem="kv0-Pd-wEd" firstAttribute="width" secondItem="kv0-Pd-wEd" secondAttribute="height" multiplier="1:1" id="J4B-l4-tZs"/>
+                    <constraint firstItem="3xN-Kr-eC8" firstAttribute="centerY" secondItem="kv0-Pd-wEd" secondAttribute="centerY" id="SZi-4S-Cyp"/>
+                    <constraint firstItem="kv0-Pd-wEd" firstAttribute="width" secondItem="kv0-Pd-wEd" secondAttribute="height" multiplier="1:1" id="VhU-La-dmC"/>
+                    <constraint firstItem="LN6-WN-ljJ" firstAttribute="leading" secondItem="kv0-Pd-wEd" secondAttribute="trailing" id="ZHM-Bh-YuC"/>
+                    <constraint firstItem="3xN-Kr-eC8" firstAttribute="leading" secondItem="kv0-Pd-wEd" secondAttribute="trailing" id="bIf-93-Is5"/>
+                    <constraint firstItem="LN6-WN-ljJ" firstAttribute="top" secondItem="kv0-Pd-wEd" secondAttribute="top" id="rkz-W7-xhg"/>
+                    <constraint firstItem="3xN-Kr-eC8" firstAttribute="trailing" secondItem="LN6-WN-ljJ" secondAttribute="trailing" id="zdK-ew-k9v"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="description" destination="LN6-WN-ljJ" id="Bgv-bz-nhj"/>
+                <outlet property="icon" destination="kv0-Pd-wEd" id="WHC-GL-fn9"/>
+                <outlet property="title" destination="3xN-Kr-eC8" id="foO-8d-akV"/>
+            </connections>
+            <point key="canvasLocation" x="472.5" y="350.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="tinyFuryIcon.png" width="100" height="100"/>
+    </resources>
+</document>

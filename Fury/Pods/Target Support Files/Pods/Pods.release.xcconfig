@@ -1,5 +1,5 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/PinterestAnimator" "${PODS_ROOT}/Headers/Public/RMActionController" "${PODS_ROOT}/Headers/Public/SKSplashView"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/PinterestAnimator" -isystem "${PODS_ROOT}/Headers/Public/RMActionController" -isystem "${PODS_ROOT}/Headers/Public/SKSplashView"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"PinterestAnimator" -l"RMActionController" -l"SKSplashView" -framework "CoreGraphics" -framework "Foundation" -framework "QuartzCore" -framework "UIKit"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FXBlurView" "${PODS_ROOT}/Headers/Public/ParallaxBlur" "${PODS_ROOT}/Headers/Public/PinterestAnimator" "${PODS_ROOT}/Headers/Public/SKSplashView"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FXBlurView" -isystem "${PODS_ROOT}/Headers/Public/ParallaxBlur" -isystem "${PODS_ROOT}/Headers/Public/PinterestAnimator" -isystem "${PODS_ROOT}/Headers/Public/SKSplashView"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FXBlurView" -l"ParallaxBlur" -l"PinterestAnimator" -l"SKSplashView" -framework "Accelerate" -framework "CoreGraphics" -framework "Foundation" -framework "QuartzCore" -framework "UIKit"
 PODS_ROOT = ${SRCROOT}/Pods

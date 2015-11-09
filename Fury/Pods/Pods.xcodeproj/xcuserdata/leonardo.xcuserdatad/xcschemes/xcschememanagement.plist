@@ -4,17 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>FXBlurView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ParallaxBlur.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>PinterestAnimator.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>RMActionController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>17392667E38E4938ACA525E988BB433B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4A36DF61FE5C0CA56F8CB759777DE0D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>58BD745CB330DF932495744759B952FE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BA2D06A921ADAAFCDF28C5AC1C90FEAF</key>
+		<key>7461EF46E02F2850D6A84A8544063CCB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E7DDDE6E85085A39EE52BC6E1E315A90</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EE679A3BFDABA93AA7301487F954C4E8</key>
+		<key>A725317DA3559E400BEB75D79AD72638</key>
 		<dict>
 			<key>primary</key>
 			<true/>

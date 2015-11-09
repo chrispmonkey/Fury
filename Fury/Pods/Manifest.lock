@@ -1,16 +1,19 @@
 PODS:
+  - FXBlurView (1.6.4)
+  - ParallaxBlur (0.1.4):
+    - FXBlurView (~> 1.6.2)
   - PinterestAnimator (0.2)
-  - RMActionController (1.0.4)
   - SKSplashView (0.1.1)
 
 DEPENDENCIES:
+  - ParallaxBlur
   - PinterestAnimator
-  - RMActionController (~> 1.0.4)
   - SKSplashView
 
 SPEC CHECKSUMS:
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  ParallaxBlur: 352a49c2319b41f3b334456815089afb1220b799
   PinterestAnimator: bebbb6d25e8f851c5e545a462838d8943ae84b01
-  RMActionController: 19423654600d40ca15132a4e548d005042d68f09
   SKSplashView: 9cca64e4f0eb556b938b41f63879844124f1aa2c
 
 COCOAPODS: 0.39.0

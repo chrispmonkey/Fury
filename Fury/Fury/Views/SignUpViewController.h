@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "FlatUIKit.h"
-#import "RMActionController.h"
 
 @interface SignUpViewController : UIViewController<UITextFieldDelegate, FUIAlertViewDelegate>
 

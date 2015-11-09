@@ -7,157 +7,182 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FB03CBD1E3C9759FD71C5C5377BD37E /* XHWaterfallCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8F6890E12198D607F4CBB9BF98B6D3 /* XHWaterfallCollectionViewCell.m */; };
-		11D7D706A15C7EACB3A5A02CF850729E /* XHWaterfallViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CD6622E9B0512EED7F430A24691B22 /* XHWaterfallViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1413F25B5857D9E66862BECD26C5C65B /* XHPinterestPushTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9F6804DF8E24808DF72D61B39ABB36 /* XHPinterestPushTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1488043E1CEF3F35FD2110DA6133C0C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */; };
-		24F231A0BBE18B1D3C357E03C60F4EE6 /* UIView+XHViewFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE6F978E149BD4FA97122EF09DA4D3A /* UIView+XHViewFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27E4F102F2EFFEE34D5F388A35AF72B9 /* UICollectionView+XHIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5C0EE2E6122DBF1E11BFF944423FE1 /* UICollectionView+XHIndexPath.m */; };
-		2A663E84BD267DBCE241DB66F49F35DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */; };
-		2E697925495E0F3F1B99C647F22A4A5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */; };
-		3C03F72FF70A9A7D6E862066B297DDCF /* SKSplashIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BCD96EB34378DD39597D2084AC490F /* SKSplashIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E29071065C05526D1A7A3ED8C632470 /* XHHorizontalPageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 626F0B28A04677B3D628103CC2FAD556 /* XHHorizontalPageViewCell.m */; };
-		428F4F9491613AEA2E411449F1975F63 /* SKSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF27273BAD18FBED1BBABC9FED89974 /* SKSplashView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C08D6B15F7173253AAD5D8266D1F4DE /* XHWaterfallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DCD7831ED521AAB182D7A84C8A2EE0 /* XHWaterfallViewController.m */; };
-		4CC3F81016B3F8E159D17C41B0C3FEB3 /* XHWaterfallContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16616CC11A999A319E09A5818CA42F3C /* XHWaterfallContainerView.m */; };
-		4E3F31F1111B8D4404D0447B3D98004E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
-		5155CE1476D67A29DF0E2CA70C255D2B /* XHPinterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D32162E9754CBEA12EB84E73C4024E /* XHPinterest.m */; };
-		538DA56847DF94DB0A45092DD25C509C /* XHBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DAA1846DCB4E4066F8344C8517CE0 /* XHBaseCollectionViewController.m */; };
-		55B8E494E392AC74B9E98D1F50E7BBB9 /* UICollectionView+XHIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = A449451B272CC3CBFF4F85D9BC330230 /* UICollectionView+XHIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B33616D2AB07E70FDE2CA52BD7DA967 /* PinterestAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FAD7E316F79FE2A168DE00B5C772BC /* PinterestAnimator-dummy.m */; };
-		5D230304E691A46A94B95A2917D7EADF /* XHNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FF3C2D470A478F7E06730380AA3B5C /* XHNavigationControllerDelegate.m */; };
-		5E2394E7F843D62054FBDBBAA907B161 /* XHPinterestTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A8E14C28052FCFE47253BBA6A30352B /* XHPinterestTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CB3A5FC7BDC77CCEE3BC80BAF3C7756 /* XHBaseCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 281AD9BD14B0C0C1129F4D9E23C1F7FA /* XHBaseCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CCA27F0D72AF0637CEBD78CFBC3DFA6 /* XHPinterestPopTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = EB892EF2927404A13313444270F49746 /* XHPinterestPopTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E94AE71801E47FCF31B36F0203DEED1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */; };
-		731C7C2EBDF35CEB815AEF3D0C1405C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
-		73F7366099C6C058B9CD8A6F4719CF7B /* SKSplashIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BC6758F4FFDE0715B29EE0A29560C6 /* SKSplashIcon.m */; };
-		7CE0B51AD0D5DD8E553D49DC6B19A601 /* XHUIKitMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 7709D6B4B432AA865D55124360979B04 /* XHUIKitMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80BF2ADF465E600E5E3040B6D45C8FDB /* XHPinterestPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9FF46931893A35FF3FFEB5D97E358 /* XHPinterestPushTransition.m */; };
-		817D95F9925FA4C24E3871364EDC132B /* UIView+XHViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A815A350C31FD0CDE17D0A54D767C4BB /* UIView+XHViewFrame.m */; };
-		849AE276861A6DDB657FEE7F1BE9607E /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B1242716A336CD31C7D698FDFE709D /* CHTCollectionViewWaterfallLayout.m */; };
-		8C963FD2C2905100F1B1E1A1EF2B158F /* XHPinterestPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BFC26385AA80AC33716D9120CC6A73 /* XHPinterestPopTransition.m */; };
-		938BC0EDEA05EB6E8CCEF428EDDB5CF9 /* XHTransitionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BF91D060C32584C50150BE287698A575 /* XHTransitionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98B3198A7610441D3991BFA76E747522 /* CHTCollectionViewWaterfallLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A02A8CD342D67BCFCEC16FC8C79AE482 /* CHTCollectionViewWaterfallLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E2868693609002A8200A295C9733CE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
-		AA3CBCCB77929B675A3A69E87D59D841 /* XHNavigationControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 45315CD8954BD4B48D091A0EEF1315E8 /* XHNavigationControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABC04BAA43AC46882E96EDE436E8C145 /* XHPinterestTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEDE73BB7C4B412C7E988D3A81FCD6 /* XHPinterestTransition.m */; };
-		ABC44E0E4640CAD388945D4C85127EE9 /* RMActionController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE67C6CC47CD5701BB95B33FC8A7B8 /* RMActionController-dummy.m */; };
-		B634B1C1EC640A399E36BD11E3927ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
-		C3670B2B74DB3FBEF834E8DE0CD6F77B /* XHHorizontalPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A5245EBF423943E4D362929C2573CF /* XHHorizontalPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4F10BB3A0C5ED535D6CEE3189AC6767 /* SKSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFEB64F8779936E3AC918BC4F325F3 /* SKSplashView.m */; };
-		C6AE0561F4A416646A0B9CD995229D88 /* XHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F562B1A6AB365D9D4E48F56562EBD5 /* XHNavigationController.m */; };
-		C83AC69EF08E90FF6A5BDAB1676ACA8C /* XHWaterfallContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8758B21175BF1D9BC4367C28748D2E /* XHWaterfallContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA07AAA6B8163D6A0E5CFA43B4FD957E /* RMActionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EF54849A2CA2EB5ADD82A2268EB53D /* RMActionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0F3EC6DE0CF63E1E57A68C8ABA88646 /* XHHorizontalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4801B98693FE21399C0181A724BCADCC /* XHHorizontalPageViewController.m */; };
-		D4345474911731D58270E9977F55AE55 /* XHHorizontalPageViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2DE7BB2B0695D10896A94073D1B6D4 /* XHHorizontalPageViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDE131562D17C5B104DE7260A1B6A4D0 /* XHWaterfallCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F9FDFD5B42D86573E133D94E65667784 /* XHWaterfallCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE67F476582F2AD4C0E1AEEA24ECEB28 /* RMActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B37E4C554562BEB142994DC1F0C7F62 /* RMActionController.m */; };
-		F15395E2300E6D8816B2EE31B8DFB033 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		F19636BFCBAA9652EB94E7033B1C0315 /* XHPinterest.h in Headers */ = {isa = PBXBuildFile; fileRef = F67B24A72B7D5245FE7DEB0D19E467B8 /* XHPinterest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F22392213990FE1934522B600593F331 /* XHNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 42887C25467736AD5806FFB7C59E1A25 /* XHNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F93633C031453A3A7A2400964010B465 /* SKSplashView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3F8F19C437253A7FF41085DF12741C /* SKSplashView-dummy.m */; };
+		0345F675D78B39CD2CFDF2FF709F4772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4574E22861DA10BA7FB8D8B840D83A0D /* Foundation.framework */; };
+		0FB03CBD1E3C9759FD71C5C5377BD37E /* XHWaterfallCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A369F513DBBCF83A92A46361896463 /* XHWaterfallCollectionViewCell.m */; };
+		11D7D706A15C7EACB3A5A02CF850729E /* XHWaterfallViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8B43B2AF63AE8CD8D2A5D3B0DA74AD /* XHWaterfallViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1413F25B5857D9E66862BECD26C5C65B /* XHPinterestPushTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 934B083C517A520AFAEBF67950FD48A0 /* XHPinterestPushTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1455697ECC2DF6C0564762F61655CECA /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B5887E314F829737DE7302F5F0F9BC /* FXBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1488043E1CEF3F35FD2110DA6133C0C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB473778DE118FABEDC6DD18FE9CA1B0 /* CoreGraphics.framework */; };
+		15D1D27EF698F097485D27B188C7A688 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4574E22861DA10BA7FB8D8B840D83A0D /* Foundation.framework */; };
+		2158E066BF76167BD5970529549F6205 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4574E22861DA10BA7FB8D8B840D83A0D /* Foundation.framework */; };
+		22B4902E82B28FB341BF54FA8FA11805 /* JPBParallaxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DD66110D4000A4FF5C6F457ED82066 /* JPBParallaxTableViewController.m */; };
+		24F231A0BBE18B1D3C357E03C60F4EE6 /* UIView+XHViewFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 91617055DD8F4B1F9D55C45C89C221BD /* UIView+XHViewFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27E4F102F2EFFEE34D5F388A35AF72B9 /* UICollectionView+XHIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CB5CE8B2C48159C59E1E095CB4AD74 /* UICollectionView+XHIndexPath.m */; };
+		2A663E84BD267DBCE241DB66F49F35DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69318E0913D1AAB4A7B09824CD9FBAE8 /* UIKit.framework */; };
+		33D6A1A2182BB50AEC506EACD9BDA405 /* SKSplashIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 13225E11E607B2E0E459D421F6415D55 /* SKSplashIcon.m */; };
+		3E29071065C05526D1A7A3ED8C632470 /* XHHorizontalPageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6E376271E15BA22F97A5736703E475 /* XHHorizontalPageViewCell.m */; };
+		3E9FE2EB5C6E67DAD379ED9F43071C3B /* FXBlurView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCDBA560C96ADA6EE28B8BF626A1A04 /* FXBlurView-dummy.m */; };
+		45E22690C97022C9343034A478986990 /* JPBFloatingTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987C8CB711B018BE26D39D28E87D07CF /* JPBFloatingTextViewController.m */; };
+		48E18DC31B223569B31598555C9ED555 /* ParallaxBlur-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4294B37B2D9848431CE70CDB8F149FDA /* ParallaxBlur-dummy.m */; };
+		4C08D6B15F7173253AAD5D8266D1F4DE /* XHWaterfallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7A408ED9694CC722486259815EDC44 /* XHWaterfallViewController.m */; };
+		4C49FC736A501E10527A25191F9E76E8 /* JPBParallaxTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A17CA451FC06954ADB9C0BFE6728EF0 /* JPBParallaxTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CC3F81016B3F8E159D17C41B0C3FEB3 /* XHWaterfallContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0FAB301E5478545F02D62111359D65 /* XHWaterfallContainerView.m */; };
+		5155CE1476D67A29DF0E2CA70C255D2B /* XHPinterest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9D4F7F3AE926B2D42E8E28864A345C /* XHPinterest.m */; };
+		538DA56847DF94DB0A45092DD25C509C /* XHBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD4E1E42592F4CB8F229800004099A5 /* XHBaseCollectionViewController.m */; };
+		55B8E494E392AC74B9E98D1F50E7BBB9 /* UICollectionView+XHIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = A8975412F4CDD64C260F11C064440D55 /* UICollectionView+XHIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B33616D2AB07E70FDE2CA52BD7DA967 /* PinterestAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 292316717B8D8E26820CB7410CBAA1B6 /* PinterestAnimator-dummy.m */; };
+		5D230304E691A46A94B95A2917D7EADF /* XHNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6419532E5F89ED5FB71DD0FA2B8EB7FB /* XHNavigationControllerDelegate.m */; };
+		5E2394E7F843D62054FBDBBAA907B161 /* XHPinterestTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = BB91F67C765614726E9714480DF89B6A /* XHPinterestTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CB3A5FC7BDC77CCEE3BC80BAF3C7756 /* XHBaseCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DF99A7FF46DDDE25E7176F3432690C /* XHBaseCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CCA27F0D72AF0637CEBD78CFBC3DFA6 /* XHPinterestPopTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EEEFD98D970A7F0E34BE4C0B7E7E23A /* XHPinterestPopTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CE0B51AD0D5DD8E553D49DC6B19A601 /* XHUIKitMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE935E6843129F05EABF365A251DECA /* XHUIKitMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F975A7A5E03C40A4983D1101AF4A14D /* SKSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3956A0E75C7091D0B8A7EF8E88FDBEF1 /* SKSplashView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FF7E55F30D4E44F15EAD2DF733D66E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE5806410B13B81A623F22AD767E3EB /* QuartzCore.framework */; };
+		80BF2ADF465E600E5E3040B6D45C8FDB /* XHPinterestPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B85957BF9B2003615F6926FF507D214 /* XHPinterestPushTransition.m */; };
+		817D95F9925FA4C24E3871364EDC132B /* UIView+XHViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D48414121BF74E1C2E42958D2332E4 /* UIView+XHViewFrame.m */; };
+		849AE276861A6DDB657FEE7F1BE9607E /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F08899A1BFE85EA48ED0063E72FD5DF5 /* CHTCollectionViewWaterfallLayout.m */; };
+		85AB44E27EE54D9CF2507F69E138AA4F /* SKSplashView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77983004CCAD9DD060D9BAE150ADA6D9 /* SKSplashView-dummy.m */; };
+		8C963FD2C2905100F1B1E1A1EF2B158F /* XHPinterestPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AD418E1A6ADC7CC3B04860F9D43E7 /* XHPinterestPopTransition.m */; };
+		938BC0EDEA05EB6E8CCEF428EDDB5CF9 /* XHTransitionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC9E7C03D232715473306C2251AE02C /* XHTransitionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98B3198A7610441D3991BFA76E747522 /* CHTCollectionViewWaterfallLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E1B0948C0C773E566BDC01A1E84940 /* CHTCollectionViewWaterfallLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E2868693609002A8200A295C9733CE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4574E22861DA10BA7FB8D8B840D83A0D /* Foundation.framework */; };
+		9F3F637D20F1A3B671BE1ED8A9FE26E5 /* JPBFloatingTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FACCD0854E48C1BF9BD288E4AADC13 /* JPBFloatingTextViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A53EDC5824F22B07214B2B8596BFA77F /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		AA3CBCCB77929B675A3A69E87D59D841 /* XHNavigationControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CBE6D8DB09A3AA364567AFD212DEA31 /* XHNavigationControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABC04BAA43AC46882E96EDE436E8C145 /* XHPinterestTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D202D60C770B521DB3F339F54328DFD /* XHPinterestTransition.m */; };
+		B3EB9B8BA6AFE582947F45BA5BDDC1D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4574E22861DA10BA7FB8D8B840D83A0D /* Foundation.framework */; };
+		C1E7321E7A920229513942C1F7C0D034 /* JPBParallaxBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 689CDE9F80CB3E83F5D26C75D3915778 /* JPBParallaxBlurViewController.m */; };
+		C3670B2B74DB3FBEF834E8DE0CD6F77B /* XHHorizontalPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E5619C51E73D542B43112B3B604664 /* XHHorizontalPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C56D20EFF8CB3C1ACCB84B5C3C383F80 /* JPBParallaxBlurViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1AE3A101D43328832BEBE94DD7EBBC /* JPBParallaxBlurViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6AE0561F4A416646A0B9CD995229D88 /* XHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE7379F4D9686E2D89FCB97610829E6 /* XHNavigationController.m */; };
+		C83AC69EF08E90FF6A5BDAB1676ACA8C /* XHWaterfallContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E53CAAA86ECAE02316E98DCD5B691BB /* XHWaterfallContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0F3EC6DE0CF63E1E57A68C8ABA88646 /* XHHorizontalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C291E1929AC17EFF38DDDE9B58B69B10 /* XHHorizontalPageViewController.m */; };
+		D4345474911731D58270E9977F55AE55 /* XHHorizontalPageViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C757D31910D385465B37A7BFF311305 /* XHHorizontalPageViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8A90EFF17F8E03DCC2EDA93EE5160A5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6450DEE030ABBA6456982DCC3DB481DA /* Accelerate.framework */; };
+		DDE131562D17C5B104DE7260A1B6A4D0 /* XHWaterfallCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 429713DD368F28FC1561BD044175D19D /* XHWaterfallCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB3774E0A0442180CE015AC70748DB21 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 764BD710FD25CE4A92832605312DE687 /* FXBlurView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F19636BFCBAA9652EB94E7033B1C0315 /* XHPinterest.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CA4D3FEDC77634B1106B6F619CF740 /* XHPinterest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1A5CEADBD19EF409B4CF6460EA41671 /* SKSplashIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 830DF144D31BAAF199E07E35DEC2BFBF /* SKSplashIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F22392213990FE1934522B600593F331 /* XHNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB31E6C8BA1B489A6FC9A1E2DAC4C95 /* XHNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF0EAB3050C62EF6A124DD685CCCC41C /* SKSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 387A92BCF1293D4C3530AE0F18026120 /* SKSplashView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		758CDA3249B4D2C9ED6A189827C823FF /* PBXContainerItemProxy */ = {
+		04753951188561351C36111E48EFAEC3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BA2D06A921ADAAFCDF28C5AC1C90FEAF;
-			remoteInfo = RMActionController;
+			remoteGlobalIDString = 17392667E38E4938ACA525E988BB433B;
+			remoteInfo = FXBlurView;
 		};
-		803E58811E9E9A9C14F58C710A318A27 /* PBXContainerItemProxy */ = {
+		7679B2947FA152E54AF02EC2162BB8E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7461EF46E02F2850D6A84A8544063CCB;
+			remoteInfo = ParallaxBlur;
+		};
+		B2928F78393FAC66B3472C33500EF8C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17392667E38E4938ACA525E988BB433B;
+			remoteInfo = FXBlurView;
+		};
+		BEDB84C34FF9AAEDE17054A27DDA26FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A36DF61FE5C0CA56F8CB759777DE0D3;
+			remoteInfo = SKSplashView;
+		};
+		FE21FD544FF4CDF137488613266E1C16 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 58BD745CB330DF932495744759B952FE;
 			remoteInfo = PinterestAnimator;
 		};
-		A6D00E0BD3E34D10E75C8FA139201C93 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE679A3BFDABA93AA7301487F954C4E8;
-			remoteInfo = SKSplashView;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02BC6758F4FFDE0715B29EE0A29560C6 /* SKSplashIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKSplashIcon.m; path = SKSplashView/SKSplashIcon.m; sourceTree = "<group>"; };
-		07D32162E9754CBEA12EB84E73C4024E /* XHPinterest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterest.m; path = PinterestAnimator/Models/XHPinterest.m; sourceTree = "<group>"; };
-		0B0ACAC4E091EFE44554983E830B7300 /* PinterestAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinterestAnimator-prefix.pch"; sourceTree = "<group>"; };
-		0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		0E9F6804DF8E24808DF72D61B39ABB36 /* XHPinterestPushTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterestPushTransition.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPushTransition.h; sourceTree = "<group>"; };
+		02B5887E314F829737DE7302F5F0F9BC /* FXBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXBlurView.h; path = FXBlurView/FXBlurView.h; sourceTree = "<group>"; };
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		11A5245EBF423943E4D362929C2573CF /* XHHorizontalPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHHorizontalPageViewController.h; path = PinterestAnimator/Controllers/XHHorizontalPageViewController.h; sourceTree = "<group>"; };
-		16616CC11A999A319E09A5818CA42F3C /* XHWaterfallContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHWaterfallContainerView.m; path = PinterestAnimator/Views/XHWaterfallContainerView.m; sourceTree = "<group>"; };
-		1D8758B21175BF1D9BC4367C28748D2E /* XHWaterfallContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHWaterfallContainerView.h; path = PinterestAnimator/Views/XHWaterfallContainerView.h; sourceTree = "<group>"; };
+		123C8EBE854C2004EC8443816598FAD2 /* libPinterestAnimator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPinterestAnimator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		13225E11E607B2E0E459D421F6415D55 /* SKSplashIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKSplashIcon.m; path = SKSplashView/SKSplashIcon.m; sourceTree = "<group>"; };
+		19E5619C51E73D542B43112B3B604664 /* XHHorizontalPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHHorizontalPageViewController.h; path = PinterestAnimator/Controllers/XHHorizontalPageViewController.h; sourceTree = "<group>"; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		27FE67C6CC47CD5701BB95B33FC8A7B8 /* RMActionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMActionController-dummy.m"; sourceTree = "<group>"; };
-		281AD9BD14B0C0C1129F4D9E23C1F7FA /* XHBaseCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHBaseCollectionViewController.h; path = PinterestAnimator/Controllers/XHBaseCollectionViewController.h; sourceTree = "<group>"; };
-		2B37E4C554562BEB142994DC1F0C7F62 /* RMActionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMActionController.m; path = RMActionController/RMActionController.m; sourceTree = "<group>"; };
-		32DCD7831ED521AAB182D7A84C8A2EE0 /* XHWaterfallViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHWaterfallViewController.m; path = PinterestAnimator/Controllers/XHWaterfallViewController.m; sourceTree = "<group>"; };
+		28E4723BDDC39B4E687D14903595AEDE /* ParallaxBlur-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParallaxBlur-prefix.pch"; sourceTree = "<group>"; };
+		292316717B8D8E26820CB7410CBAA1B6 /* PinterestAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinterestAnimator-dummy.m"; sourceTree = "<group>"; };
+		2D202D60C770B521DB3F339F54328DFD /* XHPinterestTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterestTransition.m; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestTransition.m; sourceTree = "<group>"; };
+		32DD66110D4000A4FF5C6F457ED82066 /* JPBParallaxTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPBParallaxTableViewController.m; path = Pod/Classes/JPBParallaxTableViewController.m; sourceTree = "<group>"; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3A8E14C28052FCFE47253BBA6A30352B /* XHPinterestTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterestTransition.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestTransition.h; sourceTree = "<group>"; };
-		3DB065B0E0AACA49710980CA6AEAF821 /* SKSplashView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKSplashView-prefix.pch"; sourceTree = "<group>"; };
-		3DE6F978E149BD4FA97122EF09DA4D3A /* UIView+XHViewFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XHViewFrame.h"; path = "PinterestAnimator/Categorys/UIView+XHViewFrame.h"; sourceTree = "<group>"; };
-		42887C25467736AD5806FFB7C59E1A25 /* XHNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHNavigationController.h; path = PinterestAnimator/Controllers/XHNavigationController.h; sourceTree = "<group>"; };
-		45315CD8954BD4B48D091A0EEF1315E8 /* XHNavigationControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHNavigationControllerDelegate.h; path = PinterestAnimator/Helpers/NavigationHelper/XHNavigationControllerDelegate.h; sourceTree = "<group>"; };
-		46FF3C2D470A478F7E06730380AA3B5C /* XHNavigationControllerDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHNavigationControllerDelegate.m; path = PinterestAnimator/Helpers/NavigationHelper/XHNavigationControllerDelegate.m; sourceTree = "<group>"; };
-		47FEDE73BB7C4B412C7E988D3A81FCD6 /* XHPinterestTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterestTransition.m; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestTransition.m; sourceTree = "<group>"; };
-		4801B98693FE21399C0181A724BCADCC /* XHHorizontalPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHHorizontalPageViewController.m; path = PinterestAnimator/Controllers/XHHorizontalPageViewController.m; sourceTree = "<group>"; };
-		4868466D36DE5A309AF07617B8D92104 /* libPinterestAnimator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPinterestAnimator.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		387A92BCF1293D4C3530AE0F18026120 /* SKSplashView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKSplashView.m; path = SKSplashView/SKSplashView.m; sourceTree = "<group>"; };
+		3956A0E75C7091D0B8A7EF8E88FDBEF1 /* SKSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSplashView.h; path = SKSplashView/SKSplashView.h; sourceTree = "<group>"; };
+		39A369F513DBBCF83A92A46361896463 /* XHWaterfallCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHWaterfallCollectionViewCell.m; path = PinterestAnimator/Views/XHWaterfallCollectionViewCell.m; sourceTree = "<group>"; };
+		3E85B4AF5EDF1D7792B6B0E3DD0D1EFD /* PinterestAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinterestAnimator.xcconfig; sourceTree = "<group>"; };
+		4294B37B2D9848431CE70CDB8F149FDA /* ParallaxBlur-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ParallaxBlur-dummy.m"; sourceTree = "<group>"; };
+		429713DD368F28FC1561BD044175D19D /* XHWaterfallCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHWaterfallCollectionViewCell.h; path = PinterestAnimator/Views/XHWaterfallCollectionViewCell.h; sourceTree = "<group>"; };
+		4574E22861DA10BA7FB8D8B840D83A0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		56693813205A604B7492A6F9C95273D7 /* libRMActionController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRMActionController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		61D673FEB6485B388BF3F32B2CF45544 /* RMActionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMActionController-prefix.pch"; sourceTree = "<group>"; };
-		626F0B28A04677B3D628103CC2FAD556 /* XHHorizontalPageViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHHorizontalPageViewCell.m; path = PinterestAnimator/Views/XHHorizontalPageViewCell.m; sourceTree = "<group>"; };
-		62A0BBDEF3F181C7AB90758F35463E1C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		65BCD96EB34378DD39597D2084AC490F /* SKSplashIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSplashIcon.h; path = SKSplashView/SKSplashIcon.h; sourceTree = "<group>"; };
+		5AD4E1E42592F4CB8F229800004099A5 /* XHBaseCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHBaseCollectionViewController.m; path = PinterestAnimator/Controllers/XHBaseCollectionViewController.m; sourceTree = "<group>"; };
+		5B85957BF9B2003615F6926FF507D214 /* XHPinterestPushTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterestPushTransition.m; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPushTransition.m; sourceTree = "<group>"; };
+		5BCDBA560C96ADA6EE28B8BF626A1A04 /* FXBlurView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FXBlurView-dummy.m"; sourceTree = "<group>"; };
+		62D48414121BF74E1C2E42958D2332E4 /* UIView+XHViewFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XHViewFrame.m"; path = "PinterestAnimator/Categorys/UIView+XHViewFrame.m"; sourceTree = "<group>"; };
+		63626D9B049F92D98C2C4B15CB0DEF4F /* FXBlurView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FXBlurView-prefix.pch"; sourceTree = "<group>"; };
+		6419532E5F89ED5FB71DD0FA2B8EB7FB /* XHNavigationControllerDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHNavigationControllerDelegate.m; path = PinterestAnimator/Helpers/NavigationHelper/XHNavigationControllerDelegate.m; sourceTree = "<group>"; };
+		6450DEE030ABBA6456982DCC3DB481DA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		689CDE9F80CB3E83F5D26C75D3915778 /* JPBParallaxBlurViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPBParallaxBlurViewController.m; path = Pod/Classes/JPBParallaxBlurViewController.m; sourceTree = "<group>"; };
 		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		6F5C0EE2E6122DBF1E11BFF944423FE1 /* UICollectionView+XHIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+XHIndexPath.m"; path = "PinterestAnimator/Categorys/UICollectionView+XHIndexPath.m"; sourceTree = "<group>"; };
-		71B1242716A336CD31C7D698FDFE709D /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHTCollectionViewWaterfallLayout.m; path = PinterestAnimator/Layout/CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
-		74EF54849A2CA2EB5ADD82A2268EB53D /* RMActionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMActionController.h; path = RMActionController/RMActionController.h; sourceTree = "<group>"; };
-		7709D6B4B432AA865D55124360979B04 /* XHUIKitMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHUIKitMacro.h; path = PinterestAnimator/Macro/XHUIKitMacro.h; sourceTree = "<group>"; };
-		7B2DE7BB2B0695D10896A94073D1B6D4 /* XHHorizontalPageViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHHorizontalPageViewCell.h; path = PinterestAnimator/Views/XHHorizontalPageViewCell.h; sourceTree = "<group>"; };
-		84B9FF46931893A35FF3FFEB5D97E358 /* XHPinterestPushTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterestPushTransition.m; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPushTransition.m; sourceTree = "<group>"; };
-		8D6DB3D537A5C640FA1941A9D868BA72 /* SKSplashView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKSplashView.xcconfig; sourceTree = "<group>"; };
+		69318E0913D1AAB4A7B09824CD9FBAE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6EB31E6C8BA1B489A6FC9A1E2DAC4C95 /* XHNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHNavigationController.h; path = PinterestAnimator/Controllers/XHNavigationController.h; sourceTree = "<group>"; };
+		6EE935E6843129F05EABF365A251DECA /* XHUIKitMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHUIKitMacro.h; path = PinterestAnimator/Macro/XHUIKitMacro.h; sourceTree = "<group>"; };
+		6EEEFD98D970A7F0E34BE4C0B7E7E23A /* XHPinterestPopTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterestPopTransition.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPopTransition.h; sourceTree = "<group>"; };
+		764BD710FD25CE4A92832605312DE687 /* FXBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = FXBlurView/FXBlurView.m; sourceTree = "<group>"; };
+		77983004CCAD9DD060D9BAE150ADA6D9 /* SKSplashView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKSplashView-dummy.m"; sourceTree = "<group>"; };
+		7CBE6D8DB09A3AA364567AFD212DEA31 /* XHNavigationControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHNavigationControllerDelegate.h; path = PinterestAnimator/Helpers/NavigationHelper/XHNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		7E01FFA4E64AD7DDC10A67D3713959AF /* libParallaxBlur.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libParallaxBlur.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8B43B2AF63AE8CD8D2A5D3B0DA74AD /* XHWaterfallViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHWaterfallViewController.h; path = PinterestAnimator/Controllers/XHWaterfallViewController.h; sourceTree = "<group>"; };
+		82DF99A7FF46DDDE25E7176F3432690C /* XHBaseCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHBaseCollectionViewController.h; path = PinterestAnimator/Controllers/XHBaseCollectionViewController.h; sourceTree = "<group>"; };
+		830DF144D31BAAF199E07E35DEC2BFBF /* SKSplashIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSplashIcon.h; path = SKSplashView/SKSplashIcon.h; sourceTree = "<group>"; };
+		8A17CA451FC06954ADB9C0BFE6728EF0 /* JPBParallaxTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPBParallaxTableViewController.h; path = Pod/Classes/JPBParallaxTableViewController.h; sourceTree = "<group>"; };
+		8B6C83069395BC5FD9CC29D3B844FFA0 /* SKSplashView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKSplashView-prefix.pch"; sourceTree = "<group>"; };
+		8E53CAAA86ECAE02316E98DCD5B691BB /* XHWaterfallContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHWaterfallContainerView.h; path = PinterestAnimator/Views/XHWaterfallContainerView.h; sourceTree = "<group>"; };
+		91617055DD8F4B1F9D55C45C89C221BD /* UIView+XHViewFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XHViewFrame.h"; path = "PinterestAnimator/Categorys/UIView+XHViewFrame.h"; sourceTree = "<group>"; };
+		934B083C517A520AFAEBF67950FD48A0 /* XHPinterestPushTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterestPushTransition.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPushTransition.h; sourceTree = "<group>"; };
+		987C8CB711B018BE26D39D28E87D07CF /* JPBFloatingTextViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPBFloatingTextViewController.m; path = Pod/Classes/JPBFloatingTextViewController.m; sourceTree = "<group>"; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		9ADFEB64F8779936E3AC918BC4F325F3 /* SKSplashView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKSplashView.m; path = SKSplashView/SKSplashView.m; sourceTree = "<group>"; };
-		9B0DAA1846DCB4E4066F8344C8517CE0 /* XHBaseCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHBaseCollectionViewController.m; path = PinterestAnimator/Controllers/XHBaseCollectionViewController.m; sourceTree = "<group>"; };
-		9E8F6890E12198D607F4CBB9BF98B6D3 /* XHWaterfallCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHWaterfallCollectionViewCell.m; path = PinterestAnimator/Views/XHWaterfallCollectionViewCell.m; sourceTree = "<group>"; };
-		9EF27273BAD18FBED1BBABC9FED89974 /* SKSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSplashView.h; path = SKSplashView/SKSplashView.h; sourceTree = "<group>"; };
-		A02A8CD342D67BCFCEC16FC8C79AE482 /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHTCollectionViewWaterfallLayout.h; path = PinterestAnimator/Layout/CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		9C757D31910D385465B37A7BFF311305 /* XHHorizontalPageViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHHorizontalPageViewCell.h; path = PinterestAnimator/Views/XHHorizontalPageViewCell.h; sourceTree = "<group>"; };
+		A04AD418E1A6ADC7CC3B04860F9D43E7 /* XHPinterestPopTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterestPopTransition.m; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPopTransition.m; sourceTree = "<group>"; };
 		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		A449451B272CC3CBFF4F85D9BC330230 /* UICollectionView+XHIndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+XHIndexPath.h"; path = "PinterestAnimator/Categorys/UICollectionView+XHIndexPath.h"; sourceTree = "<group>"; };
-		A6CD6622E9B0512EED7F430A24691B22 /* XHWaterfallViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHWaterfallViewController.h; path = PinterestAnimator/Controllers/XHWaterfallViewController.h; sourceTree = "<group>"; };
-		A815A350C31FD0CDE17D0A54D767C4BB /* UIView+XHViewFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XHViewFrame.m"; path = "PinterestAnimator/Categorys/UIView+XHViewFrame.m"; sourceTree = "<group>"; };
-		B7FAD7E316F79FE2A168DE00B5C772BC /* PinterestAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinterestAnimator-dummy.m"; sourceTree = "<group>"; };
+		A8975412F4CDD64C260F11C064440D55 /* UICollectionView+XHIndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+XHIndexPath.h"; path = "PinterestAnimator/Categorys/UICollectionView+XHIndexPath.h"; sourceTree = "<group>"; };
+		AAC9E7C03D232715473306C2251AE02C /* XHTransitionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHTransitionProtocol.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/Protocal/XHTransitionProtocol.h; sourceTree = "<group>"; };
+		AFE5806410B13B81A623F22AD767E3EB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B1E1B0948C0C773E566BDC01A1E84940 /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHTCollectionViewWaterfallLayout.h; path = PinterestAnimator/Layout/CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		B64DEB534CBD2222D755B5A209E2E795 /* SKSplashView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKSplashView.xcconfig; sourceTree = "<group>"; };
+		B8105EB59A4D35E6AF913ED54B1FAFCD /* libSKSplashView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSKSplashView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF91D060C32584C50150BE287698A575 /* XHTransitionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHTransitionProtocol.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/Protocal/XHTransitionProtocol.h; sourceTree = "<group>"; };
-		CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CEC0941BF0829BD455A19D5383D9F8EC /* PinterestAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinterestAnimator.xcconfig; sourceTree = "<group>"; };
-		D6BFC26385AA80AC33716D9120CC6A73 /* XHPinterestPopTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterestPopTransition.m; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPopTransition.m; sourceTree = "<group>"; };
-		D80D5C3FCC06910F3EE020335C12711E /* libSKSplashView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSKSplashView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1C5A4CCB17F4363C61795F0C5A5FB8B /* RMActionController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMActionController.xcconfig; sourceTree = "<group>"; };
-		EB892EF2927404A13313444270F49746 /* XHPinterestPopTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterestPopTransition.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestPopTransition.h; sourceTree = "<group>"; };
-		ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F5F562B1A6AB365D9D4E48F56562EBD5 /* XHNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHNavigationController.m; path = PinterestAnimator/Controllers/XHNavigationController.m; sourceTree = "<group>"; };
-		F67B24A72B7D5245FE7DEB0D19E467B8 /* XHPinterest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterest.h; path = PinterestAnimator/Models/XHPinterest.h; sourceTree = "<group>"; };
-		F9FDFD5B42D86573E133D94E65667784 /* XHWaterfallCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHWaterfallCollectionViewCell.h; path = PinterestAnimator/Views/XHWaterfallCollectionViewCell.h; sourceTree = "<group>"; };
-		FF3F8F19C437253A7FF41085DF12741C /* SKSplashView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKSplashView-dummy.m"; sourceTree = "<group>"; };
+		BB7A408ED9694CC722486259815EDC44 /* XHWaterfallViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHWaterfallViewController.m; path = PinterestAnimator/Controllers/XHWaterfallViewController.m; sourceTree = "<group>"; };
+		BB91F67C765614726E9714480DF89B6A /* XHPinterestTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterestTransition.h; path = PinterestAnimator/Helpers/NavigationHelper/Transition/XHPinterestTransition.h; sourceTree = "<group>"; };
+		BF45007D32EA68C25108DD1CBB63A5B1 /* PinterestAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinterestAnimator-prefix.pch"; sourceTree = "<group>"; };
+		C2843414CAB28AC2F8DFE4F5D69EFFCF /* libFXBlurView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFXBlurView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C291E1929AC17EFF38DDDE9B58B69B10 /* XHHorizontalPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHHorizontalPageViewController.m; path = PinterestAnimator/Controllers/XHHorizontalPageViewController.m; sourceTree = "<group>"; };
+		CB473778DE118FABEDC6DD18FE9CA1B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		CDDC9AF69D98D6B39CD7A1DB106515B7 /* FXBlurView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FXBlurView.xcconfig; sourceTree = "<group>"; };
+		D0FACCD0854E48C1BF9BD288E4AADC13 /* JPBFloatingTextViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPBFloatingTextViewController.h; path = Pod/Classes/JPBFloatingTextViewController.h; sourceTree = "<group>"; };
+		D7CA4D3FEDC77634B1106B6F619CF740 /* XHPinterest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHPinterest.h; path = PinterestAnimator/Models/XHPinterest.h; sourceTree = "<group>"; };
+		DB0FAB301E5478545F02D62111359D65 /* XHWaterfallContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHWaterfallContainerView.m; path = PinterestAnimator/Views/XHWaterfallContainerView.m; sourceTree = "<group>"; };
+		DBE7379F4D9686E2D89FCB97610829E6 /* XHNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHNavigationController.m; path = PinterestAnimator/Controllers/XHNavigationController.m; sourceTree = "<group>"; };
+		E2D4D6A7D40BB83523975B6C0C6EF100 /* ParallaxBlur.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParallaxBlur.xcconfig; sourceTree = "<group>"; };
+		E6CB5CE8B2C48159C59E1E095CB4AD74 /* UICollectionView+XHIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+XHIndexPath.m"; path = "PinterestAnimator/Categorys/UICollectionView+XHIndexPath.m"; sourceTree = "<group>"; };
+		EDEC9374F1FF13D214426010743D6F5C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08899A1BFE85EA48ED0063E72FD5DF5 /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHTCollectionViewWaterfallLayout.m; path = PinterestAnimator/Layout/CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		FA1AE3A101D43328832BEBE94DD7EBBC /* JPBParallaxBlurViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPBParallaxBlurViewController.h; path = Pod/Classes/JPBParallaxBlurViewController.h; sourceTree = "<group>"; };
+		FB6E376271E15BA22F97A5736703E475 /* XHHorizontalPageViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHHorizontalPageViewCell.m; path = PinterestAnimator/Views/XHHorizontalPageViewCell.m; sourceTree = "<group>"; };
+		FC9D4F7F3AE926B2D42E8E28864A345C /* XHPinterest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHPinterest.m; path = PinterestAnimator/Models/XHPinterest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1FFFDA688F06394ED9644593766ADBD7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B634B1C1EC640A399E36BD11E3927ECD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		771092CC46F5591095240907051FF1B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,21 +193,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77B0F4DB02CB9FB00AD90FF5EA2A3125 /* Frameworks */ = {
+		7DA4DEFF31AFADF4893C905721735362 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E697925495E0F3F1B99C647F22A4A5C /* CoreGraphics.framework in Frameworks */,
-				4E3F31F1111B8D4404D0447B3D98004E /* Foundation.framework in Frameworks */,
-				6E94AE71801E47FCF31B36F0203DEED1 /* QuartzCore.framework in Frameworks */,
+				0345F675D78B39CD2CFDF2FF709F4772 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89055F16F7A42D9A06F876B8ADB55D29 /* Frameworks */ = {
+		A1B779EBA912345A422E3914131A5AA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				731C7C2EBDF35CEB815AEF3D0C1405C8 /* Foundation.framework in Frameworks */,
+				2158E066BF76167BD5970529549F6205 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53C9B57D1DED292E2E4F68EBF480495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D1D27EF698F097485D27B188C7A688 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B6BA63A87BA0A419CE15877FA6E48A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A90EFF17F8E03DCC2EDA93EE5160A5 /* Accelerate.framework in Frameworks */,
+				B3EB9B8BA6AFE582947F45BA5BDDC1D7 /* Foundation.framework in Frameworks */,
+				7FF7E55F30D4E44F15EAD2DF733D66E4 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,43 +238,77 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+		1AD9E7ECF811704D47C576F2614BDADE /* SKSplashView */ = {
 			isa = PBXGroup;
 			children = (
-				A9203A0FF197B8764CD853B6EE3A159E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2DFBF4FC3D07D076DF8DB79916721438 /* SKSplashView */ = {
-			isa = PBXGroup;
-			children = (
-				65BCD96EB34378DD39597D2084AC490F /* SKSplashIcon.h */,
-				02BC6758F4FFDE0715B29EE0A29560C6 /* SKSplashIcon.m */,
-				9EF27273BAD18FBED1BBABC9FED89974 /* SKSplashView.h */,
-				9ADFEB64F8779936E3AC918BC4F325F3 /* SKSplashView.m */,
-				8DB9E7F839748A5ADF0A5C662899BB8B /* Support Files */,
+				830DF144D31BAAF199E07E35DEC2BFBF /* SKSplashIcon.h */,
+				13225E11E607B2E0E459D421F6415D55 /* SKSplashIcon.m */,
+				3956A0E75C7091D0B8A7EF8E88FDBEF1 /* SKSplashView.h */,
+				387A92BCF1293D4C3530AE0F18026120 /* SKSplashView.m */,
+				588A115698614AE2D24C6E67201A6756 /* Support Files */,
 			);
 			path = SKSplashView;
 			sourceTree = "<group>";
 		};
-		46C5F93319CE75E8C9248D1D058AB974 /* RMActionController */ = {
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				74EF54849A2CA2EB5ADD82A2268EB53D /* RMActionController.h */,
-				2B37E4C554562BEB142994DC1F0C7F62 /* RMActionController.m */,
-				83681EB14870E1B3FB0BA96F6904D13F /* Support Files */,
+				B18EB8BD780CE21B7DDD20BC84C77C8A /* iOS */,
 			);
-			path = RMActionController;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		77999DFCACAA18B89DBF072A5FC93426 /* Products */ = {
+		24770D7548FF4377F7432D04933C1603 /* FXBlurView */ = {
 			isa = PBXGroup;
 			children = (
-				4868466D36DE5A309AF07617B8D92104 /* libPinterestAnimator.a */,
-				62A0BBDEF3F181C7AB90758F35463E1C /* libPods.a */,
-				56693813205A604B7492A6F9C95273D7 /* libRMActionController.a */,
-				D80D5C3FCC06910F3EE020335C12711E /* libSKSplashView.a */,
+				02B5887E314F829737DE7302F5F0F9BC /* FXBlurView.h */,
+				764BD710FD25CE4A92832605312DE687 /* FXBlurView.m */,
+				FCB695E856703040A0430886D68FB800 /* Support Files */,
+			);
+			path = FXBlurView;
+			sourceTree = "<group>";
+		};
+		40784E14527A3D3CE2A1B276B86215FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E85B4AF5EDF1D7792B6B0E3DD0D1EFD /* PinterestAnimator.xcconfig */,
+				292316717B8D8E26820CB7410CBAA1B6 /* PinterestAnimator-dummy.m */,
+				BF45007D32EA68C25108DD1CBB63A5B1 /* PinterestAnimator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PinterestAnimator";
+			sourceTree = "<group>";
+		};
+		588A115698614AE2D24C6E67201A6756 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B64DEB534CBD2222D755B5A209E2E795 /* SKSplashView.xcconfig */,
+				77983004CCAD9DD060D9BAE150ADA6D9 /* SKSplashView-dummy.m */,
+				8B6C83069395BC5FD9CC29D3B844FFA0 /* SKSplashView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SKSplashView";
+			sourceTree = "<group>";
+		};
+		6182091EC68D60131F07E8C9751D50F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24770D7548FF4377F7432D04933C1603 /* FXBlurView */,
+				80ABBFD67D0A3F6EE810F9324BDECFCD /* ParallaxBlur */,
+				BC0AD972E82B10583E81EF40B738A268 /* PinterestAnimator */,
+				1AD9E7ECF811704D47C576F2614BDADE /* SKSplashView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79AFE4C5D6D94A6F714F92917A36F3B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2843414CAB28AC2F8DFE4F5D69EFFCF /* libFXBlurView.a */,
+				7E01FFA4E64AD7DDC10A67D3713959AF /* libParallaxBlur.a */,
+				123C8EBE854C2004EC8443816598FAD2 /* libPinterestAnimator.a */,
+				EDEC9374F1FF13D214426010743D6F5C /* libPods.a */,
+				B8105EB59A4D35E6AF913ED54B1FAFCD /* libSKSplashView.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -242,93 +317,46 @@
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				BD08C10E1CF6C6B510ACD466F646A455 /* Pods */,
-				77999DFCACAA18B89DBF072A5FC93426 /* Products */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				6182091EC68D60131F07E8C9751D50F3 /* Pods */,
+				79AFE4C5D6D94A6F714F92917A36F3B7 /* Products */,
 				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		83681EB14870E1B3FB0BA96F6904D13F /* Support Files */ = {
+		80ABBFD67D0A3F6EE810F9324BDECFCD /* ParallaxBlur */ = {
 			isa = PBXGroup;
 			children = (
-				E1C5A4CCB17F4363C61795F0C5A5FB8B /* RMActionController.xcconfig */,
-				27FE67C6CC47CD5701BB95B33FC8A7B8 /* RMActionController-dummy.m */,
-				61D673FEB6485B388BF3F32B2CF45544 /* RMActionController-prefix.pch */,
+				D0FACCD0854E48C1BF9BD288E4AADC13 /* JPBFloatingTextViewController.h */,
+				987C8CB711B018BE26D39D28E87D07CF /* JPBFloatingTextViewController.m */,
+				FA1AE3A101D43328832BEBE94DD7EBBC /* JPBParallaxBlurViewController.h */,
+				689CDE9F80CB3E83F5D26C75D3915778 /* JPBParallaxBlurViewController.m */,
+				8A17CA451FC06954ADB9C0BFE6728EF0 /* JPBParallaxTableViewController.h */,
+				32DD66110D4000A4FF5C6F457ED82066 /* JPBParallaxTableViewController.m */,
+				901108F415FCDC110990797A59C02068 /* Support Files */,
+			);
+			path = ParallaxBlur;
+			sourceTree = "<group>";
+		};
+		901108F415FCDC110990797A59C02068 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2D4D6A7D40BB83523975B6C0C6EF100 /* ParallaxBlur.xcconfig */,
+				4294B37B2D9848431CE70CDB8F149FDA /* ParallaxBlur-dummy.m */,
+				28E4723BDDC39B4E687D14903595AEDE /* ParallaxBlur-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/RMActionController";
+			path = "../Target Support Files/ParallaxBlur";
 			sourceTree = "<group>";
 		};
-		8805C9669B10A92788FAB39786B666BF /* Support Files */ = {
+		B18EB8BD780CE21B7DDD20BC84C77C8A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CEC0941BF0829BD455A19D5383D9F8EC /* PinterestAnimator.xcconfig */,
-				B7FAD7E316F79FE2A168DE00B5C772BC /* PinterestAnimator-dummy.m */,
-				0B0ACAC4E091EFE44554983E830B7300 /* PinterestAnimator-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PinterestAnimator";
-			sourceTree = "<group>";
-		};
-		8DB9E7F839748A5ADF0A5C662899BB8B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8D6DB3D537A5C640FA1941A9D868BA72 /* SKSplashView.xcconfig */,
-				FF3F8F19C437253A7FF41085DF12741C /* SKSplashView-dummy.m */,
-				3DB065B0E0AACA49710980CA6AEAF821 /* SKSplashView-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SKSplashView";
-			sourceTree = "<group>";
-		};
-		96CA2DF765F79EEB010B516B2C5601E8 /* PinterestAnimator */ = {
-			isa = PBXGroup;
-			children = (
-				A02A8CD342D67BCFCEC16FC8C79AE482 /* CHTCollectionViewWaterfallLayout.h */,
-				71B1242716A336CD31C7D698FDFE709D /* CHTCollectionViewWaterfallLayout.m */,
-				A449451B272CC3CBFF4F85D9BC330230 /* UICollectionView+XHIndexPath.h */,
-				6F5C0EE2E6122DBF1E11BFF944423FE1 /* UICollectionView+XHIndexPath.m */,
-				3DE6F978E149BD4FA97122EF09DA4D3A /* UIView+XHViewFrame.h */,
-				A815A350C31FD0CDE17D0A54D767C4BB /* UIView+XHViewFrame.m */,
-				281AD9BD14B0C0C1129F4D9E23C1F7FA /* XHBaseCollectionViewController.h */,
-				9B0DAA1846DCB4E4066F8344C8517CE0 /* XHBaseCollectionViewController.m */,
-				7B2DE7BB2B0695D10896A94073D1B6D4 /* XHHorizontalPageViewCell.h */,
-				626F0B28A04677B3D628103CC2FAD556 /* XHHorizontalPageViewCell.m */,
-				11A5245EBF423943E4D362929C2573CF /* XHHorizontalPageViewController.h */,
-				4801B98693FE21399C0181A724BCADCC /* XHHorizontalPageViewController.m */,
-				42887C25467736AD5806FFB7C59E1A25 /* XHNavigationController.h */,
-				F5F562B1A6AB365D9D4E48F56562EBD5 /* XHNavigationController.m */,
-				45315CD8954BD4B48D091A0EEF1315E8 /* XHNavigationControllerDelegate.h */,
-				46FF3C2D470A478F7E06730380AA3B5C /* XHNavigationControllerDelegate.m */,
-				F67B24A72B7D5245FE7DEB0D19E467B8 /* XHPinterest.h */,
-				07D32162E9754CBEA12EB84E73C4024E /* XHPinterest.m */,
-				EB892EF2927404A13313444270F49746 /* XHPinterestPopTransition.h */,
-				D6BFC26385AA80AC33716D9120CC6A73 /* XHPinterestPopTransition.m */,
-				0E9F6804DF8E24808DF72D61B39ABB36 /* XHPinterestPushTransition.h */,
-				84B9FF46931893A35FF3FFEB5D97E358 /* XHPinterestPushTransition.m */,
-				3A8E14C28052FCFE47253BBA6A30352B /* XHPinterestTransition.h */,
-				47FEDE73BB7C4B412C7E988D3A81FCD6 /* XHPinterestTransition.m */,
-				BF91D060C32584C50150BE287698A575 /* XHTransitionProtocol.h */,
-				7709D6B4B432AA865D55124360979B04 /* XHUIKitMacro.h */,
-				F9FDFD5B42D86573E133D94E65667784 /* XHWaterfallCollectionViewCell.h */,
-				9E8F6890E12198D607F4CBB9BF98B6D3 /* XHWaterfallCollectionViewCell.m */,
-				1D8758B21175BF1D9BC4367C28748D2E /* XHWaterfallContainerView.h */,
-				16616CC11A999A319E09A5818CA42F3C /* XHWaterfallContainerView.m */,
-				A6CD6622E9B0512EED7F430A24691B22 /* XHWaterfallViewController.h */,
-				32DCD7831ED521AAB182D7A84C8A2EE0 /* XHWaterfallViewController.m */,
-				8805C9669B10A92788FAB39786B666BF /* Support Files */,
-			);
-			path = PinterestAnimator;
-			sourceTree = "<group>";
-		};
-		A9203A0FF197B8764CD853B6EE3A159E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */,
-				CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */,
-				0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */,
-				ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */,
+				6450DEE030ABBA6456982DCC3DB481DA /* Accelerate.framework */,
+				CB473778DE118FABEDC6DD18FE9CA1B0 /* CoreGraphics.framework */,
+				4574E22861DA10BA7FB8D8B840D83A0D /* Foundation.framework */,
+				AFE5806410B13B81A623F22AD767E3EB /* QuartzCore.framework */,
+				69318E0913D1AAB4A7B09824CD9FBAE8 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -348,24 +376,66 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		BD08C10E1CF6C6B510ACD466F646A455 /* Pods */ = {
+		BC0AD972E82B10583E81EF40B738A268 /* PinterestAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				96CA2DF765F79EEB010B516B2C5601E8 /* PinterestAnimator */,
-				46C5F93319CE75E8C9248D1D058AB974 /* RMActionController */,
-				2DFBF4FC3D07D076DF8DB79916721438 /* SKSplashView */,
+				B1E1B0948C0C773E566BDC01A1E84940 /* CHTCollectionViewWaterfallLayout.h */,
+				F08899A1BFE85EA48ED0063E72FD5DF5 /* CHTCollectionViewWaterfallLayout.m */,
+				A8975412F4CDD64C260F11C064440D55 /* UICollectionView+XHIndexPath.h */,
+				E6CB5CE8B2C48159C59E1E095CB4AD74 /* UICollectionView+XHIndexPath.m */,
+				91617055DD8F4B1F9D55C45C89C221BD /* UIView+XHViewFrame.h */,
+				62D48414121BF74E1C2E42958D2332E4 /* UIView+XHViewFrame.m */,
+				82DF99A7FF46DDDE25E7176F3432690C /* XHBaseCollectionViewController.h */,
+				5AD4E1E42592F4CB8F229800004099A5 /* XHBaseCollectionViewController.m */,
+				9C757D31910D385465B37A7BFF311305 /* XHHorizontalPageViewCell.h */,
+				FB6E376271E15BA22F97A5736703E475 /* XHHorizontalPageViewCell.m */,
+				19E5619C51E73D542B43112B3B604664 /* XHHorizontalPageViewController.h */,
+				C291E1929AC17EFF38DDDE9B58B69B10 /* XHHorizontalPageViewController.m */,
+				6EB31E6C8BA1B489A6FC9A1E2DAC4C95 /* XHNavigationController.h */,
+				DBE7379F4D9686E2D89FCB97610829E6 /* XHNavigationController.m */,
+				7CBE6D8DB09A3AA364567AFD212DEA31 /* XHNavigationControllerDelegate.h */,
+				6419532E5F89ED5FB71DD0FA2B8EB7FB /* XHNavigationControllerDelegate.m */,
+				D7CA4D3FEDC77634B1106B6F619CF740 /* XHPinterest.h */,
+				FC9D4F7F3AE926B2D42E8E28864A345C /* XHPinterest.m */,
+				6EEEFD98D970A7F0E34BE4C0B7E7E23A /* XHPinterestPopTransition.h */,
+				A04AD418E1A6ADC7CC3B04860F9D43E7 /* XHPinterestPopTransition.m */,
+				934B083C517A520AFAEBF67950FD48A0 /* XHPinterestPushTransition.h */,
+				5B85957BF9B2003615F6926FF507D214 /* XHPinterestPushTransition.m */,
+				BB91F67C765614726E9714480DF89B6A /* XHPinterestTransition.h */,
+				2D202D60C770B521DB3F339F54328DFD /* XHPinterestTransition.m */,
+				AAC9E7C03D232715473306C2251AE02C /* XHTransitionProtocol.h */,
+				6EE935E6843129F05EABF365A251DECA /* XHUIKitMacro.h */,
+				429713DD368F28FC1561BD044175D19D /* XHWaterfallCollectionViewCell.h */,
+				39A369F513DBBCF83A92A46361896463 /* XHWaterfallCollectionViewCell.m */,
+				8E53CAAA86ECAE02316E98DCD5B691BB /* XHWaterfallContainerView.h */,
+				DB0FAB301E5478545F02D62111359D65 /* XHWaterfallContainerView.m */,
+				7F8B43B2AF63AE8CD8D2A5D3B0DA74AD /* XHWaterfallViewController.h */,
+				BB7A408ED9694CC722486259815EDC44 /* XHWaterfallViewController.m */,
+				40784E14527A3D3CE2A1B276B86215FA /* Support Files */,
 			);
-			name = Pods;
+			path = PinterestAnimator;
+			sourceTree = "<group>";
+		};
+		FCB695E856703040A0430886D68FB800 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDDC9AF69D98D6B39CD7A1DB106515B7 /* FXBlurView.xcconfig */,
+				5BCDBA560C96ADA6EE28B8BF626A1A04 /* FXBlurView-dummy.m */,
+				63626D9B049F92D98C2C4B15CB0DEF4F /* FXBlurView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FXBlurView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		47A70378B39DBEF607DFCCDD2BAF8BFE /* Headers */ = {
+		597B38487F76BE5051B73DDA3DF4CAE8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA07AAA6B8163D6A0E5CFA43B4FD957E /* RMActionController.h in Headers */,
+				F1A5CEADBD19EF409B4CF6460EA41671 /* SKSplashIcon.h in Headers */,
+				7F975A7A5E03C40A4983D1101AF4A14D /* SKSplashView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,18 +463,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E458B9DE403260C3E7EC4223E037545D /* Headers */ = {
+		E1FF1281ED23B218E66B0EEA6EA2D49C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C03F72FF70A9A7D6E862066B297DDCF /* SKSplashIcon.h in Headers */,
-				428F4F9491613AEA2E411449F1975F63 /* SKSplashView.h in Headers */,
+				1455697ECC2DF6C0564762F61655CECA /* FXBlurView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30C1E788E65EB19D56571A9A386CD16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3F637D20F1A3B671BE1ED8A9FE26E5 /* JPBFloatingTextViewController.h in Headers */,
+				C56D20EFF8CB3C1ACCB84B5C3C383F80 /* JPBParallaxBlurViewController.h in Headers */,
+				4C49FC736A501E10527A25191F9E76E8 /* JPBParallaxTableViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		17392667E38E4938ACA525E988BB433B /* FXBlurView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C696658A2DAFD99DBCB7FDF9A1FE6D4 /* Build configuration list for PBXNativeTarget "FXBlurView" */;
+			buildPhases = (
+				7F0EF89CD9AEB6C9CE7FE1822BD25254 /* Sources */,
+				E9B6BA63A87BA0A419CE15877FA6E48A /* Frameworks */,
+				E1FF1281ED23B218E66B0EEA6EA2D49C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FXBlurView;
+			productName = FXBlurView;
+			productReference = C2843414CAB28AC2F8DFE4F5D69EFFCF /* libFXBlurView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4A36DF61FE5C0CA56F8CB759777DE0D3 /* SKSplashView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC03FBAD002B9FFF136ADB57D5C0B68 /* Build configuration list for PBXNativeTarget "SKSplashView" */;
+			buildPhases = (
+				A0ECB6CF3060BC5C40E523C9D7A86FAC /* Sources */,
+				7DA4DEFF31AFADF4893C905721735362 /* Frameworks */,
+				597B38487F76BE5051B73DDA3DF4CAE8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKSplashView;
+			productName = SKSplashView;
+			productReference = B8105EB59A4D35E6AF913ED54B1FAFCD /* libSKSplashView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		58BD745CB330DF932495744759B952FE /* PinterestAnimator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F223C668D5563560277AF8963538CCC /* Build configuration list for PBXNativeTarget "PinterestAnimator" */;
@@ -419,60 +532,45 @@
 			);
 			name = PinterestAnimator;
 			productName = PinterestAnimator;
-			productReference = 4868466D36DE5A309AF07617B8D92104 /* libPinterestAnimator.a */;
+			productReference = 123C8EBE854C2004EC8443816598FAD2 /* libPinterestAnimator.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BA2D06A921ADAAFCDF28C5AC1C90FEAF /* RMActionController */ = {
+		7461EF46E02F2850D6A84A8544063CCB /* ParallaxBlur */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D44EEE4D60E89813A3AFF59232AF66E /* Build configuration list for PBXNativeTarget "RMActionController" */;
+			buildConfigurationList = 6E9F161B8E7DC37B97407D0FBCEFFC40 /* Build configuration list for PBXNativeTarget "ParallaxBlur" */;
 			buildPhases = (
-				D30A4880C3A6417482F6E596F621A560 /* Sources */,
-				77B0F4DB02CB9FB00AD90FF5EA2A3125 /* Frameworks */,
-				47A70378B39DBEF607DFCCDD2BAF8BFE /* Headers */,
+				977590DDE5B180A4438FF1540C9735C6 /* Sources */,
+				A53C9B57D1DED292E2E4F68EBF480495 /* Frameworks */,
+				E30C1E788E65EB19D56571A9A386CD16 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C259BFA8D90235981433886E015F8D03 /* PBXTargetDependency */,
 			);
-			name = RMActionController;
-			productName = RMActionController;
-			productReference = 56693813205A604B7492A6F9C95273D7 /* libRMActionController.a */;
+			name = ParallaxBlur;
+			productName = ParallaxBlur;
+			productReference = 7E01FFA4E64AD7DDC10A67D3713959AF /* libParallaxBlur.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		E7DDDE6E85085A39EE52BC6E1E315A90 /* Pods */ = {
+		A725317DA3559E400BEB75D79AD72638 /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18D61D2FD1F647B2A0CCA830D754ADC1 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = A6201C0EAF69F9E339719CAD80CA9106 /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				5317A182CB92B4C281041E7C00CC6689 /* Sources */,
-				1FFFDA688F06394ED9644593766ADBD7 /* Frameworks */,
+				52B8DE360600F461758EDD1F0A2AE240 /* Sources */,
+				A1B779EBA912345A422E3914131A5AA9 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ACFFCA33BBDBF0DF5423C935339D5089 /* PBXTargetDependency */,
-				239F498A07616D78074D0B0C14D0BA00 /* PBXTargetDependency */,
-				1AC95147FE73D016E43C9AD703D49DE9 /* PBXTargetDependency */,
+				C7D7BE5951132565A73CA0EE1E05D8A9 /* PBXTargetDependency */,
+				3468322AD291E6284EE257A4E6AB42E6 /* PBXTargetDependency */,
+				72598302D5FF37649B40C1D8B0704CD3 /* PBXTargetDependency */,
+				8E00F163B6A6899B6FA40456E997787B /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = 62A0BBDEF3F181C7AB90758F35463E1C /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		EE679A3BFDABA93AA7301487F954C4E8 /* SKSplashView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7A394554BE0589F70C42E79B4C3C1C00 /* Build configuration list for PBXNativeTarget "SKSplashView" */;
-			buildPhases = (
-				C0C38726EEC87344DDEC666D9E0E0595 /* Sources */,
-				89055F16F7A42D9A06F876B8ADB55D29 /* Frameworks */,
-				E458B9DE403260C3E7EC4223E037545D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SKSplashView;
-			productName = SKSplashView;
-			productReference = D80D5C3FCC06910F3EE020335C12711E /* libSKSplashView.a */;
+			productReference = EDEC9374F1FF13D214426010743D6F5C /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -492,24 +590,45 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 77999DFCACAA18B89DBF072A5FC93426 /* Products */;
+			productRefGroup = 79AFE4C5D6D94A6F714F92917A36F3B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				17392667E38E4938ACA525E988BB433B /* FXBlurView */,
+				7461EF46E02F2850D6A84A8544063CCB /* ParallaxBlur */,
 				58BD745CB330DF932495744759B952FE /* PinterestAnimator */,
-				E7DDDE6E85085A39EE52BC6E1E315A90 /* Pods */,
-				BA2D06A921ADAAFCDF28C5AC1C90FEAF /* RMActionController */,
-				EE679A3BFDABA93AA7301487F954C4E8 /* SKSplashView */,
+				A725317DA3559E400BEB75D79AD72638 /* Pods */,
+				4A36DF61FE5C0CA56F8CB759777DE0D3 /* SKSplashView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5317A182CB92B4C281041E7C00CC6689 /* Sources */ = {
+		52B8DE360600F461758EDD1F0A2AE240 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F15395E2300E6D8816B2EE31B8DFB033 /* Pods-dummy.m in Sources */,
+				A53EDC5824F22B07214B2B8596BFA77F /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F0EF89CD9AEB6C9CE7FE1822BD25254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9FE2EB5C6E67DAD379ED9F43071C3B /* FXBlurView-dummy.m in Sources */,
+				EB3774E0A0442180CE015AC70748DB21 /* FXBlurView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977590DDE5B180A4438FF1540C9735C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E22690C97022C9343034A478986990 /* JPBFloatingTextViewController.m in Sources */,
+				C1E7321E7A920229513942C1F7C0D034 /* JPBParallaxBlurViewController.m in Sources */,
+				22B4902E82B28FB341BF54FA8FA11805 /* JPBParallaxTableViewController.m in Sources */,
+				48E18DC31B223569B31598555C9ED555 /* ParallaxBlur-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,124 +655,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0C38726EEC87344DDEC666D9E0E0595 /* Sources */ = {
+		A0ECB6CF3060BC5C40E523C9D7A86FAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73F7366099C6C058B9CD8A6F4719CF7B /* SKSplashIcon.m in Sources */,
-				F93633C031453A3A7A2400964010B465 /* SKSplashView-dummy.m in Sources */,
-				C4F10BB3A0C5ED535D6CEE3189AC6767 /* SKSplashView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D30A4880C3A6417482F6E596F621A560 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABC44E0E4640CAD388945D4C85127EE9 /* RMActionController-dummy.m in Sources */,
-				DE67F476582F2AD4C0E1AEEA24ECEB28 /* RMActionController.m in Sources */,
+				33D6A1A2182BB50AEC506EACD9BDA405 /* SKSplashIcon.m in Sources */,
+				85AB44E27EE54D9CF2507F69E138AA4F /* SKSplashView-dummy.m in Sources */,
+				FF0EAB3050C62EF6A124DD685CCCC41C /* SKSplashView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1AC95147FE73D016E43C9AD703D49DE9 /* PBXTargetDependency */ = {
+		3468322AD291E6284EE257A4E6AB42E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SKSplashView;
-			target = EE679A3BFDABA93AA7301487F954C4E8 /* SKSplashView */;
-			targetProxy = A6D00E0BD3E34D10E75C8FA139201C93 /* PBXContainerItemProxy */;
+			name = ParallaxBlur;
+			target = 7461EF46E02F2850D6A84A8544063CCB /* ParallaxBlur */;
+			targetProxy = 7679B2947FA152E54AF02EC2162BB8E6 /* PBXContainerItemProxy */;
 		};
-		239F498A07616D78074D0B0C14D0BA00 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RMActionController;
-			target = BA2D06A921ADAAFCDF28C5AC1C90FEAF /* RMActionController */;
-			targetProxy = 758CDA3249B4D2C9ED6A189827C823FF /* PBXContainerItemProxy */;
-		};
-		ACFFCA33BBDBF0DF5423C935339D5089 /* PBXTargetDependency */ = {
+		72598302D5FF37649B40C1D8B0704CD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PinterestAnimator;
 			target = 58BD745CB330DF932495744759B952FE /* PinterestAnimator */;
-			targetProxy = 803E58811E9E9A9C14F58C710A318A27 /* PBXContainerItemProxy */;
+			targetProxy = FE21FD544FF4CDF137488613266E1C16 /* PBXContainerItemProxy */;
+		};
+		8E00F163B6A6899B6FA40456E997787B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKSplashView;
+			target = 4A36DF61FE5C0CA56F8CB759777DE0D3 /* SKSplashView */;
+			targetProxy = BEDB84C34FF9AAEDE17054A27DDA26FD /* PBXContainerItemProxy */;
+		};
+		C259BFA8D90235981433886E015F8D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FXBlurView;
+			target = 17392667E38E4938ACA525E988BB433B /* FXBlurView */;
+			targetProxy = B2928F78393FAC66B3472C33500EF8C5 /* PBXContainerItemProxy */;
+		};
+		C7D7BE5951132565A73CA0EE1E05D8A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FXBlurView;
+			target = 17392667E38E4938ACA525E988BB433B /* FXBlurView */;
+			targetProxy = 04753951188561351C36111E48EFAEC3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		633D4EEE3CA6D9BB4BD744A4F2EAC76A /* Release */ = {
+		014EA15D70BD058CE8C3AFC6BEA3B848 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1C5A4CCB17F4363C61795F0C5A5FB8B /* RMActionController.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RMActionController/RMActionController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		67EC2BE3034C201E06728F93BE73B509 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEC0941BF0829BD455A19D5383D9F8EC /* PinterestAnimator.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PinterestAnimator/PinterestAnimator-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		68FB7DDFD96F5CB8461D2E90A9208605 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D6DB3D537A5C640FA1941A9D868BA72 /* SKSplashView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SKSplashView/SKSplashView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7F858C45B52DEC64BD8262B403274C2E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1C5A4CCB17F4363C61795F0C5A5FB8B /* RMActionController.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RMActionController/RMActionController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		99DD1FB801E8538FCF159E812D0FC042 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D6DB3D537A5C640FA1941A9D868BA72 /* SKSplashView.xcconfig */;
+			baseConfigurationReference = B64DEB534CBD2222D755B5A209E2E795 /* SKSplashView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SKSplashView/SKSplashView-prefix.pch";
@@ -669,24 +719,25 @@
 			};
 			name = Debug;
 		};
-		AAE0A8AB96674D010AFAA348FCF932FF /* Debug */ = {
+		3C46F772EA050D94E9BE83617958C25E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = B64DEB534CBD2222D755B5A209E2E795 /* SKSplashView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKSplashView/SKSplashView-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		BA2AE0DAC61F2ECEAA8F743DED4490B0 /* Release */ = {
+		45308FAAAD5699240E84DAFBC63AD71E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
 			buildSettings = {
@@ -703,9 +754,98 @@
 			};
 			name = Release;
 		};
+		561F3A13FDDA8C962C76EA9F66C423D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		65C6486EBE4AA82FCB888EB9670FC112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D4D6A7D40BB83523975B6C0C6EF100 /* ParallaxBlur.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ParallaxBlur/ParallaxBlur-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		65D044BCC4FB4A762335B6FB41389114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDDC9AF69D98D6B39CD7A1DB106515B7 /* FXBlurView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FXBlurView/FXBlurView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		67EC2BE3034C201E06728F93BE73B509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E85B4AF5EDF1D7792B6B0E3DD0D1EFD /* PinterestAnimator.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PinterestAnimator/PinterestAnimator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		94418C2A8F6ACD7B8F571D6ADFF718C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDDC9AF69D98D6B39CD7A1DB106515B7 /* FXBlurView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FXBlurView/FXBlurView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		BA56A15AF38BEB8A3A1997F5FA970FD4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEC0941BF0829BD455A19D5383D9F8EC /* PinterestAnimator.xcconfig */;
+			baseConfigurationReference = 3E85B4AF5EDF1D7792B6B0E3DD0D1EFD /* PinterestAnimator.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PinterestAnimator/PinterestAnimator-prefix.pch";
@@ -760,6 +900,24 @@
 			};
 			name = Debug;
 		};
+		CA01087F6333AEFF2A6F0A3CDCE1710A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D4D6A7D40BB83523975B6C0C6EF100 /* ParallaxBlur.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ParallaxBlur/ParallaxBlur-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -806,15 +964,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18D61D2FD1F647B2A0CCA830D754ADC1 /* Build configuration list for PBXNativeTarget "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AAE0A8AB96674D010AFAA348FCF932FF /* Debug */,
-				BA2AE0DAC61F2ECEAA8F743DED4490B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -824,20 +973,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D44EEE4D60E89813A3AFF59232AF66E /* Build configuration list for PBXNativeTarget "RMActionController" */ = {
+		3C696658A2DAFD99DBCB7FDF9A1FE6D4 /* Build configuration list for PBXNativeTarget "FXBlurView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F858C45B52DEC64BD8262B403274C2E /* Debug */,
-				633D4EEE3CA6D9BB4BD744A4F2EAC76A /* Release */,
+				94418C2A8F6ACD7B8F571D6ADFF718C1 /* Debug */,
+				65D044BCC4FB4A762335B6FB41389114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A394554BE0589F70C42E79B4C3C1C00 /* Build configuration list for PBXNativeTarget "SKSplashView" */ = {
+		6E9F161B8E7DC37B97407D0FBCEFFC40 /* Build configuration list for PBXNativeTarget "ParallaxBlur" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99DD1FB801E8538FCF159E812D0FC042 /* Debug */,
-				68FB7DDFD96F5CB8461D2E90A9208605 /* Release */,
+				65C6486EBE4AA82FCB888EB9670FC112 /* Debug */,
+				CA01087F6333AEFF2A6F0A3CDCE1710A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BC03FBAD002B9FFF136ADB57D5C0B68 /* Build configuration list for PBXNativeTarget "SKSplashView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014EA15D70BD058CE8C3AFC6BEA3B848 /* Debug */,
+				3C46F772EA050D94E9BE83617958C25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6201C0EAF69F9E339719CAD80CA9106 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561F3A13FDDA8C962C76EA9F66C423D2 /* Debug */,
+				45308FAAAD5699240E84DAFBC63AD71E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

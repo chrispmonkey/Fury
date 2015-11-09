@@ -10,8 +10,13 @@
 #import "PSCollectionView.h"
 #import "NewsCell.h"
 #import "ReportsCell.h"
-//#import "PersonCell.h"
+#import "AdministrationCell.h"
 #import "WorkshopCell.h"
+
+#import "NewsSuggestionViewController.h"
+#import "ReportsSuggestionViewController.h"
+#import "AdministrationSuggestionViewController.h"
+#import "WorkshopsSuggestionViewController.h"
 
 #import <QuartzCore/QuartzCore.h>
 
@@ -19,10 +24,16 @@
 
 @interface HomeViewController (){
     NSString *type;
+    NSMutableArray *cellType;
     NSMutableArray *arrayOne;
+    NSMutableArray *newsArray;
+    NSMutableArray *reportsArray;
+    NSMutableArray *workshopsArray;
+    NSMutableArray *administrationArray;
+    
 }
 @end
-
+UIRefreshControl *refreshControl;
 @implementation HomeViewController
 
 - (void)viewWillAppear:(BOOL)animated
@@ -57,9 +68,11 @@
     //    self.waterFLowView.headerView = header;
     
     //waterFlow footer
+    /*
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(10, 10, 300, 50)];
     label.text = @"Loading...";
     self.waterFLowView.footerView = label;
+    */
     
     // Specify number of columns for both
     self.waterFLowView.numColsPortrait = 2;
@@ -67,6 +80,16 @@
     [self.view addSubview:self.waterFLowView];
     
     //[self addRefreshView];
+    // Initialize the refresh control.
+    
+    refreshControl = [[UIRefreshControl alloc] init];
+    refreshControl.backgroundColor = RGBCOLOR(126, 3, 8);//126,3,8 Fury red
+    refreshControl.tintColor = [UIColor whiteColor];
+    [refreshControl addTarget:self
+                            action:@selector(refreshNewData)
+                  forControlEvents:UIControlEventValueChanged];
+    
+    [self.waterFLowView addSubview:refreshControl];
     [self refreshNewData];
     [self preferredStatusBarStyle];
 }
@@ -115,11 +138,52 @@
 #pragma mark - New fresh & load more method
 - (void)refreshNewData{
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        [arrayOne removeAllObjects];
-        arrayOne = [[NSMutableArray alloc]init];
+        //[arrayOne removeAllObjects];
+        [newsArray removeAllObjects];
+        [reportsArray removeAllObjects];
+        [workshopsArray removeAllObjects];
+        [administrationArray removeAllObjects];
+        [cellType removeAllObjects];
+        
+        //arrayOne = [[NSMutableArray alloc]init];
+        newsArray = [[NSMutableArray alloc] init];
+        reportsArray = [[NSMutableArray alloc] init];
+        workshopsArray = [[NSMutableArray alloc] init];
+        administrationArray = [[NSMutableArray alloc] init];
+        cellType = [[NSMutableArray alloc] init];
+        
+        //[arrayOne addObject:[NSString stringWithFormat:@"Title %d",i]];
+        // Fill arrays with fake data for demonstration purposes
+        [newsArray addObject:[NSString stringWithFormat:@"IBM & TWC"]];
+        [newsArray addObject:[NSString stringWithFormat:@"UA Earnings"]];
+        [newsArray addObject:[NSString stringWithFormat:@"Chick-fil-a"]];
+        [newsArray addObject:[NSString stringWithFormat:@"Southwire Expands"]];
+        
+        [reportsArray addObject:[NSString stringWithFormat:@"Services Review"]];
+        [reportsArray addObject:[NSString stringWithFormat:@"Case Reviews"]];
+        [reportsArray addObject:[NSString stringWithFormat:@"IT Health"]];
+        [reportsArray addObject:[NSString stringWithFormat:@"Products Review"]];
+        
+        [workshopsArray addObject:[NSString stringWithFormat:@"SCCM 2012"]];
+        [workshopsArray addObject:[NSString stringWithFormat:@"ADFS"]];
+        [workshopsArray addObject:[NSString stringWithFormat:@"Skype for Business"]];
+        [workshopsArray addObject:[NSString stringWithFormat:@"SQL Server"]];
+        
+        [administrationArray addObject:[NSString stringWithFormat:@"SDP Update"]];
+        [administrationArray addObject:[NSString stringWithFormat:@"Update Contact"]];
+        [administrationArray addObject:[NSString stringWithFormat:@"Renewal"]];
+        [administrationArray addObject:[NSString stringWithFormat:@"Scoping Call"]];
+        
+        [cellType addObject:[self getRandomType]];
+        [cellType addObject:[self getRandomType]];
+        [cellType addObject:[self getRandomType]];
+        [cellType addObject:[self getRandomType]];
+        /*
         for (int i = 0; i < 8; i++) {
             [arrayOne addObject:[NSString stringWithFormat:@"Title %d",i]];
+            [cellType addObject:[self getRandomType]];
         }
+        */
         /*
          
          *do some thing stuff to load the data
@@ -131,6 +195,19 @@
              *when the data is finishing load ,slimeView will hide.
              *当数据加载完毕，隐藏slimeView
              */
+            // End the refreshing
+            if (refreshControl) {
+                
+                NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+                [formatter setDateFormat:@"MMM d, h:mm a"];
+                NSString *title = [NSString stringWithFormat:@"Last update: %@", [formatter stringFromDate:[NSDate date]]];
+                NSDictionary *attrsDictionary = [NSDictionary dictionaryWithObject:[UIColor whiteColor]
+                                                                            forKey:NSForegroundColorAttributeName];
+                NSAttributedString *attributedTitle = [[NSAttributedString alloc] initWithString:title attributes:attrsDictionary];
+                refreshControl.attributedTitle = attributedTitle;
+                
+                [refreshControl endRefreshing];
+            }
             [self.slimeView endRefresh];   //after 3 seconds, the slimeView will hide
             [self.waterFLowView reloadData];
         });
@@ -141,8 +218,16 @@
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         //        sleep(3);
         int count = (int) arrayOne.count;
-        for (int i = count; i < count+8; i++) {
-            [arrayOne addObject:[NSString stringWithFormat:@"%d",i]];
+        for (int i = count; i < count+4; i++) {
+            //[arrayOne addObject:[NSString stringWithFormat:@"%d",i]];
+            
+            [newsArray addObject:[NSString stringWithFormat:@"IBM & TWC"]];
+            [reportsArray addObject:[NSString stringWithFormat:@"Services Review"]];
+            [workshopsArray addObject:[NSString stringWithFormat:@"Skype for Business"]];
+            [administrationArray addObject:[NSString stringWithFormat:@"SDP Update"]];
+            
+            [cellType addObject:[self getRandomType]];
+
         }
         /*
          *do some thing stuff to load the data
@@ -170,117 +255,123 @@
         return [WorkshopCell class];
     }else if ([type isEqualToString:@"news"]){
         return [NewsCell class];
+    }else if ([type isEqualToString:@"administration"]){
+        return [AdministrationCell class];
     }
     return nil;
 }
 
 - (void)collectionView:(PSCollectionView *)collectionView didSelectCell:(PSCollectionViewCell *)cell atIndex:(NSInteger)index{
-    NSLog(@"you select cell index:%ld",(long)index);
+    NSLog(@"you selected cell index:%ld",(long)index);
     
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
+    if ([cellType[index] isEqualToString:@"reports"]) {
+        UINavigationController *navController = [storyboard instantiateViewControllerWithIdentifier:@"ReportsCellSelectedNavigationController"];
+        
+        ReportsSuggestionViewController *reportsSuggestionViewController = [storyboard instantiateViewControllerWithIdentifier:@"ReportsSuggestionViewController"];
+        
+        reportsSuggestionViewController.image = [UIImage imageNamed:[NSString stringWithFormat:@"reports%ld.png",(long)index]];
+        reportsSuggestionViewController.header = [NSString stringWithFormat:@"%@", [reportsArray objectAtIndex:index]];
+        reportsSuggestionViewController.subtitle = [NSString stringWithFormat:@"You could do a %@ today", [reportsArray objectAtIndex:index]];
+        
+        [navController initWithRootViewController:reportsSuggestionViewController];
+        
+        [self showDetailViewController:navController sender:self];//]:navController animated:YES completion:nil];
+
+    }else if([cellType[index] isEqualToString:@"workshops"])
+    {//Come learn about %@ admin. and support
+        UINavigationController *navController = [storyboard instantiateViewControllerWithIdentifier:@"WorkshopsCellSelectedNavigationController"];
+        
+        WorkshopsSuggestionViewController *workshopSuggestionViewController = [storyboard instantiateViewControllerWithIdentifier:@"WorkshopsSuggestionViewController"];
+        
+        
+        
+        workshopSuggestionViewController.image = [UIImage imageNamed:[NSString stringWithFormat:@"workshop%ld.jpg",(long)index]];
+        workshopSuggestionViewController.header = [NSString stringWithFormat:@"%@", [workshopsArray objectAtIndex:index]];
+        workshopSuggestionViewController.subtitle = [NSString stringWithFormat:@"Come learn about %@ admin. and support", [workshopsArray objectAtIndex:index]];
+        
+        [navController initWithRootViewController:workshopSuggestionViewController];
+        
+        [self presentViewController:navController animated:YES completion:nil];
+    }else if ([cellType[index] isEqualToString:@"news"])
+    {
+        UINavigationController *navController = [storyboard instantiateViewControllerWithIdentifier:@"NewsCellSelectedNavigationController"];
+        
+         NewsSuggestionViewController *newsSuggestionViewController = [storyboard instantiateViewControllerWithIdentifier:@"NewsSuggestionViewController"];
+        
+       
+        
+        newsSuggestionViewController.image = [UIImage imageNamed:[NSString stringWithFormat:@"news%ld.jpg",(long)index]];
+        newsSuggestionViewController.header = [NSString stringWithFormat:@"%@", [newsArray objectAtIndex:index]];
+        newsSuggestionViewController.subtitle = [NSString stringWithFormat:@"Found %@ in the news today", [newsArray objectAtIndex:index]];
+        
+        [navController initWithRootViewController:newsSuggestionViewController];
+        
+        [self presentViewController:navController animated:YES completion:nil];
+    }else if ([cellType[index] isEqualToString:@"administration"])
+    {
+        UINavigationController *navController = [storyboard instantiateViewControllerWithIdentifier:@"AdministrationCellSelectedNavigationController"];
+        
+        AdministrationSuggestionViewController *administrationSuggestionViewController = [storyboard instantiateViewControllerWithIdentifier:@"AdministrationSuggestionViewController"];
+        
+        administrationSuggestionViewController.image = [UIImage imageNamed:[NSString stringWithFormat:@"administration%ld.jpg",(long)index]];
+        administrationSuggestionViewController.header = [NSString stringWithFormat:@"%@", [administrationArray objectAtIndex:index]];
+        administrationSuggestionViewController.subtitle = [NSString stringWithFormat:@"You could do a %@ today", [administrationArray objectAtIndex:index]];
+        
+        [navController initWithRootViewController:administrationSuggestionViewController];
+        
+        [self presentViewController:navController animated:YES completion:nil];
+    }
 }
 
 - (NSInteger)numberOfRowsInCollectionView:(PSCollectionView *)collectionView {
-    return arrayOne.count;
+    return cellType.count;
+}
+
+- (NSString *)getRandomType
+{
+    NSString *randomType;
+    NSInteger *rand = arc4random_uniform(4);
+    
+    //int mapX = (int)[(NSNumber *)[templateObject valueForKey:@"mapX"] integerValue];
+    if (rand == 0) {
+        randomType = @"reports";
+        
+    }else if (rand == 1)
+    {
+        randomType = @"news";
+        
+    }else if (rand == 2)
+    {
+        randomType = @"workshops";
+    }else if (rand == 3)
+    {
+        randomType = @"administration";
+    }
+    
+    return randomType;
 }
 
 - (UIView *)collectionView:(PSCollectionView *)collectionView cellForRowAtIndex:(NSInteger)index {
-    NSString *item = [arrayOne objectAtIndex:index]; // your dataModel
-    if ([type isEqualToString: @"all"]) {
-        
-        NSInteger *rand = arc4random_uniform(3);
-        
-        if ( rand == 0) {
-            //kind = @"reports";
-            ReportsCell *cell = (ReportsCell *)[self.waterFLowView dequeueReusableViewForClass:[ReportsCell class]];
-            if (cell == nil) {
-                NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"ReportsCell" owner:self options:nil];
-                cell = (ReportsCell *)[nib objectAtIndex:0];
-            }
-            cell.reportTitle.text = [NSString stringWithFormat:@"Report %@", item];
-            
-            // Round Profile Image
-            // Get the Layer of any view
-            cell.layer.cornerRadius = 5;
-            cell.layer.masksToBounds = YES;
-            //        view.layer.cornerRadius = 5;
-            //        view.layer.masksToBounds = YES;
-            // Creating
-            GHContextMenuView* overlay = [[GHContextMenuView alloc] init];
-            overlay.dataSource = self;
-            overlay.delegate = self;
-            
-            UILongPressGestureRecognizer* _longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:overlay action:@selector(longPressDetected:)];
-            //[self.view addGestureRecognizer:_longPressRecognizer];
-            //[cell addGestureRecognizer:_longPressRecognizer];
-            
-            [cell collectionView:_waterFLowView fillCellWithObject:item atIndex:index];
-            return cell;
-
-        }else if (rand == 1)
-        {
-            NewsCell *cell = (NewsCell *)[self.waterFLowView dequeueReusableViewForClass:[NewsCell class]];
-            if (cell == nil) {
-                NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"NewsCell" owner:self options:nil];
-                cell = (NewsCell *)[nib objectAtIndex:0];
-            }
-            cell.title.text = [NSString stringWithFormat:@"News %@", item];;
-            //cell.newsDescription.text = @"";
-            // Round Profile Image
-            // Get the Layer of any view
-            cell.layer.cornerRadius = 5;
-            cell.layer.masksToBounds = YES;
-            //        view.layer.cornerRadius = 5;
-            //        view.layer.masksToBounds = YES;
-            // Creating
-            GHContextMenuView* overlay = [[GHContextMenuView alloc] init];
-            overlay.dataSource = self;
-            overlay.delegate = self;
-            
-            UILongPressGestureRecognizer* _longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:overlay action:@selector(longPressDetected:)];
-            //[self.view addGestureRecognizer:_longPressRecognizer];
-            //[cell addGestureRecognizer:_longPressRecognizer];
-            
-            //[cell collectionView:_waterFLowView fillCellWithObject:item atIndex:index];
-            return cell;
-
-        }else if (rand == 2)
-        {
-            
-            WorkshopCell *cell = (WorkshopCell *)[self.waterFLowView dequeueReusableViewForClass:[WorkshopCell class]];
-            if (cell == nil) {
-                NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"WorkshopCell" owner:self options:nil];
-                cell = (WorkshopCell *)[nib objectAtIndex:0];
-            }
-            cell.workshopTitle.text = [NSString stringWithFormat:@"Workshop %@", item];
-            
-            // Round Profile Image
-            // Get the Layer of any view
-            cell.layer.cornerRadius = 5;
-            cell.layer.masksToBounds = YES;
-            //        view.layer.cornerRadius = 5;
-            //        view.layer.masksToBounds = YES;
-            // Creating
-            GHContextMenuView* overlay = [[GHContextMenuView alloc] init];
-            overlay.dataSource = self;
-            overlay.delegate = self;
-            
-            UILongPressGestureRecognizer* _longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:overlay action:@selector(longPressDetected:)];
-            //[self.view addGestureRecognizer:_longPressRecognizer];
-            //[cell addGestureRecognizer:_longPressRecognizer];
-            
-            [cell collectionView:_waterFLowView fillCellWithObject:item atIndex:index];
-            return cell;
-
-        }
-    }
-    else if ([type isEqualToString:@"reports"]) {
+    
+    //NSString *item = [cellType objectAtIndex:index]; // your dataModel
+    NSString *itemType = [cellType objectAtIndex:index];
+    
+    if ([itemType isEqualToString:@"reports"]) {
         ReportsCell *cell = (ReportsCell *)[self.waterFLowView dequeueReusableViewForClass:[ReportsCell class]];
         if (cell == nil) {
             NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"ReportsCell" owner:self options:nil];
             cell = (ReportsCell *)[nib objectAtIndex:0];
         }
-        cell.reportTitle.text = [NSString stringWithFormat:@"Report %@", item];
+        cell.reportTitle.text = [NSString stringWithFormat:@"%@", [reportsArray objectAtIndex:index]];
+        cell.reportDescription.text = [NSString stringWithFormat:@"You could do a %@ today", [reportsArray objectAtIndex:index]];
+        // check if image exists
+        if([UIImage imageNamed:[NSString stringWithFormat:@"reports%ld.png",(long)index]]){
+            cell.reportImage.image = [UIImage imageNamed:[NSString stringWithFormat:@"reports%ld.png",(long)index]];
+        }else{
+            cell.reportImage.image = [UIImage imageNamed:@"defaultReports.png"];
+        }
         
         // Round Profile Image
         // Get the Layer of any view
@@ -293,21 +384,27 @@
         overlay.dataSource = self;
         overlay.delegate = self;
         
-        UILongPressGestureRecognizer* _longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:overlay action:@selector(longPressDetected:)];
+        //UILongPressGestureRecognizer* _longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:overlay action:@selector(longPressDetected:)];
         //[self.view addGestureRecognizer:_longPressRecognizer];
         //[cell addGestureRecognizer:_longPressRecognizer];
         
-        [cell collectionView:_waterFLowView fillCellWithObject:item atIndex:index];
+        [cell collectionView:_waterFLowView fillCellWithObject:itemType atIndex:index];
         return cell;
         
-    }else if ([type isEqualToString:@"workshops"]){
+    }else if ([itemType isEqualToString:@"workshops"]){
         WorkshopCell *cell = (WorkshopCell *)[self.waterFLowView dequeueReusableViewForClass:[WorkshopCell class]];
         if (cell == nil) {
             NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"WorkshopCell" owner:self options:nil];
             cell = (WorkshopCell *)[nib objectAtIndex:0];
         }
-        cell.workshopTitle.text = [NSString stringWithFormat:@"Workshop %@", item];
-        
+        cell.workshopTitle.text = [NSString stringWithFormat:@"%@", [workshopsArray objectAtIndex:index]];
+        cell.workshopDescription.text = [NSString stringWithFormat:@"Come learn about %@ admin. and support", [workshopsArray objectAtIndex:index]];
+        // check if image exists
+        if([UIImage imageNamed:[NSString stringWithFormat:@"workshop%ld.jpg",(long)index]]){
+            cell.workshopImage.image = [UIImage imageNamed:[NSString stringWithFormat:@"workshop%ld.jpg",(long)index]];
+        }else{
+            cell.workshopImage.image = [UIImage imageNamed:@"defaultWorkshops.jpg"];
+        }
         // Round Profile Image
         // Get the Layer of any view
         cell.layer.cornerRadius = 5;
@@ -319,20 +416,28 @@
         overlay.dataSource = self;
         overlay.delegate = self;
         
-        UILongPressGestureRecognizer* _longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:overlay action:@selector(longPressDetected:)];
+        //UILongPressGestureRecognizer* _longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:overlay action:@selector(longPressDetected:)];
         //[self.view addGestureRecognizer:_longPressRecognizer];
         //[cell addGestureRecognizer:_longPressRecognizer];
         
-        [cell collectionView:_waterFLowView fillCellWithObject:item atIndex:index];
+        [cell collectionView:_waterFLowView fillCellWithObject:itemType atIndex:index];
         return cell;
-    }else if ([type isEqualToString:@"news"]){
+    }else if ([itemType isEqualToString:@"news"]){
         NewsCell *cell = (NewsCell *)[self.waterFLowView dequeueReusableViewForClass:[NewsCell class]];
         if (cell == nil) {
             NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"NewsCell" owner:self options:nil];
             cell = (NewsCell *)[nib objectAtIndex:0];
         }
-        cell.title.text = [NSString stringWithFormat:@"News %@", item];;
-        //cell.newsDescription.text = @"";
+        cell.title.text = [NSString stringWithFormat:@"%@", [newsArray objectAtIndex:index]];
+        cell.newsDescription.text = [NSString stringWithFormat:@"Found %@ in the news", [newsArray objectAtIndex:index]];
+        // check if image exists
+        NSString *newsImage = [NSString stringWithFormat:@"news%ld.jpg",(long)index];
+        if([UIImage imageNamed:newsImage]){
+            cell.image.image = [UIImage imageNamed:[NSString stringWithFormat:@"news%ld.jpg",(long)index]];
+        }else{
+            cell.image.image = [UIImage imageNamed:@"defaultNews.jpg"];
+        }
+        
         // Round Profile Image
         // Get the Layer of any view
         cell.layer.cornerRadius = 5;
@@ -344,7 +449,41 @@
         overlay.dataSource = self;
         overlay.delegate = self;
         
-        UILongPressGestureRecognizer* _longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:overlay action:@selector(longPressDetected:)];
+        //UILongPressGestureRecognizer* _longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:overlay action:@selector(longPressDetected:)];
+        //[self.view addGestureRecognizer:_longPressRecognizer];
+        //[cell addGestureRecognizer:_longPressRecognizer];
+        
+        //[cell collectionView:_waterFLowView fillCellWithObject:item atIndex:index];
+        return cell;
+        
+    }else if ([itemType isEqualToString:@"administration"]){
+        AdministrationCell *cell = (AdministrationCell *)[self.waterFLowView dequeueReusableViewForClass:[AdministrationCell class]];
+        if (cell == nil) {
+            NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"AdministrationCell" owner:self options:nil];
+            cell = (AdministrationCell *)[nib objectAtIndex:0];
+        }
+        cell.administrationTitle.text = [NSString stringWithFormat:@"%@", [administrationArray objectAtIndex:index]];
+        cell.administrationDescription.text = [NSString stringWithFormat:@"You could do a %@ today", [administrationArray objectAtIndex:index]];
+        // check if image exists
+        NSString *administrationImage = [NSString stringWithFormat:@"news%ld.jpg",(long)index];
+        if([UIImage imageNamed:administrationImage]){
+            cell.administrationImage.image = [UIImage imageNamed:[NSString stringWithFormat:@"administration%ld.jpg",(long)index]];
+        }else{
+            cell.administrationImage.image = [UIImage imageNamed:@"defaultAdministration.jpg"];
+        }
+        
+        // Round Profile Image
+        // Get the Layer of any view
+        cell.layer.cornerRadius = 5;
+        cell.layer.masksToBounds = YES;
+        //        view.layer.cornerRadius = 5;
+        //        view.layer.masksToBounds = YES;
+        // Creating
+        GHContextMenuView* overlay = [[GHContextMenuView alloc] init];
+        overlay.dataSource = self;
+        overlay.delegate = self;
+        
+        //UILongPressGestureRecognizer* _longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:overlay action:@selector(longPressDetected:)];
         //[self.view addGestureRecognizer:_longPressRecognizer];
         //[cell addGestureRecognizer:_longPressRecognizer];
         
@@ -357,35 +496,19 @@
         NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"NewsCell" owner:self options:nil];
         cell = (NewsCell *)[nib objectAtIndex:0];
     }
-    cell.title.text = [NSString stringWithFormat:@"News %@", item];;
-    //cell.newsDescription.text = @"";
-    // Round Profile Image
-    // Get the Layer of any view
-    cell.layer.cornerRadius = 5;
-    cell.layer.masksToBounds = YES;
-    //        view.layer.cornerRadius = 5;
-    //        view.layer.masksToBounds = YES;
-    // Creating
-    GHContextMenuView* overlay = [[GHContextMenuView alloc] init];
-    overlay.dataSource = self;
-    overlay.delegate = self;
-    
-    UILongPressGestureRecognizer* _longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:overlay action:@selector(longPressDetected:)];
-    //[self.view addGestureRecognizer:_longPressRecognizer];
-    //[cell addGestureRecognizer:_longPressRecognizer];
-    
-    //[cell collectionView:_waterFLowView fillCellWithObject:item atIndex:index];
     return cell;
 }
 
 - (CGFloat)collectionView:(PSCollectionView *)collectionView heightForRowAtIndex:(NSInteger)index {
-    NSString *item = [arrayOne objectAtIndex:index];
+    NSString *item = [cellType objectAtIndex:index];
     if ([type isEqualToString:@"reports"]) {
         return [ReportsCell rowHeightForObject:item inColumnWidth:_waterFLowView.colWidth];
     }else if ([type isEqualToString:@"workshops"]){
         return [WorkshopCell rowHeightForObject:item inColumnWidth:_waterFLowView.colWidth];
     }else if ([type isEqualToString:@"news"]){
         return [NewsCell rowHeightForObject:item inColumnWidth:_waterFLowView.colWidth];
+    }else if ([type isEqualToString:@"administration"]){
+        return [AdministrationCell rowHeightForObject:item inColumnWidth:_waterFLowView.colWidth];
     }
     return 300; // was 0
 }
@@ -583,6 +706,11 @@
         type = @"news";
         [self.waterFLowView reloadData];
         
+    }else if ([sortByType isEqualToString:@"Administration"]) {
+        NSLog(@"Filter suggestions by %@", sortByType);
+        type = @"administration";
+        [self.waterFLowView reloadData];
+        
     }
 }
 
@@ -603,7 +731,33 @@
     [alert addAction:[UIAlertAction actionWithTitle:@"News" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         [self filterByType:@"News"];
     }]];
+    [alert addAction:[UIAlertAction actionWithTitle:@"Administration" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        [self filterByType:@"Administration"];
+    }]];
     
     [self presentViewController:alert animated:YES completion:nil];
+}
+
+- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
+{
+    switch (result) {
+        case MFMailComposeResultSent:
+            NSLog(@"You sent the email.");
+            break;
+        case MFMailComposeResultSaved:
+            NSLog(@"You saved a draft of this email");
+            break;
+        case MFMailComposeResultCancelled:
+            NSLog(@"You cancelled sending this email.");
+            break;
+        case MFMailComposeResultFailed:
+            NSLog(@"Mail failed:  An error occurred when trying to compose this email");
+            break;
+        default:
+            NSLog(@"An error occurred when trying to compose this email");
+            break;
+    }
+    
+    [self dismissViewControllerAnimated:YES completion:NULL];
 }
 @end
